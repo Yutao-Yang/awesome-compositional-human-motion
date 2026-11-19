@@ -1,0 +1,82 @@
+[
+  {
+    "id": "finemotion",
+    "title": "FineMotion: A Dataset and Benchmark with both Spatial and Temporal Annotation for Fine-grained Motion Generation and Editing",
+    "year": 2025,
+    "category": "evaluation_benchmark",
+    "url": "https://arxiv.org/abs/2507.19850",
+    "summary": "Adds aligned body-part descriptions for motion snippets and complete sequences, supporting fine-grained generation and spatial/temporal editing.",
+    "limitations": "Fine-grained caption alignment is distinct from independently captured new action combinations; claimed benchmark gains are paper-reported.",
+    "evidence_level": "abstract",
+    "evidence_url": "https://arxiv.org/abs/2507.19850",
+    "checked": "2026-11-19",
+    "venue": "ICCV 2025",
+    "code": "https://github.com/CVI-SZU/FineMotion"
+  },
+  {
+    "id": "vimogen-mbench",
+    "title": "The Quest for Generalizable Motion Generation: Data, Model, and Evaluation",
+    "year": 2025,
+    "category": "evaluation_benchmark",
+    "url": "https://arxiv.org/abs/2510.26794",
+    "summary": "Combines mocap, web-derived and video-generated motion in ViMoGen-228K; introduces ViMoGen and hierarchical MBench evaluation.",
+    "limitations": "Synthetic/video-estimated samples are not independent optical captures; VLM judging requires recording model/version and rendering settings.",
+    "evidence_level": "abstract",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/da47bfaf3f3a8d5bbab0d60c5195dc18-Abstract-Conference.html",
+    "checked": "2026-11-19",
+    "venue": "ICLR 2026",
+    "code": "https://github.com/MotrixLab/ViMoGen"
+  },
+  {
+    "id": "motionmillion",
+    "title": "Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data",
+    "year": 2025,
+    "category": "evaluation_benchmark",
+    "url": "https://arxiv.org/abs/2507.07095",
+    "summary": "Introduces MotionMillion and MotionMillion-Eval for zero-shot, out-of-domain and complex compositional text-to-motion evaluation with a scalable model.",
+    "limitations": "Dataset size is reported sequence count, not independent captures or unique subjects; the claimed generalization scope depends on the benchmark prompts and training ancestry.",
+    "evidence_level": "abstract",
+    "evidence_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Fan_Go_to_Zero_Towards_Zero-shot_Motion_Generation_with_Million-scale_Data_ICCV_2025_paper.html",
+    "checked": "2026-11-19",
+    "venue": "ICCV 2025",
+    "code": "https://github.com/VankouF/MotionMillion-Codes"
+  },
+  {
+    "id": "best-automated-metric",
+    "title": "What is the Best Automated Metric for Text to Motion Generation?",
+    "year": 2023,
+    "category": "evaluation_benchmark",
+    "url": "https://arxiv.org/abs/2309.10248",
+    "summary": "Studies alignment between automated metrics and human judgments, separating sample-level and average model-level correlation; introduces MoBERT.",
+    "limitations": "Correlation results concern the studied models/data and human judgments; they do not prove a universal metric for HOI mechanics, timeline compliance or new domains.",
+    "evidence_level": "abstract",
+    "evidence_url": "https://arxiv.org/abs/2309.10248",
+    "checked": "2026-11-19",
+    "venue": "SIGGRAPH Asia 2023 Conference",
+    "authors": [
+      "Jordan Voas",
+      "Yili Wang",
+      "Qixing Huang",
+      "Raymond Mooney"
+    ]
+  },
+  {
+    "id": "tmr",
+    "title": "TMR: Text-to-Motion Retrieval Using Contrastive 3D Human Motion Synthesis",
+    "year": 2023,
+    "category": "evaluation_benchmark",
+    "url": "https://arxiv.org/abs/2305.00976",
+    "summary": "Learns text-motion embeddings using contrastive retrieval and motion synthesis, supplying a retrieval benchmark and evaluator foundation.",
+    "limitations": "Embedding similarity is evaluator-dependent and does not directly verify contact forces, exact action ordering or object-state effects.",
+    "evidence_level": "abstract",
+    "evidence_url": "https://arxiv.org/abs/2305.00976",
+    "checked": "2026-11-19",
+    "venue": "ICCV 2023",
+    "code": "https://github.com/Mathux/TMR",
+    "authors": [
+      "Mathis Petrovich",
+      "Michael J. Black",
+      "Gül Varol"
+    ]
+  }
+]

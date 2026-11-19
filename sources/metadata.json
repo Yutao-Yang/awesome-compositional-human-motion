@@ -1,0 +1,2810 @@
+{
+  "https://arxiv.org/abs/1607.03827": {
+    "url": "https://arxiv.org/abs/1607.03827",
+    "checked_utc": "2026-11-19T07:45:05.547044+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/1607.03827",
+    "bibtex": "@misc{plappert2018kitmotionlanguagedataset,\n      title={The KIT Motion-Language Dataset}, \n      author={Matthias Plappert and Christian Mandery and Tamim Asfour},\n      year={2018},\n      eprint={1607.03827},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      doi={https://doi.org/10.1089/big.2016.0028},\n      url={https://arxiv.org/abs/1607.03827}, \n}",
+    "title": "The KIT Motion-Language Dataset",
+    "authors": [
+      "Matthias Plappert",
+      "Christian Mandery",
+      "Tamim Asfour"
+    ],
+    "year": 2018,
+    "arxiv": "1607.03827"
+  },
+  "https://arxiv.org/abs/1804.02717": {
+    "url": "https://arxiv.org/abs/1804.02717",
+    "checked_utc": "2026-11-19T07:45:05.547512+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/1804.02717",
+    "bibtex": "@misc{peng2018deepmimicexampleguideddeepreinforcement,\n      title={DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills}, \n      author={Xue Bin Peng and Pieter Abbeel and Sergey Levine and Michiel van de Panne},\n      year={2018},\n      eprint={1804.02717},\n      archivePrefix={arXiv},\n      primaryClass={cs.GR},\n      doi={https://doi.org/10.1145/3197517.3201311},\n      url={https://arxiv.org/abs/1804.02717}, \n}",
+    "title": "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills",
+    "authors": [
+      "Xue Bin Peng",
+      "Pieter Abbeel",
+      "Sergey Levine",
+      "Michiel van de Panne"
+    ],
+    "year": 2018,
+    "arxiv": "1804.02717"
+  },
+  "https://arxiv.org/abs/1904.03278": {
+    "url": "https://arxiv.org/abs/1904.03278",
+    "checked_utc": "2026-11-19T07:45:05.547900+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/1904.03278",
+    "bibtex": "@misc{mahmood2019amassarchivemotioncapture,\n      title={AMASS: Archive of Motion Capture as Surface Shapes}, \n      author={Naureen Mahmood and Nima Ghorbani and Nikolaus F. Troje and Gerard Pons-Moll and Michael J. Black},\n      year={2019},\n      eprint={1904.03278},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/1904.03278}, \n}",
+    "title": "AMASS: Archive of Motion Capture as Surface Shapes",
+    "authors": [
+      "Naureen Mahmood",
+      "Nima Ghorbani",
+      "Nikolaus F. Troje",
+      "Gerard Pons-Moll",
+      "Michael J. Black"
+    ],
+    "year": 2019,
+    "arxiv": "1904.03278"
+  },
+  "https://arxiv.org/abs/2008.11200": {
+    "url": "https://arxiv.org/abs/2008.11200",
+    "checked_utc": "2026-11-19T07:45:05.548152+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2008.11200",
+    "bibtex": "@misc{taheri2020grabdatasetwholebodyhuman,\n      title={GRAB: A Dataset of Whole-Body Human Grasping of Objects}, \n      author={Omid Taheri and Nima Ghorbani and Michael J. Black and Dimitrios Tzionas},\n      year={2020},\n      eprint={2008.11200},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      doi={https://doi.org/10.1007/978-3-030-58548-8_34},\n      url={https://arxiv.org/abs/2008.11200}, \n}",
+    "title": "GRAB: A Dataset of Whole-Body Human Grasping of Objects",
+    "authors": [
+      "Omid Taheri",
+      "Nima Ghorbani",
+      "Michael J. Black",
+      "Dimitrios Tzionas"
+    ],
+    "year": 2020,
+    "arxiv": "2008.11200"
+  },
+  "https://arxiv.org/abs/2104.02180": {
+    "url": "https://arxiv.org/abs/2104.02180",
+    "checked_utc": "2026-11-19T07:45:06.466275+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2104.02180",
+    "bibtex": "@misc{peng2022ampadversarialmotionpriors,\n      title={AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control}, \n      author={Xue Bin Peng and Ze Ma and Pieter Abbeel and Sergey Levine and Angjoo Kanazawa},\n      year={2022},\n      eprint={2104.02180},\n      archivePrefix={arXiv},\n      primaryClass={cs.GR},\n      doi={https://doi.org/10.1145/3450626.3459670},\n      url={https://arxiv.org/abs/2104.02180}, \n}",
+    "title": "AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control",
+    "authors": [
+      "Xue Bin Peng",
+      "Ze Ma",
+      "Pieter Abbeel",
+      "Sergey Levine",
+      "Angjoo Kanazawa"
+    ],
+    "year": 2022,
+    "arxiv": "2104.02180"
+  },
+  "https://arxiv.org/abs/2106.09696": {
+    "url": "https://arxiv.org/abs/2106.09696",
+    "checked_utc": "2026-11-19T07:45:06.466598+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2106.09696",
+    "bibtex": "@misc{punnakkal2021babelbodiesactionbehavior,\n      title={BABEL: Bodies, Action and Behavior with English Labels}, \n      author={Abhinanda R. Punnakkal and Arjun Chandrasekaran and Nikos Athanasiou and Alejandra Quiros-Ramirez and Michael J. Black},\n      year={2021},\n      eprint={2106.09696},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2106.09696}, \n}",
+    "title": "BABEL: Bodies, Action and Behavior with English Labels",
+    "authors": [
+      "Abhinanda R. Punnakkal",
+      "Arjun Chandrasekaran",
+      "Nikos Athanasiou",
+      "Alejandra Quiros-Ramirez",
+      "Michael J. Black"
+    ],
+    "year": 2021,
+    "arxiv": "2106.09696"
+  },
+  "https://arxiv.org/abs/2108.08284": {
+    "url": "https://arxiv.org/abs/2108.08284",
+    "checked_utc": "2026-11-19T07:45:06.466766+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2108.08284",
+    "bibtex": "@misc{hassan2021stochasticsceneawaremotionprediction,\n      title={Stochastic Scene-Aware Motion Prediction}, \n      author={Mohamed Hassan and Duygu Ceylan and Ruben Villegas and Jun Saito and Jimei Yang and Yi Zhou and Michael Black},\n      year={2021},\n      eprint={2108.08284},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2108.08284}, \n}",
+    "title": "Stochastic Scene-Aware Motion Prediction",
+    "authors": [
+      "Mohamed Hassan",
+      "Duygu Ceylan",
+      "Ruben Villegas",
+      "Jun Saito",
+      "Jimei Yang",
+      "Yi Zhou",
+      "Michael Black"
+    ],
+    "year": 2021,
+    "arxiv": "2108.08284"
+  },
+  "https://arxiv.org/abs/2112.10103": {
+    "url": "https://arxiv.org/abs/2112.10103",
+    "checked_utc": "2026-11-19T07:45:06.669746+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2112.10103",
+    "bibtex": "@misc{wu2022sagastochasticwholebodygrasping,\n      title={SAGA: Stochastic Whole-Body Grasping with Contact}, \n      author={Yan Wu and Jiahao Wang and Yan Zhang and Siwei Zhang and Otmar Hilliges and Fisher Yu and Siyu Tang},\n      year={2022},\n      eprint={2112.10103},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2112.10103}, \n}",
+    "title": "SAGA: Stochastic Whole-Body Grasping with Contact",
+    "authors": [
+      "Yan Wu",
+      "Jiahao Wang",
+      "Yan Zhang",
+      "Siwei Zhang",
+      "Otmar Hilliges",
+      "Fisher Yu",
+      "Siyu Tang"
+    ],
+    "year": 2022,
+    "arxiv": "2112.10103"
+  },
+  "https://arxiv.org/abs/2112.11454": {
+    "url": "https://arxiv.org/abs/2112.11454",
+    "checked_utc": "2026-11-19T07:45:07.693053+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2112.11454",
+    "bibtex": "@misc{taheri2023goalgenerating4dwholebody,\n      title={GOAL: Generating 4D Whole-Body Motion for Hand-Object Grasping}, \n      author={Omid Taheri and Vasileios Choutas and Michael J. Black and Dimitrios Tzionas},\n      year={2023},\n      eprint={2112.11454},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2112.11454}, \n}",
+    "title": "GOAL: Generating 4D Whole-Body Motion for Hand-Object Grasping",
+    "authors": [
+      "Omid Taheri",
+      "Vasileios Choutas",
+      "Michael J. Black",
+      "Dimitrios Tzionas"
+    ],
+    "year": 2023,
+    "arxiv": "2112.11454"
+  },
+  "https://arxiv.org/abs/2203.08063": {
+    "url": "https://arxiv.org/abs/2203.08063",
+    "checked_utc": "2026-11-19T07:45:07.693303+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2203.08063",
+    "bibtex": "@misc{tevet2022motionclipexposinghumanmotion,\n      title={MotionCLIP: Exposing Human Motion Generation to CLIP Space}, \n      author={Guy Tevet and Brian Gordon and Amir Hertz and Amit H. Bermano and Daniel Cohen-Or},\n      year={2022},\n      eprint={2203.08063},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2203.08063}, \n}",
+    "title": "MotionCLIP: Exposing Human Motion Generation to CLIP Space",
+    "authors": [
+      "Guy Tevet",
+      "Brian Gordon",
+      "Amir Hertz",
+      "Amit H. Bermano",
+      "Daniel Cohen-Or"
+    ],
+    "year": 2022,
+    "arxiv": "2203.08063"
+  },
+  "https://arxiv.org/abs/2204.06950": {
+    "url": "https://arxiv.org/abs/2204.06950",
+    "checked_utc": "2026-11-19T07:45:07.693705+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2204.06950",
+    "bibtex": "@misc{bhatnagar2022behavedatasetmethodtracking,\n      title={BEHAVE: Dataset and Method for Tracking Human Object Interactions}, \n      author={Bharat Lal Bhatnagar and Xianghui Xie and Ilya A. Petrov and Cristian Sminchisescu and Christian Theobalt and Gerard Pons-Moll},\n      year={2022},\n      eprint={2204.06950},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2204.06950}, \n}",
+    "title": "BEHAVE: Dataset and Method for Tracking Human Object Interactions",
+    "authors": [
+      "Bharat Lal Bhatnagar",
+      "Xianghui Xie",
+      "Ilya A. Petrov",
+      "Cristian Sminchisescu",
+      "Christian Theobalt",
+      "Gerard Pons-Moll"
+    ],
+    "year": 2022,
+    "arxiv": "2204.06950"
+  },
+  "https://arxiv.org/abs/2205.01906": {
+    "url": "https://arxiv.org/abs/2205.01906",
+    "checked_utc": "2026-11-19T07:45:07.693958+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2205.01906",
+    "bibtex": "@misc{peng2022aselargescalereusableadversarial,\n      title={ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters}, \n      author={Xue Bin Peng and Yunrong Guo and Lina Halper and Sergey Levine and Sanja Fidler},\n      year={2022},\n      eprint={2205.01906},\n      archivePrefix={arXiv},\n      primaryClass={cs.GR},\n      doi={https://doi.org/10.1145/3528223.3530110},\n      url={https://arxiv.org/abs/2205.01906}, \n}",
+    "title": "ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters",
+    "authors": [
+      "Xue Bin Peng",
+      "Yunrong Guo",
+      "Lina Halper",
+      "Sergey Levine",
+      "Sanja Fidler"
+    ],
+    "year": 2022,
+    "arxiv": "2205.01906"
+  },
+  "https://arxiv.org/abs/2207.12824": {
+    "url": "https://arxiv.org/abs/2207.12824",
+    "checked_utc": "2026-11-19T07:45:08.307356+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2207.12824",
+    "bibtex": "@misc{zhao2022compositionalhumansceneinteractionsynthesis,\n      title={Compositional Human-Scene Interaction Synthesis with Semantic Control}, \n      author={Kaifeng Zhao and Shaofei Wang and Yan Zhang and Thabo Beeler and Siyu Tang},\n      year={2022},\n      eprint={2207.12824},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2207.12824}, \n}",
+    "title": "Compositional Human-Scene Interaction Synthesis with Semantic Control",
+    "authors": [
+      "Kaifeng Zhao",
+      "Shaofei Wang",
+      "Yan Zhang",
+      "Thabo Beeler",
+      "Siyu Tang"
+    ],
+    "year": 2022,
+    "arxiv": "2207.12824"
+  },
+  "https://arxiv.org/abs/2208.07363": {
+    "url": "https://arxiv.org/abs/2208.07363",
+    "checked_utc": "2026-11-19T07:45:08.507032+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2208.07363",
+    "bibtex": "@misc{wagener2023mocapactmultitaskdatasetsimulated,\n      title={MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control}, \n      author={Nolan Wagener and Andrey Kolobov and Felipe Vieira Frujeri and Ricky Loynd and Ching-An Cheng and Matthew Hausknecht},\n      year={2023},\n      eprint={2208.07363},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2208.07363}, \n}",
+    "title": "MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control",
+    "authors": [
+      "Nolan Wagener",
+      "Andrey Kolobov",
+      "Felipe Vieira Frujeri",
+      "Ricky Loynd",
+      "Ching-An Cheng",
+      "Matthew Hausknecht"
+    ],
+    "year": 2023,
+    "arxiv": "2208.07363"
+  },
+  "https://arxiv.org/abs/2209.04066": {
+    "url": "https://arxiv.org/abs/2209.04066",
+    "checked_utc": "2026-11-19T07:45:08.709631+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2209.04066",
+    "bibtex": "@misc{athanasiou2022teachtemporalactioncomposition,\n      title={TEACH: Temporal Action Composition for 3D Humans}, \n      author={Nikos Athanasiou and Mathis Petrovich and Michael J. Black and Gül Varol},\n      year={2022},\n      eprint={2209.04066},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2209.04066}, \n}",
+    "title": "TEACH: Temporal Action Composition for 3D Humans",
+    "authors": [
+      "Nikos Athanasiou",
+      "Mathis Petrovich",
+      "Michael J. Black",
+      "Gül Varol"
+    ],
+    "year": 2022,
+    "arxiv": "2209.04066"
+  },
+  "https://arxiv.org/abs/2209.12354": {
+    "url": "https://arxiv.org/abs/2209.12354",
+    "checked_utc": "2026-11-19T07:45:09.125271+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2209.12354",
+    "bibtex": "@misc{huang2022intercapjointmarkerless3d,\n      title={InterCap: Joint Markerless 3D Tracking of Humans and Objects in Interaction}, \n      author={Yinghao Huang and Omid Tehari and Michael J. Black and Dimitrios Tzionas},\n      year={2022},\n      eprint={2209.12354},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2209.12354}, \n}",
+    "title": "InterCap: Joint Markerless 3D Tracking of Humans and Objects in Interaction",
+    "authors": [
+      "Yinghao Huang",
+      "Omid Tehari",
+      "Michael J. Black",
+      "Dimitrios Tzionas"
+    ],
+    "year": 2022,
+    "arxiv": "2209.12354"
+  },
+  "https://arxiv.org/abs/2211.10658": {
+    "url": "https://arxiv.org/abs/2211.10658",
+    "checked_utc": "2026-11-19T07:45:09.537183+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2211.10658",
+    "bibtex": "@misc{tseng2022edgeeditabledancegeneration,\n      title={EDGE: Editable Dance Generation From Music}, \n      author={Jonathan Tseng and Rodrigo Castellon and C. Karen Liu},\n      year={2022},\n      eprint={2211.10658},\n      archivePrefix={arXiv},\n      primaryClass={cs.SD},\n      url={https://arxiv.org/abs/2211.10658}, \n}",
+    "title": "EDGE: Editable Dance Generation From Music",
+    "authors": [
+      "Jonathan Tseng",
+      "Rodrigo Castellon",
+      "C. Karen Liu"
+    ],
+    "year": 2022,
+    "arxiv": "2211.10658"
+  },
+  "https://arxiv.org/abs/2212.03741": {
+    "url": "https://arxiv.org/abs/2212.03741",
+    "checked_utc": "2026-11-19T07:45:09.537406+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2212.03741",
+    "bibtex": "@misc{li2023finedancefinegrainedchoreographydataset,\n      title={FineDance: A Fine-grained Choreography Dataset for 3D Full Body Dance Generation}, \n      author={Ronghui Li and Junfan Zhao and Yachao Zhang and Mingyang Su and Zeping Ren and Han Zhang and Yansong Tang and Xiu Li},\n      year={2023},\n      eprint={2212.03741},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2212.03741}, \n}",
+    "title": "FineDance: A Fine-grained Choreography Dataset for 3D Full Body Dance Generation",
+    "authors": [
+      "Ronghui Li",
+      "Junfan Zhao",
+      "Yachao Zhang",
+      "Mingyang Su",
+      "Zeping Ren",
+      "Han Zhang",
+      "Yansong Tang",
+      "Xiu Li"
+    ],
+    "year": 2023,
+    "arxiv": "2212.03741"
+  },
+  "https://arxiv.org/abs/2212.05897": {
+    "url": "https://arxiv.org/abs/2212.05897",
+    "checked_utc": "2026-11-19T07:45:09.941647+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2212.05897",
+    "bibtex": "@misc{lee2023multiactlongterm3dhuman,\n      title={MultiAct: Long-Term 3D Human Motion Generation from Multiple Action Labels}, \n      author={Taeryung Lee and Gyeongsik Moon and Kyoung Mu Lee},\n      year={2023},\n      eprint={2212.05897},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2212.05897}, \n}",
+    "title": "MultiAct: Long-Term 3D Human Motion Generation from Multiple Action Labels",
+    "authors": [
+      "Taeryung Lee",
+      "Gyeongsik Moon",
+      "Kyoung Mu Lee"
+    ],
+    "year": 2023,
+    "arxiv": "2212.05897"
+  },
+  "https://arxiv.org/abs/2301.06015": {
+    "url": "https://arxiv.org/abs/2301.06015",
+    "checked_utc": "2026-11-19T07:45:09.942092+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2301.06015",
+    "bibtex": "@misc{huang2023diffusionbasedgenerationoptimizationplanning,\n      title={Diffusion-based Generation, Optimization, and Planning in 3D Scenes}, \n      author={Siyuan Huang and Zan Wang and Puhao Li and Baoxiong Jia and Tengyu Liu and Yixin Zhu and Wei Liang and Song-Chun Zhu},\n      year={2023},\n      eprint={2301.06015},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2301.06015}, \n}",
+    "title": "Diffusion-based Generation, Optimization, and Planning in 3D Scenes",
+    "authors": [
+      "Siyuan Huang",
+      "Zan Wang",
+      "Puhao Li",
+      "Baoxiong Jia",
+      "Tengyu Liu",
+      "Yixin Zhu",
+      "Wei Liang",
+      "Song-Chun Zhu"
+    ],
+    "year": 2023,
+    "arxiv": "2301.06015"
+  },
+  "https://arxiv.org/abs/2303.01418": {
+    "url": "https://arxiv.org/abs/2303.01418",
+    "checked_utc": "2026-11-19T07:45:10.347782+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2303.01418",
+    "bibtex": "@misc{shafir2023humanmotiondiffusiongenerative,\n      title={Human Motion Diffusion as a Generative Prior}, \n      author={Yonatan Shafir and Guy Tevet and Roy Kapon and Amit H. Bermano},\n      year={2023},\n      eprint={2303.01418},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2303.01418}, \n}",
+    "title": "Human Motion Diffusion as a Generative Prior",
+    "authors": [
+      "Yonatan Shafir",
+      "Guy Tevet",
+      "Roy Kapon",
+      "Amit H. Bermano"
+    ],
+    "year": 2023,
+    "arxiv": "2303.01418"
+  },
+  "https://arxiv.org/abs/2303.17076": {
+    "url": "https://arxiv.org/abs/2303.17076",
+    "checked_utc": "2026-11-19T07:45:10.552989+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2303.17076",
+    "bibtex": "@misc{zhang2023diffcollageparallelgenerationlarge,\n      title={DiffCollage: Parallel Generation of Large Content with Diffusion Models}, \n      author={Qinsheng Zhang and Jiaming Song and Xun Huang and Yongxin Chen and Ming-Yu Liu},\n      year={2023},\n      eprint={2303.17076},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2303.17076}, \n}",
+    "title": "DiffCollage: Parallel Generation of Large Content with Diffusion Models",
+    "authors": [
+      "Qinsheng Zhang",
+      "Jiaming Song",
+      "Xun Huang",
+      "Yongxin Chen",
+      "Ming-Yu Liu"
+    ],
+    "year": 2023,
+    "arxiv": "2303.17076"
+  },
+  "https://arxiv.org/abs/2303.17912": {
+    "url": "https://arxiv.org/abs/2303.17912",
+    "checked_utc": "2026-11-19T07:45:10.756064+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2303.17912",
+    "bibtex": "@misc{araujo2023circlecapturerichcontextual,\n      title={CIRCLE: Capture In Rich Contextual Environments}, \n      author={Joao Pedro Araujo and Jiaman Li and Karthik Vetrivel and Rishi Agarwal and Deepak Gopinath and Jiajun Wu and Alexander Clegg and C. Karen Liu},\n      year={2023},\n      eprint={2303.17912},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2303.17912}, \n}",
+    "title": "CIRCLE: Capture In Rich Contextual Environments",
+    "authors": [
+      "Joao Pedro Araujo",
+      "Jiaman Li",
+      "Karthik Vetrivel",
+      "Rishi Agarwal",
+      "Deepak Gopinath",
+      "Jiajun Wu",
+      "Alexander Clegg",
+      "C. Karen Liu"
+    ],
+    "year": 2023,
+    "arxiv": "2303.17912"
+  },
+  "https://arxiv.org/abs/2304.03274": {
+    "url": "https://arxiv.org/abs/2304.03274",
+    "checked_utc": "2026-11-19T07:45:10.756248+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2304.03274",
+    "bibtex": "@misc{ren2023diffmimicefficientmotionmimicking,\n      title={DiffMimic: Efficient Motion Mimicking with Differentiable Physics}, \n      author={Jiawei Ren and Cunjun Yu and Siwei Chen and Xiao Ma and Liang Pan and Ziwei Liu},\n      year={2023},\n      eprint={2304.03274},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2304.03274}, \n}",
+    "title": "DiffMimic: Efficient Motion Mimicking with Differentiable Physics",
+    "authors": [
+      "Jiawei Ren",
+      "Cunjun Yu",
+      "Siwei Chen",
+      "Xiao Ma",
+      "Liang Pan",
+      "Ziwei Liu"
+    ],
+    "year": 2023,
+    "arxiv": "2304.03274"
+  },
+  "https://arxiv.org/abs/2304.05684": {
+    "url": "https://arxiv.org/abs/2304.05684",
+    "checked_utc": "2026-11-19T07:45:10.939191+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2304.05684",
+    "bibtex": "@misc{liang2024intergendiffusionbasedmultihumanmotion,\n      title={InterGen: Diffusion-based Multi-human Motion Generation under Complex Interactions}, \n      author={Han Liang and Wenqian Zhang and Wenxuan Li and Jingyi Yu and Lan Xu},\n      year={2024},\n      eprint={2304.05684},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      doi={https://doi.org/10.1007/s11263-024-02042-6},\n      url={https://arxiv.org/abs/2304.05684}, \n}",
+    "title": "InterGen: Diffusion-based Multi-human Motion Generation under Complex Interactions",
+    "authors": [
+      "Han Liang",
+      "Wenqian Zhang",
+      "Wenxuan Li",
+      "Jingyi Yu",
+      "Lan Xu"
+    ],
+    "year": 2024,
+    "arxiv": "2304.05684"
+  },
+  "https://arxiv.org/abs/2304.10417": {
+    "url": "https://arxiv.org/abs/2304.10417",
+    "checked_utc": "2026-11-19T07:45:11.177400+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2304.10417",
+    "bibtex": "@misc{athanasiou2024sincspatialcomposition3d,\n      title={SINC: Spatial Composition of 3D Human Motions for Simultaneous Action Generation}, \n      author={Nikos Athanasiou and Mathis Petrovich and Michael J. Black and Gül Varol},\n      year={2024},\n      eprint={2304.10417},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2304.10417}, \n}",
+    "title": "SINC: Spatial Composition of 3D Human Motions for Simultaneous Action Generation",
+    "authors": [
+      "Nikos Athanasiou",
+      "Mathis Petrovich",
+      "Michael J. Black",
+      "Gül Varol"
+    ],
+    "year": 2024,
+    "arxiv": "2304.10417"
+  },
+  "https://arxiv.org/abs/2305.06456": {
+    "url": "https://arxiv.org/abs/2305.06456",
+    "checked_utc": "2026-11-19T07:45:11.585694+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2305.06456",
+    "bibtex": "@misc{luo2023perpetualhumanoidcontrolrealtime,\n      title={Perpetual Humanoid Control for Real-time Simulated Avatars}, \n      author={Zhengyi Luo and Jinkun Cao and Alexander Winkler and Kris Kitani and Weipeng Xu},\n      year={2023},\n      eprint={2305.06456},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2305.06456}, \n}",
+    "title": "Perpetual Humanoid Control for Real-time Simulated Avatars",
+    "authors": [
+      "Zhengyi Luo",
+      "Jinkun Cao",
+      "Alexander Winkler",
+      "Kris Kitani",
+      "Weipeng Xu"
+    ],
+    "year": 2023,
+    "arxiv": "2305.06456"
+  },
+  "https://arxiv.org/abs/2305.09381": {
+    "url": "https://arxiv.org/abs/2305.09381",
+    "checked_utc": "2026-11-19T07:45:11.586066+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2305.09381",
+    "bibtex": "@misc{han2024amdautoregressivemotiondiffusion,\n      title={AMD: Autoregressive Motion Diffusion}, \n      author={Bo Han and Hao Peng and Minjing Dong and Yi Ren and Yixuan Shen and Chang Xu},\n      year={2024},\n      eprint={2305.09381},\n      archivePrefix={arXiv},\n      primaryClass={cs.MM},\n      url={https://arxiv.org/abs/2305.09381}, \n}",
+    "title": "AMD: Autoregressive Motion Diffusion",
+    "authors": [
+      "Bo Han",
+      "Hao Peng",
+      "Minjing Dong",
+      "Yi Ren",
+      "Yixuan Shen",
+      "Chang Xu"
+    ],
+    "year": 2024,
+    "arxiv": "2305.09381"
+  },
+  "https://arxiv.org/abs/2305.12411": {
+    "url": "https://arxiv.org/abs/2305.12411",
+    "checked_utc": "2026-11-19T07:45:11.781433+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2305.12411",
+    "bibtex": "@misc{zhao2023synthesizingdiversehumanmotions,\n      title={Synthesizing Diverse Human Motions in 3D Indoor Scenes}, \n      author={Kaifeng Zhao and Yan Zhang and Shaofei Wang and Thabo Beeler and Siyu Tang},\n      year={2023},\n      eprint={2305.12411},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2305.12411}, \n}",
+    "title": "Synthesizing Diverse Human Motions in 3D Indoor Scenes",
+    "authors": [
+      "Kaifeng Zhao",
+      "Yan Zhang",
+      "Shaofei Wang",
+      "Thabo Beeler",
+      "Siyu Tang"
+    ],
+    "year": 2023,
+    "arxiv": "2305.12411"
+  },
+  "https://arxiv.org/abs/2307.00818": {
+    "url": "https://arxiv.org/abs/2307.00818",
+    "checked_utc": "2026-11-19T07:45:11.992504+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2307.00818",
+    "bibtex": "@misc{lin2024motionxlargescale3dexpressive,\n      title={Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset}, \n      author={Jing Lin and Ailing Zeng and Shunlin Lu and Yuanhao Cai and Ruimao Zhang and Haoqian Wang and Lei Zhang},\n      year={2024},\n      eprint={2307.00818},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2307.00818}, \n}",
+    "title": "Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset",
+    "authors": [
+      "Jing Lin",
+      "Ailing Zeng",
+      "Shunlin Lu",
+      "Yuanhao Cai",
+      "Ruimao Zhang",
+      "Haoqian Wang",
+      "Lei Zhang"
+    ],
+    "year": 2024,
+    "arxiv": "2307.00818"
+  },
+  "https://arxiv.org/abs/2308.16905": {
+    "url": "https://arxiv.org/abs/2308.16905",
+    "checked_utc": "2026-11-19T07:45:12.194897+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2308.16905",
+    "bibtex": "@misc{xu2023interdiffgenerating3dhumanobject,\n      title={InterDiff: Generating 3D Human-Object Interactions with Physics-Informed Diffusion}, \n      author={Sirui Xu and Zhengyuan Li and Yu-Xiong Wang and Liang-Yan Gui},\n      year={2023},\n      eprint={2308.16905},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2308.16905}, \n}",
+    "title": "InterDiff: Generating 3D Human-Object Interactions with Physics-Informed Diffusion",
+    "authors": [
+      "Sirui Xu",
+      "Zhengyuan Li",
+      "Yu-Xiong Wang",
+      "Liang-Yan Gui"
+    ],
+    "year": 2023,
+    "arxiv": "2308.16905"
+  },
+  "https://arxiv.org/abs/2309.16237": {
+    "url": "https://arxiv.org/abs/2309.16237",
+    "checked_utc": "2026-11-19T07:45:12.602167+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2309.16237",
+    "bibtex": "@misc{li2023objectmotionguidedhuman,\n      title={Object Motion Guided Human Motion Synthesis}, \n      author={Jiaman Li and Jiajun Wu and C. Karen Liu},\n      year={2023},\n      eprint={2309.16237},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2309.16237}, \n}",
+    "title": "Object Motion Guided Human Motion Synthesis",
+    "authors": [
+      "Jiaman Li",
+      "Jiajun Wu",
+      "C. Karen Liu"
+    ],
+    "year": 2023,
+    "arxiv": "2309.16237"
+  },
+  "https://arxiv.org/abs/2310.04582": {
+    "url": "https://arxiv.org/abs/2310.04582",
+    "checked_utc": "2026-11-19T07:45:12.813038+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2310.04582",
+    "bibtex": "@misc{luo2024universalhumanoidmotionrepresentations,\n      title={Universal Humanoid Motion Representations for Physics-Based Control}, \n      author={Zhengyi Luo and Jinkun Cao and Josh Merel and Alexander Winkler and Jing Huang and Kris Kitani and Weipeng Xu},\n      year={2024},\n      eprint={2310.04582},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2310.04582}, \n}",
+    "title": "Universal Humanoid Motion Representations for Physics-Based Control",
+    "authors": [
+      "Zhengyi Luo",
+      "Jinkun Cao",
+      "Josh Merel",
+      "Alexander Winkler",
+      "Jing Huang",
+      "Kris Kitani",
+      "Weipeng Xu"
+    ],
+    "year": 2024,
+    "arxiv": "2310.04582"
+  },
+  "https://arxiv.org/abs/2311.16097": {
+    "url": "https://arxiv.org/abs/2311.16097",
+    "checked_utc": "2026-11-19T07:45:12.813308+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2311.16097",
+    "bibtex": "@misc{diller2024cghoicontactguided3dhumanobject,\n      title={CG-HOI: Contact-Guided 3D Human-Object Interaction Generation}, \n      author={Christian Diller and Angela Dai},\n      year={2024},\n      eprint={2311.16097},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2311.16097}, \n}",
+    "title": "CG-HOI: Contact-Guided 3D Human-Object Interaction Generation",
+    "authors": [
+      "Christian Diller",
+      "Angela Dai"
+    ],
+    "year": 2024,
+    "arxiv": "2311.16097"
+  },
+  "https://arxiv.org/abs/2312.00063": {
+    "url": "https://arxiv.org/abs/2312.00063",
+    "checked_utc": "2026-11-19T07:45:12.813438+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2312.00063",
+    "bibtex": "@misc{guo2023momaskgenerativemaskedmodeling,\n      title={MoMask: Generative Masked Modeling of 3D Human Motions}, \n      author={Chuan Guo and Yuxuan Mu and Muhammad Gohar Javed and Sen Wang and Li Cheng},\n      year={2023},\n      eprint={2312.00063},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2312.00063}, \n}",
+    "title": "MoMask: Generative Masked Modeling of 3D Human Motions",
+    "authors": [
+      "Chuan Guo",
+      "Yuxuan Mu",
+      "Muhammad Gohar Javed",
+      "Sen Wang",
+      "Li Cheng"
+    ],
+    "year": 2023,
+    "arxiv": "2312.00063"
+  },
+  "https://arxiv.org/abs/2312.03596": {
+    "url": "https://arxiv.org/abs/2312.03596",
+    "checked_utc": "2026-11-19T07:45:13.628587+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2312.03596",
+    "bibtex": "@misc{pinyoanuntapong2024mmmgenerativemaskedmotion,\n      title={MMM: Generative Masked Motion Model}, \n      author={Ekkasit Pinyoanuntapong and Pu Wang and Minwoo Lee and Chen Chen},\n      year={2024},\n      eprint={2312.03596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2312.03596}, \n}",
+    "title": "MMM: Generative Masked Motion Model",
+    "authors": [
+      "Ekkasit Pinyoanuntapong",
+      "Pu Wang",
+      "Minwoo Lee",
+      "Chen Chen"
+    ],
+    "year": 2024,
+    "arxiv": "2312.03596"
+  },
+  "https://arxiv.org/abs/2312.03913": {
+    "url": "https://arxiv.org/abs/2312.03913",
+    "checked_utc": "2026-11-19T07:45:13.628992+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2312.03913",
+    "bibtex": "@misc{li2024controllablehumanobjectinteractionsynthesis,\n      title={Controllable Human-Object Interaction Synthesis}, \n      author={Jiaman Li and Alexander Clegg and Roozbeh Mottaghi and Jiajun Wu and Xavier Puig and C. Karen Liu},\n      year={2024},\n      eprint={2312.03913},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2312.03913}, \n}",
+    "title": "Controllable Human-Object Interaction Synthesis",
+    "authors": [
+      "Jiaman Li",
+      "Alexander Clegg",
+      "Roozbeh Mottaghi",
+      "Jiajun Wu",
+      "Xavier Puig",
+      "C. Karen Liu"
+    ],
+    "year": 2024,
+    "arxiv": "2312.03913"
+  },
+  "https://arxiv.org/abs/2312.12763": {
+    "url": "https://arxiv.org/abs/2312.12763",
+    "checked_utc": "2026-11-19T07:45:13.629258+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2312.12763",
+    "bibtex": "@misc{jing2026amdanatomicalmotiondiffusioninterpretable,\n      title={AMD:Anatomical Motion Diffusion with Interpretable Motion Decomposition and Fusion}, \n      author={Beibei Jing and Youjia Zhang and Zikai Song and Junqing Yu and Wei Yang},\n      year={2026},\n      eprint={2312.12763},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2312.12763}, \n}",
+    "title": "AMD:Anatomical Motion Diffusion with Interpretable Motion Decomposition and Fusion",
+    "authors": [
+      "Beibei Jing",
+      "Youjia Zhang",
+      "Zikai Song",
+      "Junqing Yu",
+      "Wei Yang"
+    ],
+    "year": 2026,
+    "arxiv": "2312.12763"
+  },
+  "https://arxiv.org/abs/2312.16051": {
+    "url": "https://arxiv.org/abs/2312.16051",
+    "checked_utc": "2026-11-19T07:45:14.037630+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2312.16051",
+    "bibtex": "@misc{xu2023interxversatilehumanhumaninteraction,\n      title={Inter-X: Towards Versatile Human-Human Interaction Analysis}, \n      author={Liang Xu and Xintao Lv and Yichao Yan and Xin Jin and Shuwen Wu and Congsheng Xu and Yifan Liu and Yizhou Zhou and Fengyun Rao and Xingdong Sheng and Yunhui Liu and Wenjun Zeng and Xiaokang Yang},\n      year={2023},\n      eprint={2312.16051},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2312.16051}, \n}",
+    "title": "Inter-X: Towards Versatile Human-Human Interaction Analysis",
+    "authors": [
+      "Liang Xu",
+      "Xintao Lv",
+      "Yichao Yan",
+      "Xin Jin",
+      "Shuwen Wu",
+      "Congsheng Xu",
+      "Yifan Liu",
+      "Yizhou Zhou",
+      "Fengyun Rao",
+      "Xingdong Sheng",
+      "Yunhui Liu",
+      "Wenjun Zeng",
+      "Xiaokang Yang"
+    ],
+    "year": 2023,
+    "arxiv": "2312.16051"
+  },
+  "https://arxiv.org/abs/2401.00374": {
+    "url": "https://arxiv.org/abs/2401.00374",
+    "checked_utc": "2026-11-19T07:45:14.442537+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2401.00374",
+    "bibtex": "@misc{liu2024emageunifiedholisticcospeech,\n      title={EMAGE: Towards Unified Holistic Co-Speech Gesture Generation via Expressive Masked Audio Gesture Modeling}, \n      author={Haiyang Liu and Zihao Zhu and Giorgio Becherini and Yichen Peng and Mingyang Su and You Zhou and Xuefei Zhe and Naoya Iwamoto and Bo Zheng and Michael J. Black},\n      year={2024},\n      eprint={2401.00374},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2401.00374}, \n}",
+    "title": "EMAGE: Towards Unified Holistic Co-Speech Gesture Generation via Expressive Masked Audio Gesture Modeling",
+    "authors": [
+      "Haiyang Liu",
+      "Zihao Zhu",
+      "Giorgio Becherini",
+      "Yichen Peng",
+      "Mingyang Su",
+      "You Zhou",
+      "Xuefei Zhe",
+      "Naoya Iwamoto",
+      "Bo Zheng",
+      "Michael J. Black"
+    ],
+    "year": 2024,
+    "arxiv": "2401.00374"
+  },
+  "https://arxiv.org/abs/2402.15509": {
+    "url": "https://arxiv.org/abs/2402.15509",
+    "checked_utc": "2026-11-19T07:45:14.443008+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2402.15509",
+    "bibtex": "@misc{barquero2024seamlesshumanmotioncomposition,\n      title={Seamless Human Motion Composition with Blended Positional Encodings}, \n      author={German Barquero and Sergio Escalera and Cristina Palmero},\n      year={2024},\n      eprint={2402.15509},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2402.15509}, \n}",
+    "title": "Seamless Human Motion Composition with Blended Positional Encodings",
+    "authors": [
+      "German Barquero",
+      "Sergio Escalera",
+      "Cristina Palmero"
+    ],
+    "year": 2024,
+    "arxiv": "2402.15509"
+  },
+  "https://arxiv.org/abs/2402.16796": {
+    "url": "https://arxiv.org/abs/2402.16796",
+    "checked_utc": "2026-11-19T07:45:14.443181+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2402.16796",
+    "bibtex": "@misc{cheng2024expressivewholebodycontrolhumanoid,\n      title={Expressive Whole-Body Control for Humanoid Robots}, \n      author={Xuxin Cheng and Yandong Ji and Junming Chen and Ruihan Yang and Ge Yang and Xiaolong Wang},\n      year={2024},\n      eprint={2402.16796},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2402.16796}, \n}",
+    "title": "Expressive Whole-Body Control for Humanoid Robots",
+    "authors": [
+      "Xuxin Cheng",
+      "Yandong Ji",
+      "Junming Chen",
+      "Ruihan Yang",
+      "Ge Yang",
+      "Xiaolong Wang"
+    ],
+    "year": 2024,
+    "arxiv": "2402.16796"
+  },
+  "https://arxiv.org/abs/2403.07487": {
+    "url": "https://arxiv.org/abs/2403.07487",
+    "checked_utc": "2026-11-19T07:45:14.655115+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2403.07487",
+    "bibtex": "@misc{zhang2024motionmambaefficientlong,\n      title={Motion Mamba: Efficient and Long Sequence Motion Generation}, \n      author={Zeyu Zhang and Akide Liu and Ian Reid and Richard Hartley and Bohan Zhuang and Hao Tang},\n      year={2024},\n      eprint={2403.07487},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2403.07487}, \n}",
+    "title": "Motion Mamba: Efficient and Long Sequence Motion Generation",
+    "authors": [
+      "Zeyu Zhang",
+      "Akide Liu",
+      "Ian Reid",
+      "Richard Hartley",
+      "Bohan Zhuang",
+      "Hao Tang"
+    ],
+    "year": 2024,
+    "arxiv": "2403.07487"
+  },
+  "https://arxiv.org/abs/2403.10518": {
+    "url": "https://arxiv.org/abs/2403.10518",
+    "checked_utc": "2026-11-19T07:45:15.265175+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2403.10518",
+    "bibtex": "@misc{li2024lodgecoarsefinediffusion,\n      title={Lodge: A Coarse to Fine Diffusion Network for Long Dance Generation Guided by the Characteristic Dance Primitives}, \n      author={Ronghui Li and YuXiang Zhang and Yachao Zhang and Hongwen Zhang and Jie Guo and Yan Zhang and Yebin Liu and Xiu Li},\n      year={2024},\n      eprint={2403.10518},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2403.10518}, \n}",
+    "title": "Lodge: A Coarse to Fine Diffusion Network for Long Dance Generation Guided by the Characteristic Dance Primitives",
+    "authors": [
+      "Ronghui Li",
+      "YuXiang Zhang",
+      "Yachao Zhang",
+      "Hongwen Zhang",
+      "Jie Guo",
+      "Yan Zhang",
+      "Yebin Liu",
+      "Xiu Li"
+    ],
+    "year": 2024,
+    "arxiv": "2403.10518"
+  },
+  "https://arxiv.org/abs/2403.18512": {
+    "url": "https://arxiv.org/abs/2403.18512",
+    "checked_utc": "2026-11-19T07:45:15.680713+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2403.18512",
+    "bibtex": "@misc{zou2024parcopartcoordinatingtexttomotionsynthesis,\n      title={ParCo: Part-Coordinating Text-to-Motion Synthesis}, \n      author={Qiran Zou and Shangyuan Yuan and Shian Du and Yu Wang and Chang Liu and Yi Xu and Jie Chen and Xiangyang Ji},\n      year={2024},\n      eprint={2403.18512},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2403.18512}, \n}",
+    "title": "ParCo: Part-Coordinating Text-to-Motion Synthesis",
+    "authors": [
+      "Qiran Zou",
+      "Shangyuan Yuan",
+      "Shian Du",
+      "Yu Wang",
+      "Chang Liu",
+      "Yi Xu",
+      "Jie Chen",
+      "Xiangyang Ji"
+    ],
+    "year": 2024,
+    "arxiv": "2403.18512"
+  },
+  "https://arxiv.org/abs/2405.15541": {
+    "url": "https://arxiv.org/abs/2405.15541",
+    "checked_utc": "2026-11-19T07:45:15.680921+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2405.15541",
+    "bibtex": "@misc{mao2024learninggeneralizablehumanmotion,\n      title={Learning Generalizable Human Motion Generator with Reinforcement Learning}, \n      author={Yunyao Mao and Xiaoyang Liu and Wengang Zhou and Zhenbo Lu and Houqiang Li},\n      year={2024},\n      eprint={2405.15541},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2405.15541}, \n}",
+    "title": "Learning Generalizable Human Motion Generator with Reinforcement Learning",
+    "authors": [
+      "Yunyao Mao",
+      "Xiaoyang Liu",
+      "Wengang Zhou",
+      "Zhenbo Lu",
+      "Houqiang Li"
+    ],
+    "year": 2024,
+    "arxiv": "2405.15541"
+  },
+  "https://arxiv.org/abs/2406.00636": {
+    "url": "https://arxiv.org/abs/2406.00636",
+    "checked_utc": "2026-11-19T07:45:15.886043+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2406.00636",
+    "bibtex": "@misc{lee2026t2lmlongterm3dhuman,\n      title={T2LM: Long-Term 3D Human Motion Generation from Multiple Sentences}, \n      author={Taeryung Lee and Fabien Baradel and Thomas Lucas and Kyoung Mu Lee and Gregory Rogez},\n      year={2026},\n      eprint={2406.00636},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2406.00636}, \n}",
+    "title": "T2LM: Long-Term 3D Human Motion Generation from Multiple Sentences",
+    "authors": [
+      "Taeryung Lee",
+      "Fabien Baradel",
+      "Thomas Lucas",
+      "Kyoung Mu Lee",
+      "Gregory Rogez"
+    ],
+    "year": 2026,
+    "arxiv": "2406.00636"
+  },
+  "https://arxiv.org/abs/2407.12371": {
+    "url": "https://arxiv.org/abs/2407.12371",
+    "checked_utc": "2026-11-19T07:45:16.096079+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2407.12371",
+    "bibtex": "@misc{lv2024himonewbenchmarkfullbody,\n      title={HIMO: A New Benchmark for Full-Body Human Interacting with Multiple Objects}, \n      author={Xintao Lv and Liang Xu and Yichao Yan and Xin Jin and Congsheng Xu and Shuwen Wu and Yifan Liu and Lincheng Li and Mengxiao Bi and Wenjun Zeng and Xiaokang Yang},\n      year={2024},\n      eprint={2407.12371},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2407.12371}, \n}",
+    "title": "HIMO: A New Benchmark for Full-Body Human Interacting with Multiple Objects",
+    "authors": [
+      "Xintao Lv",
+      "Liang Xu",
+      "Yichao Yan",
+      "Xin Jin",
+      "Congsheng Xu",
+      "Shuwen Wu",
+      "Yifan Liu",
+      "Lincheng Li",
+      "Mengxiao Bi",
+      "Wenjun Zeng",
+      "Xiaokang Yang"
+    ],
+    "year": 2024,
+    "arxiv": "2407.12371"
+  },
+  "https://arxiv.org/abs/2408.00712": {
+    "url": "https://arxiv.org/abs/2408.00712",
+    "checked_utc": "2026-11-19T07:45:16.295705+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2408.00712",
+    "bibtex": "@misc{athanasiou2024motionfixtextdriven3dhuman,\n      title={MotionFix: Text-Driven 3D Human Motion Editing}, \n      author={Nikos Athanasiou and Alpár Cseke and Markos Diomataris and Michael J. Black and Gül Varol},\n      year={2024},\n      eprint={2408.00712},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2408.00712}, \n}",
+    "title": "MotionFix: Text-Driven 3D Human Motion Editing",
+    "authors": [
+      "Nikos Athanasiou",
+      "Alpár Cseke",
+      "Markos Diomataris",
+      "Michael J. Black",
+      "Gül Varol"
+    ],
+    "year": 2024,
+    "arxiv": "2408.00712"
+  },
+  "https://arxiv.org/abs/2408.07295": {
+    "url": "https://arxiv.org/abs/2408.07295",
+    "checked_utc": "2026-11-19T07:45:16.295971+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2408.07295",
+    "bibtex": "@misc{dugar2026learningmultimodalwholebodycontrol,\n      title={Learning Multi-Modal Whole-Body Control for Real-World Humanoid Robots}, \n      author={Pranay Dugar and Aayam Shrestha and Fangzhou Yu and Bart van Marum and Alan Fern},\n      year={2026},\n      eprint={2408.07295},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2408.07295}, \n}",
+    "title": "Learning Multi-Modal Whole-Body Control for Real-World Humanoid Robots",
+    "authors": [
+      "Pranay Dugar",
+      "Aayam Shrestha",
+      "Fangzhou Yu",
+      "Bart van Marum",
+      "Alan Fern"
+    ],
+    "year": 2026,
+    "arxiv": "2408.07295"
+  },
+  "https://arxiv.org/abs/2409.14393": {
+    "url": "https://arxiv.org/abs/2409.14393",
+    "checked_utc": "2026-11-19T07:45:16.696406+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2409.14393",
+    "bibtex": "@misc{tessler2024maskedmimicunifiedphysicsbasedcharacter,\n      title={MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting}, \n      author={Chen Tessler and Yunrong Guo and Ofir Nabati and Gal Chechik and Xue Bin Peng},\n      year={2024},\n      eprint={2409.14393},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2409.14393}, \n}",
+    "title": "MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting",
+    "authors": [
+      "Chen Tessler",
+      "Yunrong Guo",
+      "Ofir Nabati",
+      "Gal Chechik",
+      "Xue Bin Peng"
+    ],
+    "year": 2024,
+    "arxiv": "2409.14393"
+  },
+  "https://arxiv.org/abs/2410.03441": {
+    "url": "https://arxiv.org/abs/2410.03441",
+    "checked_utc": "2026-11-19T07:45:17.109383+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2410.03441",
+    "bibtex": "@misc{tevet2024closdclosingloopsimulation,\n      title={CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control}, \n      author={Guy Tevet and Sigal Raab and Setareh Cohan and Daniele Reda and Zhengyi Luo and Xue Bin Peng and Amit H. Bermano and Michiel van de Panne},\n      year={2024},\n      eprint={2410.03441},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2410.03441}, \n}",
+    "title": "CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control",
+    "authors": [
+      "Guy Tevet",
+      "Sigal Raab",
+      "Setareh Cohan",
+      "Daniele Reda",
+      "Zhengyi Luo",
+      "Xue Bin Peng",
+      "Amit H. Bermano",
+      "Michiel van de Panne"
+    ],
+    "year": 2024,
+    "arxiv": "2410.03441"
+  },
+  "https://arxiv.org/abs/2410.05260": {
+    "url": "https://arxiv.org/abs/2410.05260",
+    "checked_utc": "2026-11-19T07:45:17.520122+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2410.05260",
+    "bibtex": "@misc{zhao2025dartcontroldiffusionbasedautoregressivemotion,\n      title={DartControl: A Diffusion-Based Autoregressive Motion Model for Real-Time Text-Driven Motion Control}, \n      author={Kaifeng Zhao and Gen Li and Siyu Tang},\n      year={2025},\n      eprint={2410.05260},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2410.05260}, \n}",
+    "title": "DartControl: A Diffusion-Based Autoregressive Motion Model for Real-Time Text-Driven Motion Control",
+    "authors": [
+      "Kaifeng Zhao",
+      "Gen Li",
+      "Siyu Tang"
+    ],
+    "year": 2025,
+    "arxiv": "2410.05260"
+  },
+  "https://arxiv.org/abs/2410.18977": {
+    "url": "https://arxiv.org/abs/2410.18977",
+    "checked_utc": "2026-11-19T07:45:17.520339+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2410.18977",
+    "bibtex": "@misc{chen2025payattentionbetterharnessing,\n      title={Pay Attention and Move Better: Harnessing Attention for Interactive Motion Generation and Training-free Editing}, \n      author={Ling-Hao Chen and Shunlin Lu and Wenxun Dai and Zhiyang Dou and Xuan Ju and Jingbo Wang and Taku Komura and Lei Zhang},\n      year={2025},\n      eprint={2410.18977},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2410.18977}, \n}",
+    "title": "Pay Attention and Move Better: Harnessing Attention for Interactive Motion Generation and Training-free Editing",
+    "authors": [
+      "Ling-Hao Chen",
+      "Shunlin Lu",
+      "Wenxun Dai",
+      "Zhiyang Dou",
+      "Xuan Ju",
+      "Jingbo Wang",
+      "Taku Komura",
+      "Lei Zhang"
+    ],
+    "year": 2025,
+    "arxiv": "2410.18977"
+  },
+  "https://arxiv.org/abs/2412.07320": {
+    "url": "https://arxiv.org/abs/2412.07320",
+    "checked_utc": "2026-11-19T07:45:18.134445+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2412.07320",
+    "bibtex": "@misc{sun2025comacompositionalhumanmotion,\n      title={CoMA: Compositional Human Motion Generation with Multi-modal Agents}, \n      author={Shanlin Sun and Gabriel De Araujo and Jiaqi Xu and Shenghan Zhou and Hanwen Zhang and Ziheng Huang and Chenyu You and Xiaohui Xie},\n      year={2025},\n      eprint={2412.07320},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2412.07320}, \n}",
+    "title": "CoMA: Compositional Human Motion Generation with Multi-modal Agents",
+    "authors": [
+      "Shanlin Sun",
+      "Gabriel De Araujo",
+      "Jiaqi Xu",
+      "Shenghan Zhou",
+      "Hanwen Zhang",
+      "Ziheng Huang",
+      "Chenyu You",
+      "Xiaohui Xie"
+    ],
+    "year": 2025,
+    "arxiv": "2412.07320"
+  },
+  "https://arxiv.org/abs/2502.02358": {
+    "url": "https://arxiv.org/abs/2502.02358",
+    "checked_utc": "2026-11-19T07:45:18.134976+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2502.02358",
+    "bibtex": "@misc{guo2025motionlabunifiedhumanmotion,\n      title={MotionLab: Unified Human Motion Generation and Editing via the Motion-Condition-Motion Paradigm}, \n      author={Ziyan Guo and Zeyu Hu and De Wen Soh and Na Zhao},\n      year={2025},\n      eprint={2502.02358},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2502.02358}, \n}",
+    "title": "MotionLab: Unified Human Motion Generation and Editing via the Motion-Condition-Motion Paradigm",
+    "authors": [
+      "Ziyan Guo",
+      "Zeyu Hu",
+      "De Wen Soh",
+      "Na Zhao"
+    ],
+    "year": 2025,
+    "arxiv": "2502.02358"
+  },
+  "https://arxiv.org/abs/2503.12763": {
+    "url": "https://arxiv.org/abs/2503.12763",
+    "checked_utc": "2026-11-19T07:45:18.538760+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2503.12763",
+    "bibtex": "@misc{sui2025surveyhumaninteractionmotion,\n      title={A Survey on Human Interaction Motion Generation}, \n      author={Kewei Sui and Anindita Ghosh and Inwoo Hwang and Bing Zhou and Jian Wang and Chuan Guo},\n      year={2025},\n      eprint={2503.12763},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      doi={https://doi.org/10.1007/s11263-025-02582-5},\n      url={https://arxiv.org/abs/2503.12763}, \n}",
+    "title": "A Survey on Human Interaction Motion Generation",
+    "authors": [
+      "Kewei Sui",
+      "Anindita Ghosh",
+      "Inwoo Hwang",
+      "Bing Zhou",
+      "Jian Wang",
+      "Chuan Guo"
+    ],
+    "year": 2025,
+    "arxiv": "2503.12763"
+  },
+  "https://arxiv.org/abs/2504.01019": {
+    "url": "https://arxiv.org/abs/2504.01019",
+    "checked_utc": "2026-11-19T07:45:18.539192+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2504.01019",
+    "bibtex": "@misc{ruizponce2025mixermdmlearnablecompositionhuman,\n      title={MixerMDM: Learnable Composition of Human Motion Diffusion Models}, \n      author={Pablo Ruiz-Ponce and German Barquero and Cristina Palmero and Sergio Escalera and José García-Rodríguez},\n      year={2025},\n      eprint={2504.01019},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2504.01019}, \n}",
+    "title": "MixerMDM: Learnable Composition of Human Motion Diffusion Models",
+    "authors": [
+      "Pablo Ruiz-Ponce",
+      "German Barquero",
+      "Cristina Palmero",
+      "Sergio Escalera",
+      "José García-Rodríguez"
+    ],
+    "year": 2025,
+    "arxiv": "2504.01019"
+  },
+  "https://arxiv.org/abs/2505.09379": {
+    "url": "https://arxiv.org/abs/2505.09379",
+    "checked_utc": "2026-11-19T07:45:18.750039+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2505.09379",
+    "bibtex": "@misc{sahili2025textdrivenmotiongenerationoverview,\n      title={Text-driven Motion Generation: Overview, Challenges and Directions}, \n      author={Ali Rida Sahili and Najett Neji and Hedi Tabia},\n      year={2025},\n      eprint={2505.09379},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2505.09379}, \n}",
+    "title": "Text-driven Motion Generation: Overview, Challenges and Directions",
+    "authors": [
+      "Ali Rida Sahili",
+      "Najett Neji",
+      "Hedi Tabia"
+    ],
+    "year": 2025,
+    "arxiv": "2505.09379"
+  },
+  "https://arxiv.org/abs/2507.05419": {
+    "url": "https://arxiv.org/abs/2507.05419",
+    "checked_utc": "2026-11-19T07:45:19.013900+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2507.05419",
+    "bibtex": "@misc{khani2025motiongenerationsurveygenerative,\n      title={Motion Generation: A Survey of Generative Approaches and Benchmarks}, \n      author={Aliasghar Khani and Arianna Rampini and Bruno Roy and Larasika Nadela and Noa Kaplan and Evan Atherton and Derek Cheung and Jacky Bibliowicz},\n      year={2025},\n      eprint={2507.05419},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2507.05419}, \n}",
+    "title": "Motion Generation: A Survey of Generative Approaches and Benchmarks",
+    "authors": [
+      "Aliasghar Khani",
+      "Arianna Rampini",
+      "Bruno Roy",
+      "Larasika Nadela",
+      "Noa Kaplan",
+      "Evan Atherton",
+      "Derek Cheung",
+      "Jacky Bibliowicz"
+    ],
+    "year": 2025,
+    "arxiv": "2507.05419"
+  },
+  "https://arxiv.org/abs/2508.08241": {
+    "url": "https://arxiv.org/abs/2508.08241",
+    "checked_utc": "2026-11-19T07:45:19.162094+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2508.08241",
+    "bibtex": "@misc{liao2025beyondmimicmotiontrackingversatile,\n      title={BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion}, \n      author={Qiayuan Liao and Takara E. Truong and Xiaoyu Huang and Yuman Gao and Guy Tevet and Koushil Sreenath and C. Karen Liu},\n      year={2025},\n      eprint={2508.08241},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2508.08241}, \n}",
+    "title": "BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion",
+    "authors": [
+      "Qiayuan Liao",
+      "Takara E. Truong",
+      "Xiaoyu Huang",
+      "Yuman Gao",
+      "Guy Tevet",
+      "Koushil Sreenath",
+      "C. Karen Liu"
+    ],
+    "year": 2025,
+    "arxiv": "2508.08241"
+  },
+  "https://arxiv.org/abs/2509.03883": {
+    "url": "https://arxiv.org/abs/2509.03883",
+    "checked_utc": "2026-11-19T07:45:19.210998+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2509.03883",
+    "bibtex": "@misc{xue2025humanmotionvideogeneration,\n      title={Human Motion Video Generation: A Survey}, \n      author={Haiwei Xue and Xiangyang Luo and Zhanghao Hu and Xin Zhang and Xunzhi Xiang and Yuqin Dai and Jianzhuang Liu and Zhensong Zhang and Minglei Li and Jian Yang and Fei Ma and Zhiyong Wu and Changpeng Yang and Zonghong Dai and Fei Richard Yu},\n      year={2025},\n      eprint={2509.03883},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      doi={https://doi.org/10.1109/TPAMI.2025.3594034},\n      url={https://arxiv.org/abs/2509.03883}, \n}",
+    "title": "Human Motion Video Generation: A Survey",
+    "authors": [
+      "Haiwei Xue",
+      "Xiangyang Luo",
+      "Zhanghao Hu",
+      "Xin Zhang",
+      "Xunzhi Xiang",
+      "Yuqin Dai",
+      "Jianzhuang Liu",
+      "Zhensong Zhang",
+      "Minglei Li",
+      "Jian Yang",
+      "Fei Ma",
+      "Zhiyong Wu",
+      "Changpeng Yang",
+      "Zonghong Dai",
+      "Fei Richard Yu"
+    ],
+    "year": 2025,
+    "arxiv": "2509.03883"
+  },
+  "https://arxiv.org/abs/2509.09555": {
+    "url": "https://arxiv.org/abs/2509.09555",
+    "checked_utc": "2026-11-19T07:45:19.574849+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2509.09555",
+    "bibtex": "@misc{xu2025interactadvancinglargescaleversatile,\n      title={InterAct: Advancing Large-Scale Versatile 3D Human-Object Interaction Generation}, \n      author={Sirui Xu and Dongting Li and Yucheng Zhang and Xiyan Xu and Qi Long and Ziyin Wang and Yunzhi Lu and Shuchang Dong and Hezi Jiang and Akshat Gupta and Yu-Xiong Wang and Liang-Yan Gui},\n      year={2025},\n      eprint={2509.09555},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2509.09555}, \n}",
+    "title": "InterAct: Advancing Large-Scale Versatile 3D Human-Object Interaction Generation",
+    "authors": [
+      "Sirui Xu",
+      "Dongting Li",
+      "Yucheng Zhang",
+      "Xiyan Xu",
+      "Qi Long",
+      "Ziyin Wang",
+      "Yunzhi Lu",
+      "Shuchang Dong",
+      "Hezi Jiang",
+      "Akshat Gupta",
+      "Yu-Xiong Wang",
+      "Liang-Yan Gui"
+    ],
+    "year": 2025,
+    "arxiv": "2509.09555"
+  },
+  "https://arxiv.org/abs/2509.20927": {
+    "url": "https://arxiv.org/abs/2509.20927",
+    "checked_utc": "2026-11-19T07:45:19.768312+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2509.20927",
+    "bibtex": "@misc{watanabe2025simdiffsimulatorconstraineddiffusionmodel,\n      title={SimDiff: Simulator-constrained Diffusion Model for Physically Plausible Motion Generation}, \n      author={Akihisa Watanabe and Jiawei Ren and Li Siyao and Yichen Peng and Erwin Wu and Edgar Simo-Serra},\n      year={2025},\n      eprint={2509.20927},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2509.20927}, \n}",
+    "title": "SimDiff: Simulator-constrained Diffusion Model for Physically Plausible Motion Generation",
+    "authors": [
+      "Akihisa Watanabe",
+      "Jiawei Ren",
+      "Li Siyao",
+      "Yichen Peng",
+      "Erwin Wu",
+      "Edgar Simo-Serra"
+    ],
+    "year": 2025,
+    "arxiv": "2509.20927"
+  },
+  "https://arxiv.org/abs/2510.02252": {
+    "url": "https://arxiv.org/abs/2510.02252",
+    "checked_utc": "2026-11-19T07:45:19.768713+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2510.02252",
+    "bibtex": "@misc{araujo2025retargetingmattersgeneralmotion,\n      title={Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking}, \n      author={Joao Pedro Araujo and Yanjie Ze and Pei Xu and Jiajun Wu and C. Karen Liu},\n      year={2025},\n      eprint={2510.02252},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2510.02252}, \n}",
+    "title": "Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking",
+    "authors": [
+      "Joao Pedro Araujo",
+      "Yanjie Ze",
+      "Pei Xu",
+      "Jiajun Wu",
+      "C. Karen Liu"
+    ],
+    "year": 2025,
+    "arxiv": "2510.02252"
+  },
+  "https://arxiv.org/abs/2511.20446": {
+    "url": "https://arxiv.org/abs/2511.20446",
+    "checked_utc": "2026-11-19T07:45:19.768919+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2511.20446",
+    "bibtex": "@misc{na2026learninggeneratehumanhumanobjectinteractions,\n      title={Learning to Generate Human-Human-Object Interactions from Textual Descriptions}, \n      author={Jeonghyeon Na and Sangwon Baik and Inhee Lee and Junyoung Lee and Hanbyul Joo},\n      year={2026},\n      eprint={2511.20446},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2511.20446}, \n}",
+    "title": "Learning to Generate Human-Human-Object Interactions from Textual Descriptions",
+    "authors": [
+      "Jeonghyeon Na",
+      "Sangwon Baik",
+      "Inhee Lee",
+      "Junyoung Lee",
+      "Hanbyul Joo"
+    ],
+    "year": 2026,
+    "arxiv": "2511.20446"
+  },
+  "https://arxiv.org/abs/2601.10909": {
+    "url": "https://arxiv.org/abs/2601.10909",
+    "checked_utc": "2026-11-19T07:45:20.388532+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2601.10909",
+    "bibtex": "@misc{li2026frankenmotionpartlevelhumanmotion,\n      title={FrankenMotion: Part-level Human Motion Generation and Composition}, \n      author={Chuqiao Li and Xianghui Xie and Yong Cao and Andreas Geiger and Gerard Pons-Moll},\n      year={2026},\n      eprint={2601.10909},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2601.10909}, \n}",
+    "title": "FrankenMotion: Part-level Human Motion Generation and Composition",
+    "authors": [
+      "Chuqiao Li",
+      "Xianghui Xie",
+      "Yong Cao",
+      "Andreas Geiger",
+      "Gerard Pons-Moll"
+    ],
+    "year": 2026,
+    "arxiv": "2601.10909"
+  },
+  "https://arxiv.org/abs/2603.08390v3": {
+    "url": "https://arxiv.org/abs/2603.08390v3",
+    "checked_utc": "2026-11-19T07:45:20.389887+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2603.08390",
+    "bibtex": "@misc{wang2026duethoilanguageguidedbimanualhandobject,\n      title={DuetHOI: Language-Guided Bimanual Hand--Object Motion Generation with Articulation Planning and Contact Refinement}, \n      author={Zhi Wang and Yuyan Liu and Liu liu and Ruonan Liu and Ruixuan Liu},\n      year={2026},\n      eprint={2603.08390},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2603.08390}, \n}",
+    "title": "DuetHOI: Language-Guided Bimanual Hand--Object Motion Generation with Articulation Planning and Contact Refinement",
+    "authors": [
+      "Zhi Wang",
+      "Yuyan Liu",
+      "Liu liu",
+      "Ruonan Liu",
+      "Ruixuan Liu"
+    ],
+    "year": 2026,
+    "arxiv": "2603.08390"
+  },
+  "https://arxiv.org/abs/2603.08590": {
+    "url": "https://arxiv.org/abs/2603.08590",
+    "checked_utc": "2026-11-19T07:45:20.554738+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2603.08590",
+    "bibtex": "@misc{ling2026prismstreaminghumanmotion,\n      title={PRISM: Streaming Human Motion Generation with Per-Joint Latent Decomposition}, \n      author={Zeyu Ling and Qing Shuai and Teng Zhang and Shiyang Li and Bo Han and Changqing Zou},\n      year={2026},\n      eprint={2603.08590},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2603.08590}, \n}",
+    "title": "PRISM: Streaming Human Motion Generation with Per-Joint Latent Decomposition",
+    "authors": [
+      "Zeyu Ling",
+      "Qing Shuai",
+      "Teng Zhang",
+      "Shiyang Li",
+      "Bo Han",
+      "Changqing Zou"
+    ],
+    "year": 2026,
+    "arxiv": "2603.08590"
+  },
+  "https://arxiv.org/abs/2603.29272": {
+    "url": "https://arxiv.org/abs/2603.29272",
+    "checked_utc": "2026-11-19T07:45:20.795814+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2603.29272",
+    "bibtex": "@misc{park2026maskadaptlearningflexiblemotion,\n      title={MaskAdapt: Learning Flexible Motion Adaptation via Mask-Invariant Prior for Physics-Based Characters}, \n      author={Soomin Park and Eunseong Lee and Kwang Bin Lee and Sung-Hee Lee},\n      year={2026},\n      eprint={2603.29272},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2603.29272}, \n}",
+    "title": "MaskAdapt: Learning Flexible Motion Adaptation via Mask-Invariant Prior for Physics-Based Characters",
+    "authors": [
+      "Soomin Park",
+      "Eunseong Lee",
+      "Kwang Bin Lee",
+      "Sung-Hee Lee"
+    ],
+    "year": 2026,
+    "arxiv": "2603.29272"
+  },
+  "https://arxiv.org/abs/2606.05160": {
+    "url": "https://arxiv.org/abs/2606.05160",
+    "checked_utc": "2026-11-19T07:45:21.211751+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2606.05160",
+    "bibtex": "@misc{xie2026grailgeneratinghumanoidlocomanipulation,\n      title={GRAIL: Generating Humanoid Loco-Manipulation from World Models}, \n      author={Tianyi Xie and Haotian Zhang and Jinhyung Park and Zi Wang and Bowen Wen and Jiefeng Li and Xueting Li and Qingwei Ben and Haoyang Weng and Yufei Ye and David Minor and Tingwu Wang and Chenfanfu Jiang and Sanja Fidler and Jan Kautz and Linxi Fan and Yuke Zhu and Zhengyi Luo and Umar Iqbal and Ye Yuan},\n      year={2026},\n      eprint={2606.05160},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2606.05160}, \n}",
+    "title": "GRAIL: Generating Humanoid Loco-Manipulation from World Models",
+    "authors": [
+      "Tianyi Xie",
+      "Haotian Zhang",
+      "Jinhyung Park",
+      "Zi Wang",
+      "Bowen Wen",
+      "Jiefeng Li",
+      "Xueting Li",
+      "Qingwei Ben",
+      "Haoyang Weng",
+      "Yufei Ye",
+      "David Minor",
+      "Tingwu Wang",
+      "Chenfanfu Jiang",
+      "Sanja Fidler",
+      "Jan Kautz",
+      "Linxi Fan",
+      "Yuke Zhu",
+      "Zhengyi Luo",
+      "Umar Iqbal",
+      "Ye Yuan"
+    ],
+    "year": 2026,
+    "arxiv": "2606.05160"
+  },
+  "https://arxiv.org/abs/2608.03158": {
+    "url": "https://arxiv.org/abs/2608.03158",
+    "checked_utc": "2026-11-19T07:45:21.240889+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2608.03158",
+    "bibtex": "@misc{peng2026surfacekeypointrepresentationmultiobject,\n      title={Surface Keypoint Representation for Multi-Object and Articulated Human-Object Interaction Generation}, \n      author={Xiaogang Peng and Zeyu Han and Zichong Meng and Yiming Xie and Jihua Zhu and Gang Hua and Huaizu Jiang},\n      year={2026},\n      eprint={2608.03158},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2608.03158}, \n}",
+    "title": "Surface Keypoint Representation for Multi-Object and Articulated Human-Object Interaction Generation",
+    "authors": [
+      "Xiaogang Peng",
+      "Zeyu Han",
+      "Zichong Meng",
+      "Yiming Xie",
+      "Jihua Zhu",
+      "Gang Hua",
+      "Huaizu Jiang"
+    ],
+    "year": 2026,
+    "arxiv": "2608.03158"
+  },
+  "https://arxiv.org/abs/2608.16222": {
+    "url": "https://arxiv.org/abs/2608.16222",
+    "checked_utc": "2026-11-19T07:45:36.079877+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2608.16222",
+    "bibtex": "@misc{ji2026hiphilargescalebenchmarkhighprecision,\n      title={HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction}, \n      author={Jiahao Ji and Ji Ma and Runhan Zhang and Runyi Yu and Wenjia Wang and Weiheng Chi and Qianqian Peng and Weichao Yan and Yongfei Gu and Ye Tian and Ting Wu and Longwei Li and Chun Yuan and Ruoli Dai and Lei Han},\n      year={2026},\n      eprint={2608.16222},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2608.16222}, \n}",
+    "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction",
+    "authors": [
+      "Jiahao Ji",
+      "Ji Ma",
+      "Runhan Zhang",
+      "Runyi Yu",
+      "Wenjia Wang",
+      "Weiheng Chi",
+      "Qianqian Peng",
+      "Weichao Yan",
+      "Yongfei Gu",
+      "Ye Tian",
+      "Ting Wu",
+      "Longwei Li",
+      "Chun Yuan",
+      "Ruoli Dai",
+      "Lei Han"
+    ],
+    "year": 2026,
+    "arxiv": "2608.16222"
+  },
+  "https://arxiv.org/abs/2609.16683": {
+    "url": "https://arxiv.org/abs/2609.16683",
+    "checked_utc": "2026-11-19T07:45:36.080110+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2609.16683",
+    "bibtex": "@misc{cao2026weavelearningwholebodydexterous,\n      title={Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions}, \n      author={Liu Cao and Xingze Wu and Jingzhi Cui and Botian Xu and Mingzhi Pei and Ruoqu Chen and Mengdi Xu},\n      year={2026},\n      eprint={2609.16683},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2609.16683}, \n}",
+    "title": "Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions",
+    "authors": [
+      "Liu Cao",
+      "Xingze Wu",
+      "Jingzhi Cui",
+      "Botian Xu",
+      "Mingzhi Pei",
+      "Ruoqu Chen",
+      "Mengdi Xu"
+    ],
+    "year": 2026,
+    "arxiv": "2609.16683"
+  },
+  "https://arxiv.org/abs/2609.32551": {
+    "url": "https://arxiv.org/abs/2609.32551",
+    "checked_utc": "2026-11-19T07:45:36.441942+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2609.32551",
+    "bibtex": "@misc{guan2026harnessingcoupledstreamcompletion,\n      title={Harnessing Coupled Stream Completion For Human-Object Interaction Modeling}, \n      author={Dawei Guan and Di Yang and Jiangtao Wang},\n      year={2026},\n      eprint={2609.32551},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2609.32551}, \n}",
+    "title": "Harnessing Coupled Stream Completion For Human-Object Interaction Modeling",
+    "authors": [
+      "Dawei Guan",
+      "Di Yang",
+      "Jiangtao Wang"
+    ],
+    "year": 2026,
+    "arxiv": "2609.32551"
+  },
+  "https://arxiv.org/abs/2609.38466": {
+    "url": "https://arxiv.org/abs/2609.38466",
+    "checked_utc": "2026-11-19T07:45:36.545176+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2609.38466",
+    "bibtex": "@misc{li2026pamianchoredmotiontext,\n      title={PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation}, \n      author={Chuqiao Li and Xianghui Xie and Yong Cao and Andreas Geiger and Gerard Pons-Moll},\n      year={2026},\n      eprint={2609.38466},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2609.38466}, \n}",
+    "title": "PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation",
+    "authors": [
+      "Chuqiao Li",
+      "Xianghui Xie",
+      "Yong Cao",
+      "Andreas Geiger",
+      "Gerard Pons-Moll"
+    ],
+    "year": 2026,
+    "arxiv": "2609.38466"
+  },
+  "https://arxiv.org/abs/2610.03252": {
+    "url": "https://arxiv.org/abs/2610.03252",
+    "checked_utc": "2026-11-19T07:45:36.648269+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2610.03252",
+    "bibtex": "@misc{eskandar2026cosmicompositionalsynthesismultiobject,\n      title={COSMI: COmpositional Synthesis of Multi-object Interactions}, \n      author={Daniel Eskandar and Ilya A. Petrov and Gerard Pons-Moll},\n      year={2026},\n      eprint={2610.03252},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2610.03252}, \n}",
+    "title": "COSMI: COmpositional Synthesis of Multi-object Interactions",
+    "authors": [
+      "Daniel Eskandar",
+      "Ilya A. Petrov",
+      "Gerard Pons-Moll"
+    ],
+    "year": 2026,
+    "arxiv": "2610.03252"
+  },
+  "https://arxiv.org/abs/2610.03873": {
+    "url": "https://arxiv.org/abs/2610.03873",
+    "checked_utc": "2026-11-19T07:45:37.057865+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2610.03873",
+    "bibtex": "@misc{zhang2026streamingmultitracktimelinecontrol,\n      title={Streaming Multi-Track Timeline Control for 3D Human Motion Generation}, \n      author={Yangsong Zhang and Anujith Muraleedharan and Rikhat Akizhanov and Gül Varol and Fabio Pizzati and Ivan Laptev},\n      year={2026},\n      eprint={2610.03873},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2610.03873}, \n}",
+    "title": "Streaming Multi-Track Timeline Control for 3D Human Motion Generation",
+    "authors": [
+      "Yangsong Zhang",
+      "Anujith Muraleedharan",
+      "Rikhat Akizhanov",
+      "Gül Varol",
+      "Fabio Pizzati",
+      "Ivan Laptev"
+    ],
+    "year": 2026,
+    "arxiv": "2610.03873"
+  },
+  "https://arxiv.org/abs/2610.06850": {
+    "url": "https://arxiv.org/abs/2610.06850",
+    "checked_utc": "2026-11-19T07:45:37.186999+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2610.06850",
+    "bibtex": "@misc{zhang2026intermimicgenscalinghumanoidlocomanipulation,\n      title={InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation}, \n      author={Yucheng Zhang and Sirui Xu and Jinhong Li and Liuyu Bian and Anatulya Nandi and Derek Zhang and Xiangchen Liu and Xueting Li and Umar Iqbal and Yu-Xiong Wang and Liang-Yan Gui},\n      year={2026},\n      eprint={2610.06850},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2610.06850}, \n}",
+    "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+    "authors": [
+      "Yucheng Zhang",
+      "Sirui Xu",
+      "Jinhong Li",
+      "Liuyu Bian",
+      "Anatulya Nandi",
+      "Derek Zhang",
+      "Xiangchen Liu",
+      "Xueting Li",
+      "Umar Iqbal",
+      "Yu-Xiong Wang",
+      "Liang-Yan Gui"
+    ],
+    "year": 2026,
+    "arxiv": "2610.06850"
+  },
+  "https://arxiv.org/abs/2610.27725": {
+    "url": "https://arxiv.org/abs/2610.27725",
+    "checked_utc": "2026-11-19T07:45:37.217884+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2610.27725",
+    "bibtex": "@misc{li2026world2hosimultiexpertharnesslonghorizon,\n      title={World2HOSI: A Multi-Expert Harness for Long-Horizon Human-Object-Scene Interaction Generation}, \n      author={Jiushu Li and Haoran Wang and Yumeng Liu and Zhiyang Dou and Yuan Liu and Yuexin Ma and Cheng Lin},\n      year={2026},\n      eprint={2610.27725},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2610.27725}, \n}",
+    "title": "World2HOSI: A Multi-Expert Harness for Long-Horizon Human-Object-Scene Interaction Generation",
+    "authors": [
+      "Jiushu Li",
+      "Haoran Wang",
+      "Yumeng Liu",
+      "Zhiyang Dou",
+      "Yuan Liu",
+      "Yuexin Ma",
+      "Cheng Lin"
+    ],
+    "year": 2026,
+    "arxiv": "2610.27725"
+  },
+  "https://arxiv.org/abs/2611.10994": {
+    "url": "https://arxiv.org/abs/2611.10994",
+    "checked_utc": "2026-11-19T07:45:37.287418+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2611.10994",
+    "bibtex": "@misc{deshmukh2026robomocaplargescalewholebodymotion,\n      title={RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning}, \n      author={Mayur Deshmukh and Aaron Tung and Junyi Li and Nikash Bhardwaj and Ademi Adeniji and Vincent Liu and Michael Cho and Jiafei Duan},\n      year={2026},\n      eprint={2611.10994},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2611.10994}, \n}",
+    "title": "RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning",
+    "authors": [
+      "Mayur Deshmukh",
+      "Aaron Tung",
+      "Junyi Li",
+      "Nikash Bhardwaj",
+      "Ademi Adeniji",
+      "Vincent Liu",
+      "Michael Cho",
+      "Jiafei Duan"
+    ],
+    "year": 2026,
+    "arxiv": "2611.10994"
+  },
+  "https://arxiv.org/abs/2611.15101": {
+    "url": "https://arxiv.org/abs/2611.15101",
+    "checked_utc": "2026-11-19T07:45:37.811858+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2611.15101",
+    "bibtex": "@misc{shi2026cfgcomposercompositionalaudiotexttomotiongeneration,\n      title={CFGComposer: Compositional Audio-Text-to-Motion Generation via Copula Score Correction}, \n      author={Pengyang Shi and Jinlu Zhang and Chunze Lin and Yizhou Wang and Li Yi},\n      year={2026},\n      eprint={2611.15101},\n      archivePrefix={arXiv},\n      primaryClass={cs.SD},\n      url={https://arxiv.org/abs/2611.15101}, \n}",
+    "title": "CFGComposer: Compositional Audio-Text-to-Motion Generation via Copula Score Correction",
+    "authors": [
+      "Pengyang Shi",
+      "Jinlu Zhang",
+      "Chunze Lin",
+      "Yizhou Wang",
+      "Li Yi"
+    ],
+    "year": 2026,
+    "arxiv": "2611.15101"
+  },
+  "https://doi.org/10.1145/1230100.1230123": {
+    "url": "https://doi.org/10.1145/1230100.1230123",
+    "checked_utc": "2026-11-19T07:47:58.509630+00:00",
+    "status": "error",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "https://graphics.cs.wisc.edu/Papers/2002/KGP02/": {
+    "url": "https://graphics.cs.wisc.edu/Papers/2002/KGP02/",
+    "checked_utc": "2026-11-19T07:45:40.037733+00:00",
+    "status": "ok",
+    "metadata_url": "https://graphics.cs.wisc.edu/Papers/2002/KGP02/",
+    "meta": {},
+    "bibtex": "@Article{KGP02,\n  author       = \"Kovar, Lucas and Gleicher, Michael and Pighin, Frédéric\",\n  title        = \"Motion Graphs\",\n  journal      = \"ACM Transcations on Graphics\",\n  number       = \"3\",\n  volume       = \"21\",\n  pages        = \"473--482\",\n  month        = \"jul\",\n  year         = \"2002\",\n  note         = \"Special Issue: Proceedings of ACM SIGGRAPH 2002\",\n  url          = \"http://graphics.cs.wisc.edu/Papers/2002/KGP02\"\n}",
+    "title": null
+  },
+  "https://graphics.stanford.edu/projects/pigraphs/": {
+    "url": "https://graphics.stanford.edu/projects/pigraphs/",
+    "metadata_url": "https://graphics.stanford.edu/projects/pigraphs/",
+    "status": "ok",
+    "origin": "manually_transcribed_primary_source",
+    "title": "PiGraphs: Learning Interaction Snapshots from Observations",
+    "authors": [
+      "Manolis Savva",
+      "Angel X. Chang",
+      "Pat Hanrahan",
+      "Matthew Fisher",
+      "Matthias Nießner"
+    ],
+    "year": 2016,
+    "bibtex": "@article{savva2016pigraphs,\n title={{PiGraphs: Learning Interaction Snapshots from Observations}},\n author={Manolis Savva and Angel X. Chang and Pat Hanrahan and Matthew Fisher and Matthias Nie{\\ss}ner},\n journal={ACM Transactions on Graphics}, volume={35}, number={4}, year={2016},\n url={https://graphics.stanford.edu/projects/pigraphs/}\n}",
+    "checked_utc": "2026-11-19T07:52:57.797265+00:00"
+  },
+  "https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14739": {
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14739",
+    "checked_utc": "2026-11-19T07:47:58.510186+00:00",
+    "status": "error",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "https://openaccess.thecvf.com/content/ICCV2025/html/Jia_PrimHOI_Compositional_Human-Object_Interaction_via_Reusable_Primitives_ICCV_2025_paper.html": {
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jia_PrimHOI_Compositional_Human-Object_Interaction_via_Reusable_Primitives_ICCV_2025_paper.html",
+    "checked_utc": "2026-11-19T07:45:55.007110+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jia_PrimHOI_Compositional_Human-Object_Interaction_via_Reusable_Primitives_ICCV_2025_paper.html",
+    "meta": {
+      "citation_title": [
+        "PrimHOI: Compositional Human-Object Interaction via Reusable Primitives"
+      ],
+      "citation_author": [
+        "Jia, Kai",
+        "Liu, Tengyu",
+        "Pei, Mingtao",
+        "Zhu, Yixin",
+        "Huang, Siyuan"
+      ],
+      "citation_publication_date": [
+        "2025"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF International Conference on Computer Vision"
+      ],
+      "citation_firstpage": [
+        "11491"
+      ],
+      "citation_lastpage": [
+        "11501"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/ICCV2025/papers/Jia_PrimHOI_Compositional_Human-Object_Interaction_via_Reusable_Primitives_ICCV_2025_paper.pdf"
+      ]
+    },
+    "title": "PrimHOI: Compositional Human-Object Interaction via Reusable Primitives",
+    "authors": [
+      "Jia, Kai",
+      "Liu, Tengyu",
+      "Pei, Mingtao",
+      "Zhu, Yixin",
+      "Huang, Siyuan"
+    ],
+    "year": 2025,
+    "bibtex": "@InProceedings{Jia_2025_ICCV,\n    author    = {Jia, Kai and Liu, Tengyu and Pei, Mingtao and Zhu, Yixin and Huang, Siyuan},\n    title     = {PrimHOI: Compositional Human-Object Interaction via Reusable Primitives},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2025},\n    pages     = {11491-11501}\n}"
+  },
+  "https://proceedings.mlr.press/v306/liang26ad.html": {
+    "url": "https://proceedings.mlr.press/v306/liang26ad.html",
+    "checked_utc": "2026-11-19T07:45:55.773810+00:00",
+    "status": "ok",
+    "metadata_url": "https://proceedings.mlr.press/v306/liang26ad.html",
+    "meta": {
+      "citation_publisher": [
+        "PMLR"
+      ],
+      "citation_title": [
+        "RealisMotion: Decomposed Human Motion Control and Video Generation in the World Space"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_abstract_html_url": [
+        "https://proceedings.mlr.press/v306/liang26ad.html"
+      ],
+      "citation_pdf_url": [
+        "https://raw.githubusercontent.com/mlresearch/v306/main/assets/liang26ad/liang26ad.pdf"
+      ],
+      "citation_firstpage": [
+        "73719"
+      ],
+      "citation_lastpage": [
+        "73743"
+      ],
+      "citation_author": [
+        "Jingyun Liang",
+        "Jingkai Zhou",
+        "Shikai Li",
+        "Chenjie Cao",
+        "Lei Sun",
+        "Yichen Qian",
+        "Weihua Chen",
+        "Fan Wang"
+      ],
+      "citation_publication_date": [
+        "2026/09/29"
+      ],
+      "citation_inbook_title": [
+        "International Conference on Machine Learning"
+      ],
+      "citation_conference_title": [
+        "International Conference on Machine Learning"
+      ],
+      "citation_issn": [
+        "2640-3498"
+      ]
+    },
+    "title": "RealisMotion: Decomposed Human Motion Control and Video Generation in the World Space",
+    "authors": [
+      "Jingyun Liang",
+      "Jingkai Zhou",
+      "Shikai Li",
+      "Chenjie Cao",
+      "Lei Sun",
+      "Yichen Qian",
+      "Weihua Chen",
+      "Fan Wang"
+    ],
+    "year": 2026,
+    "bibtex": "@InProceedings{pmlr-v306-liang26ad,\n  title = \t {{R}ealis{M}otion: Decomposed Human Motion Control and Video Generation in the World Space},\n  author =       {Liang, Jingyun and Zhou, Jingkai and Li, Shikai and Cao, Chenjie and Sun, Lei and Qian, Yichen and Chen, Weihua and Wang, Fan},\n  booktitle = \t {Proceedings of the 43rd International Conference on Machine Learning},\n  pages = \t {73719--73743},\n  year = \t {2026},\n  editor = \t {Zhang, Tong and Dudik, Miroslav and Jaggi, Martin and Agarwal, Alekh and Li, Sharon and Schuurmans, Dale and Zhu, Jerry and Berkenkamp, Felix and Dong, Hanze and Bietti, Alberto},\n  volume = \t {306},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {06--11 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://raw.githubusercontent.com/mlresearch/v306/main/assets/liang26ad/liang26ad.pdf},\n  url = \t {https://proceedings.mlr.press/v306/liang26ad.html},\n  abstract = \t {Generating human videos with realistic and controllable motions is a challenging task. While existing methods can generate visually compelling videos, they lack separate control over four key video elements: foreground subject, background video, human trajectory, and action patterns. In this paper, we propose a decomposed human motion control and video generation framework that explicitly decouples motion from appearance, subject from background, and action from trajectory, enabling flexible mix-and-match composition of these elements. Concretely, we first build a ground-aware 3D world coordinate system and perform motion editing directly in the 3D space. Trajectory control is implemented by unprojecting edited 2D trajectories into 3D with focal-length calibration and coordinate transformation, followed by speed alignment and orientation adjustment; actions are supplied by a motion bank or generated via text-to-motion methods. Then, based on modern text-to-video diffusion transformer models, we inject the subject as tokens for full attention, concatenate the background along the channel dimension, and add motion (trajectory and action) control signals by addition. Such a design opens up the possibility for us to generate realistic videos of anyone doing anything anywhere. Extensive experiments on benchmark datasets and real-world cases demonstrate that our method achieves state-of-the-art performance on both element-wise controllability and overall video quality.}\n}"
+  },
+  "https://arxiv.org/abs/1705.06400": {
+    "url": "https://arxiv.org/abs/1705.06400",
+    "checked_utc": "2026-11-19T07:46:54.090629+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/1705.06400",
+    "bibtex": "@misc{plappert2018learningbidirectionalmappinghuman,\n      title={Learning a bidirectional mapping between human whole-body motion and natural language using deep recurrent neural networks}, \n      author={Matthias Plappert and Christian Mandery and Tamim Asfour},\n      year={2018},\n      eprint={1705.06400},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      doi={https://doi.org/10.1016/j.robot.2018.07.006},\n      url={https://arxiv.org/abs/1705.06400}, \n}",
+    "title": "Learning a bidirectional mapping between human whole-body motion and natural language using deep recurrent neural networks",
+    "authors": [
+      "Matthias Plappert",
+      "Christian Mandery",
+      "Tamim Asfour"
+    ],
+    "year": 2018,
+    "arxiv": "1705.06400"
+  },
+  "https://arxiv.org/abs/1907.01108": {
+    "url": "https://arxiv.org/abs/1907.01108",
+    "checked_utc": "2026-11-19T07:46:54.091369+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/1907.01108",
+    "bibtex": "@misc{ahuja2019language2posenaturallanguagegrounded,\n      title={Language2Pose: Natural Language Grounded Pose Forecasting}, \n      author={Chaitanya Ahuja and Louis-Philippe Morency},\n      year={2019},\n      eprint={1907.01108},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/1907.01108}, \n}",
+    "title": "Language2Pose: Natural Language Grounded Pose Forecasting",
+    "authors": [
+      "Chaitanya Ahuja",
+      "Louis-Philippe Morency"
+    ],
+    "year": 2019,
+    "arxiv": "1907.01108"
+  },
+  "https://arxiv.org/abs/2005.05732": {
+    "url": "https://arxiv.org/abs/2005.05732",
+    "checked_utc": "2026-11-19T07:46:54.091801+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2005.05732",
+    "bibtex": "@misc{aberman2020skeletonawarenetworksdeepmotion,\n      title={Skeleton-Aware Networks for Deep Motion Retargeting}, \n      author={Kfir Aberman and Peizhuo Li and Dani Lischinski and Olga Sorkine-Hornung and Daniel Cohen-Or and Baoquan Chen},\n      year={2020},\n      eprint={2005.05732},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      doi={https://doi.org/10.1145/3386569.3392462},\n      url={https://arxiv.org/abs/2005.05732}, \n}",
+    "title": "Skeleton-Aware Networks for Deep Motion Retargeting",
+    "authors": [
+      "Kfir Aberman",
+      "Peizhuo Li",
+      "Dani Lischinski",
+      "Olga Sorkine-Hornung",
+      "Daniel Cohen-Or",
+      "Baoquan Chen"
+    ],
+    "year": 2020,
+    "arxiv": "2005.05732"
+  },
+  "https://arxiv.org/abs/2005.05751": {
+    "url": "https://arxiv.org/abs/2005.05751",
+    "checked_utc": "2026-11-19T07:46:54.092117+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2005.05751",
+    "bibtex": "@misc{aberman2020unpairedmotionstyletransfer,\n      title={Unpaired Motion Style Transfer from Video to Animation}, \n      author={Kfir Aberman and Yijia Weng and Dani Lischinski and Daniel Cohen-Or and Baoquan Chen},\n      year={2020},\n      eprint={2005.05751},\n      archivePrefix={arXiv},\n      primaryClass={cs.GR},\n      doi={https://doi.org/10.1145/3386569.3392469},\n      url={https://arxiv.org/abs/2005.05751}, \n}",
+    "title": "Unpaired Motion Style Transfer from Video to Animation",
+    "authors": [
+      "Kfir Aberman",
+      "Yijia Weng",
+      "Dani Lischinski",
+      "Daniel Cohen-Or",
+      "Baoquan Chen"
+    ],
+    "year": 2020,
+    "arxiv": "2005.05751"
+  },
+  "https://arxiv.org/abs/2104.05670": {
+    "url": "https://arxiv.org/abs/2104.05670",
+    "checked_utc": "2026-11-19T07:46:54.797075+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2104.05670",
+    "bibtex": "@misc{petrovich2021actionconditioned3dhumanmotion,\n      title={Action-Conditioned 3D Human Motion Synthesis with Transformer VAE}, \n      author={Mathis Petrovich and Michael J. Black and Gül Varol},\n      year={2021},\n      eprint={2104.05670},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2104.05670}, \n}",
+    "title": "Action-Conditioned 3D Human Motion Synthesis with Transformer VAE",
+    "authors": [
+      "Mathis Petrovich",
+      "Michael J. Black",
+      "Gül Varol"
+    ],
+    "year": 2021,
+    "arxiv": "2104.05670"
+  },
+  "https://arxiv.org/abs/2202.05274": {
+    "url": "https://arxiv.org/abs/2202.05274",
+    "checked_utc": "2026-11-19T07:46:54.797560+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2202.05274",
+    "bibtex": "@misc{jang2022motionpuzzlearbitrarymotion,\n      title={Motion Puzzle: Arbitrary Motion Style Transfer by Body Part}, \n      author={Deok-Kyeong Jang and Soomin Park and Sung-Hee Lee},\n      year={2022},\n      eprint={2202.05274},\n      archivePrefix={arXiv},\n      primaryClass={cs.GR},\n      doi={https://doi.org/10.1145/3516429},\n      url={https://arxiv.org/abs/2202.05274}, \n}",
+    "title": "Motion Puzzle: Arbitrary Motion Style Transfer by Body Part",
+    "authors": [
+      "Deok-Kyeong Jang",
+      "Soomin Park",
+      "Sung-Hee Lee"
+    ],
+    "year": 2022,
+    "arxiv": "2202.05274"
+  },
+  "https://arxiv.org/abs/2204.14109": {
+    "url": "https://arxiv.org/abs/2204.14109",
+    "checked_utc": "2026-11-19T07:46:54.798014+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2204.14109",
+    "bibtex": "@misc{petrovich2022temosgeneratingdiversehuman,\n      title={TEMOS: Generating diverse human motions from textual descriptions}, \n      author={Mathis Petrovich and Michael J. Black and Gül Varol},\n      year={2022},\n      eprint={2204.14109},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2204.14109}, \n}",
+    "title": "TEMOS: Generating diverse human motions from textual descriptions",
+    "authors": [
+      "Mathis Petrovich",
+      "Michael J. Black",
+      "Gül Varol"
+    ],
+    "year": 2022,
+    "arxiv": "2204.14109"
+  },
+  "https://arxiv.org/abs/2208.15001": {
+    "url": "https://arxiv.org/abs/2208.15001",
+    "checked_utc": "2026-11-19T07:46:54.798482+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2208.15001",
+    "bibtex": "@misc{zhang2022motiondiffusetextdrivenhumanmotion,\n      title={MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model}, \n      author={Mingyuan Zhang and Zhongang Cai and Liang Pan and Fangzhou Hong and Xinying Guo and Lei Yang and Ziwei Liu},\n      year={2022},\n      eprint={2208.15001},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2208.15001}, \n}",
+    "title": "MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model",
+    "authors": [
+      "Mingyuan Zhang",
+      "Zhongang Cai",
+      "Liang Pan",
+      "Fangzhou Hong",
+      "Xinying Guo",
+      "Lei Yang",
+      "Ziwei Liu"
+    ],
+    "year": 2022,
+    "arxiv": "2208.15001"
+  },
+  "https://arxiv.org/abs/2209.14916": {
+    "url": "https://arxiv.org/abs/2209.14916",
+    "checked_utc": "2026-11-19T07:46:55.427963+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2209.14916",
+    "bibtex": "@misc{tevet2022humanmotiondiffusionmodel,\n      title={Human Motion Diffusion Model}, \n      author={Guy Tevet and Sigal Raab and Brian Gordon and Yonatan Shafir and Daniel Cohen-Or and Amit H. Bermano},\n      year={2022},\n      eprint={2209.14916},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2209.14916}, \n}",
+    "title": "Human Motion Diffusion Model",
+    "authors": [
+      "Guy Tevet",
+      "Sigal Raab",
+      "Brian Gordon",
+      "Yonatan Shafir",
+      "Daniel Cohen-Or",
+      "Amit H. Bermano"
+    ],
+    "year": 2022,
+    "arxiv": "2209.14916"
+  },
+  "https://arxiv.org/abs/2301.06052": {
+    "url": "https://arxiv.org/abs/2301.06052",
+    "checked_utc": "2026-11-19T07:46:55.428329+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2301.06052",
+    "bibtex": "@misc{zhang2023t2mgptgeneratinghumanmotion,\n      title={T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations}, \n      author={Jianrong Zhang and Yangsong Zhang and Xiaodong Cun and Shaoli Huang and Yong Zhang and Hongwei Zhao and Hongtao Lu and Xi Shen},\n      year={2023},\n      eprint={2301.06052},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2301.06052}, \n}",
+    "title": "T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations",
+    "authors": [
+      "Jianrong Zhang",
+      "Yangsong Zhang",
+      "Xiaodong Cun",
+      "Shaoli Huang",
+      "Yong Zhang",
+      "Hongwei Zhao",
+      "Hongtao Lu",
+      "Xi Shen"
+    ],
+    "year": 2023,
+    "arxiv": "2301.06052"
+  },
+  "https://arxiv.org/abs/2305.00976": {
+    "url": "https://arxiv.org/abs/2305.00976",
+    "checked_utc": "2026-11-19T07:46:55.623918+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2305.00976",
+    "bibtex": "@misc{petrovich2023tmrtexttomotionretrievalusing,\n      title={TMR: Text-to-Motion Retrieval Using Contrastive 3D Human Motion Synthesis}, \n      author={Mathis Petrovich and Michael J. Black and Gül Varol},\n      year={2023},\n      eprint={2305.00976},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2305.00976}, \n}",
+    "title": "TMR: Text-to-Motion Retrieval Using Contrastive 3D Human Motion Synthesis",
+    "authors": [
+      "Mathis Petrovich",
+      "Michael J. Black",
+      "Gül Varol"
+    ],
+    "year": 2023,
+    "arxiv": "2305.00976"
+  },
+  "https://arxiv.org/abs/2407.08443": {
+    "url": "https://arxiv.org/abs/2407.08443",
+    "checked_utc": "2026-11-19T07:46:56.033762+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2407.08443",
+    "bibtex": "@misc{li2024infinitemotionextendedmotion,\n      title={Infinite Motion: Extended Motion Generation via Long Text Instructions}, \n      author={Mengtian Li and Chengshuo Zhai and Shengxiang Yao and Zhifeng Xie and Keyu Chen and Yu-Gang Jiang},\n      year={2024},\n      eprint={2407.08443},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2407.08443}, \n}",
+    "title": "Infinite Motion: Extended Motion Generation via Long Text Instructions",
+    "authors": [
+      "Mengtian Li",
+      "Chengshuo Zhai",
+      "Shengxiang Yao",
+      "Zhifeng Xie",
+      "Keyu Chen",
+      "Yu-Gang Jiang"
+    ],
+    "year": 2024,
+    "arxiv": "2407.08443"
+  },
+  "https://arxiv.org/abs/2503.13836": {
+    "url": "https://arxiv.org/abs/2503.13836",
+    "checked_utc": "2026-11-19T07:46:56.234197+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2503.13836",
+    "bibtex": "@misc{hong2025saladskeletonawarelatentdiffusion,\n      title={SALAD: Skeleton-aware Latent Diffusion for Text-driven Motion Generation and Editing}, \n      author={Seokhyeon Hong and Chaelin Kim and Serin Yoon and Junghyun Nam and Sihun Cha and Junyong Noh},\n      year={2025},\n      eprint={2503.13836},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2503.13836}, \n}",
+    "title": "SALAD: Skeleton-aware Latent Diffusion for Text-driven Motion Generation and Editing",
+    "authors": [
+      "Seokhyeon Hong",
+      "Chaelin Kim",
+      "Serin Yoon",
+      "Junghyun Nam",
+      "Sihun Cha",
+      "Junyong Noh"
+    ],
+    "year": 2025,
+    "arxiv": "2503.13836"
+  },
+  "https://arxiv.org/abs/2512.19049": {
+    "url": "https://arxiv.org/abs/2512.19049",
+    "checked_utc": "2026-11-19T07:46:56.234466+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2512.19049",
+    "bibtex": "@misc{jung2026decoupledgenerativemodelinghumanobject,\n      title={Decoupled Generative Modeling for Human-Object Interaction Synthesis}, \n      author={Hwanhee Jung and Seunggwan Lee and Jeongyoon Yoon and SeungHyeon Kim and Giljoo Nam and Qixing Huang and Sangpil Kim},\n      year={2026},\n      eprint={2512.19049},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2512.19049}, \n}",
+    "title": "Decoupled Generative Modeling for Human-Object Interaction Synthesis",
+    "authors": [
+      "Hwanhee Jung",
+      "Seunggwan Lee",
+      "Jeongyoon Yoon",
+      "SeungHyeon Kim",
+      "Giljoo Nam",
+      "Qixing Huang",
+      "Sangpil Kim"
+    ],
+    "year": 2026,
+    "arxiv": "2512.19049"
+  },
+  "https://feifeifeiliu.github.io/MOCO/": {
+    "url": "https://feifeifeiliu.github.io/MOCO/",
+    "checked_utc": "2026-11-19T07:46:56.854511+00:00",
+    "status": "ok",
+    "metadata_url": "https://feifeifeiliu.github.io/MOCO/",
+    "meta": {},
+    "bibtex": "@inproceedings{liu2026moco,\n  title     = {Multi-Modal Controlled Coherent Motion Generation},\n  author    = {Liu, Yifei and Cao, Qiong and Yi, Hongwei and Jiang, Huaiguang and Ding, Changxing},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year      = {2026}\n}",
+    "title": "Multi-Modal Controlled Coherent Motion Generation",
+    "authors": [
+      "Liu, Yifei",
+      "Cao, Qiong",
+      "Yi, Hongwei",
+      "Jiang, Huaiguang",
+      "Ding, Changxing"
+    ],
+    "year": 2026
+  },
+  "https://arxiv.org/abs/2312.07063": {
+    "url": "https://arxiv.org/abs/2312.07063",
+    "checked_utc": "2026-11-19T07:47:57.798542+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2312.07063",
+    "bibtex": "@misc{xie2024templatefreereconstructionhumanobject,\n      title={Template Free Reconstruction of Human-object Interaction with Procedural Interaction Generation}, \n      author={Xianghui Xie and Bharat Lal Bhatnagar and Jan Eric Lenssen and Gerard Pons-Moll},\n      year={2024},\n      eprint={2312.07063},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2312.07063}, \n}",
+    "title": "Template Free Reconstruction of Human-object Interaction with Procedural Interaction Generation",
+    "authors": [
+      "Xianghui Xie",
+      "Bharat Lal Bhatnagar",
+      "Jan Eric Lenssen",
+      "Gerard Pons-Moll"
+    ],
+    "year": 2024,
+    "arxiv": "2312.07063"
+  },
+  "https://arxiv.org/abs/2401.10232": {
+    "url": "https://arxiv.org/abs/2401.10232",
+    "checked_utc": "2026-11-19T07:47:57.799211+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2401.10232",
+    "bibtex": "@misc{kim2025parahomeparameterizingeverydayhome,\n      title={ParaHome: Parameterizing Everyday Home Activities Towards 3D Generative Modeling of Human-Object Interactions}, \n      author={Jeonghwan Kim and Jisoo Kim and Jeonghyeon Na and Hanbyul Joo},\n      year={2025},\n      eprint={2401.10232},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2401.10232}, \n}",
+    "title": "ParaHome: Parameterizing Everyday Home Activities Towards 3D Generative Modeling of Human-Object Interactions",
+    "authors": [
+      "Jeonghwan Kim",
+      "Jisoo Kim",
+      "Jeonghyeon Na",
+      "Hanbyul Joo"
+    ],
+    "year": 2025,
+    "arxiv": "2401.10232"
+  },
+  "https://arxiv.org/abs/2410.10010": {
+    "url": "https://arxiv.org/abs/2410.10010",
+    "checked_utc": "2026-11-19T07:47:57.799576+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2410.10010",
+    "bibtex": "@misc{javed2025intermask3dhumaninteraction,\n      title={InterMask: 3D Human Interaction Generation via Collaborative Masked Modeling}, \n      author={Muhammad Gohar Javed and Chuan Guo and Li Cheng and Xingyu Li},\n      year={2025},\n      eprint={2410.10010},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2410.10010}, \n}",
+    "title": "InterMask: 3D Human Interaction Generation via Collaborative Masked Modeling",
+    "authors": [
+      "Muhammad Gohar Javed",
+      "Chuan Guo",
+      "Li Cheng",
+      "Xingyu Li"
+    ],
+    "year": 2025,
+    "arxiv": "2410.10010"
+  },
+  "https://arxiv.org/abs/2601.03959": {
+    "url": "https://arxiv.org/abs/2601.03959",
+    "checked_utc": "2026-11-19T07:47:57.799884+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2601.03959",
+    "bibtex": "@misc{duran2026fusionfullbodyunifiedmotion,\n      title={FUSION: Full-Body Unified Motion Prior for Body and Hands via Diffusion}, \n      author={Enes Duran and Nikos Athanasiou and Muhammed Kocabas and Michael J. Black and Omid Taheri},\n      year={2026},\n      eprint={2601.03959},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2601.03959}, \n}",
+    "title": "FUSION: Full-Body Unified Motion Prior for Body and Hands via Diffusion",
+    "authors": [
+      "Enes Duran",
+      "Nikos Athanasiou",
+      "Muhammed Kocabas",
+      "Michael J. Black",
+      "Omid Taheri"
+    ],
+    "year": 2026,
+    "arxiv": "2601.03959"
+  },
+  "https://courses.cs.washington.edu/courses/cse590b/02au/s2002.pdf": {
+    "url": "https://courses.cs.washington.edu/courses/cse590b/02au/s2002.pdf",
+    "checked_utc": "2026-11-19T07:47:58.509598+00:00",
+    "status": "metadata_unavailable",
+    "error": "PDF identity retained; no HTML bibliography endpoint configured"
+  },
+  "https://cxhcmhhh.github.io/InteractMoveProject/static/pdfs/paper.pdf": {
+    "url": "https://cxhcmhhh.github.io/InteractMoveProject/static/pdfs/paper.pdf",
+    "checked_utc": "2026-11-19T07:47:58.509622+00:00",
+    "status": "metadata_unavailable",
+    "error": "PDF identity retained; no HTML bibliography endpoint configured"
+  },
+  "https://graphics.berkeley.edu/papers/Arikan-MSF-2003-08/Arikan-MSF-2003-08.pdf": {
+    "url": "https://graphics.berkeley.edu/papers/Arikan-MSF-2003-08/Arikan-MSF-2003-08.pdf",
+    "checked_utc": "2026-11-19T07:47:58.510173+00:00",
+    "status": "metadata_unavailable",
+    "error": "PDF identity retained; no HTML bibliography endpoint configured"
+  },
+  "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.pdf",
+    "checked_utc": "2026-11-19T07:47:58.510563+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.html",
+    "meta": {
+      "citation_title": [
+        "Generating Diverse and Natural 3D Human Motions From Text"
+      ],
+      "citation_author": [
+        "Guo, Chuan",
+        "Zou, Shihao",
+        "Zuo, Xinxin",
+        "Wang, Sen",
+        "Ji, Wei",
+        "Li, Xingyu",
+        "Cheng, Li"
+      ],
+      "citation_publication_date": [
+        "2022"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      ],
+      "citation_firstpage": [
+        "5152"
+      ],
+      "citation_lastpage": [
+        "5161"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.pdf"
+      ]
+    },
+    "title": "Generating Diverse and Natural 3D Human Motions From Text",
+    "authors": [
+      "Guo, Chuan",
+      "Zou, Shihao",
+      "Zuo, Xinxin",
+      "Wang, Sen",
+      "Ji, Wei",
+      "Li, Xingyu",
+      "Cheng, Li"
+    ],
+    "year": 2022,
+    "bibtex": "@InProceedings{Guo_2022_CVPR,\n    author    = {Guo, Chuan and Zou, Shihao and Zuo, Xinxin and Wang, Sen and Ji, Wei and Li, Xingyu and Cheng, Li},\n    title     = {Generating Diverse and Natural 3D Human Motions From Text},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2022},\n    pages     = {5152-5161}\n}"
+  },
+  "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf",
+    "checked_utc": "2026-11-19T07:47:58.510745+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.html",
+    "meta": {
+      "citation_title": [
+        "Executing Your Commands via Motion Diffusion in Latent Space"
+      ],
+      "citation_author": [
+        "Chen, Xin",
+        "Jiang, Biao",
+        "Liu, Wen",
+        "Huang, Zilong",
+        "Fu, Bin",
+        "Chen, Tao",
+        "Yu, Gang"
+      ],
+      "citation_publication_date": [
+        "2023"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      ],
+      "citation_firstpage": [
+        "18000"
+      ],
+      "citation_lastpage": [
+        "18010"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf"
+      ]
+    },
+    "title": "Executing Your Commands via Motion Diffusion in Latent Space",
+    "authors": [
+      "Chen, Xin",
+      "Jiang, Biao",
+      "Liu, Wen",
+      "Huang, Zilong",
+      "Fu, Bin",
+      "Chen, Tao",
+      "Yu, Gang"
+    ],
+    "year": 2023,
+    "bibtex": "@InProceedings{Chen_2023_CVPR,\n    author    = {Chen, Xin and Jiang, Biao and Liu, Wen and Huang, Zilong and Fu, Bin and Chen, Tao and Yu, Gang},\n    title     = {Executing Your Commands via Motion Diffusion in Latent Space},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {18000-18010}\n}"
+  },
+  "https://openaccess.thecvf.com/content/CVPR2024/papers/Barquero_Seamless_Human_Motion_Composition_with_Blended_Positional_Encodings_CVPR_2024_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Barquero_Seamless_Human_Motion_Composition_with_Blended_Positional_Encodings_CVPR_2024_paper.pdf",
+    "checked_utc": "2026-11-19T07:47:58.913307+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Barquero_Seamless_Human_Motion_Composition_with_Blended_Positional_Encodings_CVPR_2024_paper.html",
+    "meta": {
+      "citation_title": [
+        "Seamless Human Motion Composition with Blended Positional Encodings"
+      ],
+      "citation_author": [
+        "Barquero, German",
+        "Escalera, Sergio",
+        "Palmero, Cristina"
+      ],
+      "citation_publication_date": [
+        "2024"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      ],
+      "citation_firstpage": [
+        "457"
+      ],
+      "citation_lastpage": [
+        "469"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/CVPR2024/papers/Barquero_Seamless_Human_Motion_Composition_with_Blended_Positional_Encodings_CVPR_2024_paper.pdf"
+      ]
+    },
+    "title": "Seamless Human Motion Composition with Blended Positional Encodings",
+    "authors": [
+      "Barquero, German",
+      "Escalera, Sergio",
+      "Palmero, Cristina"
+    ],
+    "year": 2024,
+    "bibtex": "@InProceedings{Barquero_2024_CVPR,\n    author    = {Barquero, German and Escalera, Sergio and Palmero, Cristina},\n    title     = {Seamless Human Motion Composition with Blended Positional Encodings},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2024},\n    pages     = {457-469}\n}"
+  },
+  "https://openaccess.thecvf.com/content/CVPR2024/papers/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.pdf",
+    "checked_utc": "2026-11-19T07:47:59.325234+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.html",
+    "meta": {
+      "citation_title": [
+        "Scaling Up Dynamic Human-Scene Interaction Modeling"
+      ],
+      "citation_author": [
+        "Jiang, Nan",
+        "Zhang, Zhiyuan",
+        "Li, Hongjie",
+        "Ma, Xiaoxuan",
+        "Wang, Zan",
+        "Chen, Yixin",
+        "Liu, Tengyu",
+        "Zhu, Yixin",
+        "Huang, Siyuan"
+      ],
+      "citation_publication_date": [
+        "2024"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      ],
+      "citation_firstpage": [
+        "1737"
+      ],
+      "citation_lastpage": [
+        "1747"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/CVPR2024/papers/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.pdf"
+      ]
+    },
+    "title": "Scaling Up Dynamic Human-Scene Interaction Modeling",
+    "authors": [
+      "Jiang, Nan",
+      "Zhang, Zhiyuan",
+      "Li, Hongjie",
+      "Ma, Xiaoxuan",
+      "Wang, Zan",
+      "Chen, Yixin",
+      "Liu, Tengyu",
+      "Zhu, Yixin",
+      "Huang, Siyuan"
+    ],
+    "year": 2024,
+    "bibtex": "@InProceedings{Jiang_2024_CVPR,\n    author    = {Jiang, Nan and Zhang, Zhiyuan and Li, Hongjie and Ma, Xiaoxuan and Wang, Zan and Chen, Yixin and Liu, Tengyu and Zhu, Yixin and Huang, Siyuan},\n    title     = {Scaling Up Dynamic Human-Scene Interaction Modeling},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2024},\n    pages     = {1737-1747}\n}"
+  },
+  "https://openaccess.thecvf.com/content/CVPR2024W/HuMoGen/papers/Petrovich_Multi-Track_Timeline_Control_for_Text-Driven_3D_Human_Motion_Generation_CVPRW_2024_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/CVPR2024W/HuMoGen/papers/Petrovich_Multi-Track_Timeline_Control_for_Text-Driven_3D_Human_Motion_Generation_CVPRW_2024_paper.pdf",
+    "checked_utc": "2026-11-19T07:47:59.531709+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/CVPR2024W/HuMoGen/html/Petrovich_Multi-Track_Timeline_Control_for_Text-Driven_3D_Human_Motion_Generation_CVPRW_2024_paper.html",
+    "meta": {
+      "citation_title": [
+        "Multi-Track Timeline Control for Text-Driven 3D Human Motion Generation"
+      ],
+      "citation_author": [
+        "Petrovich, Mathis",
+        "Litany, Or",
+        "Iqbal, Umar",
+        "Black, Michael J.",
+        "Varol, Gul",
+        "Bin Peng, Xue",
+        "Rempe, Davis"
+      ],
+      "citation_publication_date": [
+        "2024"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      ],
+      "citation_firstpage": [
+        "1911"
+      ],
+      "citation_lastpage": [
+        "1921"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/CVPR2024W/HuMoGen/papers/Petrovich_Multi-Track_Timeline_Control_for_Text-Driven_3D_Human_Motion_Generation_CVPRW_2024_paper.pdf"
+      ]
+    },
+    "title": "Multi-Track Timeline Control for Text-Driven 3D Human Motion Generation",
+    "authors": [
+      "Petrovich, Mathis",
+      "Litany, Or",
+      "Iqbal, Umar",
+      "Black, Michael J.",
+      "Varol, Gul",
+      "Bin Peng, Xue",
+      "Rempe, Davis"
+    ],
+    "year": 2024,
+    "bibtex": "@InProceedings{Petrovich_2024_CVPR,\n    author    = {Petrovich, Mathis and Litany, Or and Iqbal, Umar and Black, Michael J. and Varol, Gul and Bin Peng, Xue and Rempe, Davis},\n    title     = {Multi-Track Timeline Control for Text-Driven 3D Human Motion Generation},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},\n    month     = {June},\n    year      = {2024},\n    pages     = {1911-1921}\n}"
+  },
+  "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_CORE4D_A_4D_Human-Object-Human_Interaction_Dataset_for_Collaborative_Object_REarrangement_CVPR_2025_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_CORE4D_A_4D_Human-Object-Human_Interaction_Dataset_for_Collaborative_Object_REarrangement_CVPR_2025_paper.pdf",
+    "checked_utc": "2026-11-19T07:47:59.550948+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_CORE4D_A_4D_Human-Object-Human_Interaction_Dataset_for_Collaborative_Object_REarrangement_CVPR_2025_paper.html",
+    "meta": {
+      "citation_title": [
+        "CORE4D: A 4D Human-Object-Human Interaction Dataset for Collaborative Object REarrangement"
+      ],
+      "citation_author": [
+        "Liu, Yun",
+        "Zhang, Chengwen",
+        "Xing, Ruofan",
+        "Tang, Bingda",
+        "Yang, Bowen",
+        "Yi, Li"
+      ],
+      "citation_publication_date": [
+        "2025"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      ],
+      "citation_firstpage": [
+        "1769"
+      ],
+      "citation_lastpage": [
+        "1782"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_CORE4D_A_4D_Human-Object-Human_Interaction_Dataset_for_Collaborative_Object_REarrangement_CVPR_2025_paper.pdf"
+      ]
+    },
+    "title": "CORE4D: A 4D Human-Object-Human Interaction Dataset for Collaborative Object REarrangement",
+    "authors": [
+      "Liu, Yun",
+      "Zhang, Chengwen",
+      "Xing, Ruofan",
+      "Tang, Bingda",
+      "Yang, Bowen",
+      "Yi, Li"
+    ],
+    "year": 2025,
+    "bibtex": "@InProceedings{Liu_2025_CVPR,\n    author    = {Liu, Yun and Zhang, Chengwen and Xing, Ruofan and Tang, Bingda and Yang, Bowen and Yi, Li},\n    title     = {CORE4D: A 4D Human-Object-Human Interaction Dataset for Collaborative Object REarrangement},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2025},\n    pages     = {1769-1782}\n}"
+  },
+  "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_EnergyMoGen_Compositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Model_in_CVPR_2025_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_EnergyMoGen_Compositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Model_in_CVPR_2025_paper.pdf",
+    "checked_utc": "2026-11-19T07:48:00.347487+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_EnergyMoGen_Compositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Model_in_CVPR_2025_paper.html",
+    "meta": {
+      "citation_title": [
+        "EnergyMoGen: Compositional Human Motion Generation with Energy-Based Diffusion Model in Latent Space"
+      ],
+      "citation_author": [
+        "Zhang, Jianrong",
+        "Fan, Hehe",
+        "Yang, Yi"
+      ],
+      "citation_publication_date": [
+        "2025"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      ],
+      "citation_firstpage": [
+        "17592"
+      ],
+      "citation_lastpage": [
+        "17602"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_EnergyMoGen_Compositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Model_in_CVPR_2025_paper.pdf"
+      ]
+    },
+    "title": "EnergyMoGen: Compositional Human Motion Generation with Energy-Based Diffusion Model in Latent Space",
+    "authors": [
+      "Zhang, Jianrong",
+      "Fan, Hehe",
+      "Yang, Yi"
+    ],
+    "year": 2025,
+    "bibtex": "@InProceedings{Zhang_2025_CVPR,\n    author    = {Zhang, Jianrong and Fan, Hehe and Yang, Yi},\n    title     = {EnergyMoGen: Compositional Human Motion Generation with Energy-Based Diffusion Model in Latent Space},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2025},\n    pages     = {17592-17602}\n}"
+  },
+  "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Towards_Decompositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Models_CVPR_2026_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Towards_Decompositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Models_CVPR_2026_paper.pdf",
+    "checked_utc": "2026-11-19T07:48:00.512901+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Towards_Decompositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Models_CVPR_2026_paper.html",
+    "meta": {
+      "citation_title": [
+        "Towards Decompositional Human Motion Generation with Energy-Based Diffusion Models"
+      ],
+      "citation_author": [
+        "Zhang, Jianrong",
+        "Fan, Hehe",
+        "Yang, Yi"
+      ],
+      "citation_publication_date": [
+        "2026"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      ],
+      "citation_firstpage": [
+        "30650"
+      ],
+      "citation_lastpage": [
+        "30660"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Towards_Decompositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Models_CVPR_2026_paper.pdf"
+      ]
+    },
+    "title": "Towards Decompositional Human Motion Generation with Energy-Based Diffusion Models",
+    "authors": [
+      "Zhang, Jianrong",
+      "Fan, Hehe",
+      "Yang, Yi"
+    ],
+    "year": 2026,
+    "bibtex": "@InProceedings{Zhang_2026_CVPR,\n    author    = {Zhang, Jianrong and Fan, Hehe and Yang, Yi},\n    title     = {Towards Decompositional Human Motion Generation with Energy-Based Diffusion Models},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {30650-30660}\n}"
+  },
+  "https://openaccess.thecvf.com/content/ICCV2023/papers/Athanasiou_SINC_Spatial_Composition_of_3D_Human_Motions_for_Simultaneous_Action_ICCV_2023_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Athanasiou_SINC_Spatial_Composition_of_3D_Human_Motions_for_Simultaneous_Action_ICCV_2023_paper.pdf",
+    "checked_utc": "2026-11-19T07:48:00.513711+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Athanasiou_SINC_Spatial_Composition_of_3D_Human_Motions_for_Simultaneous_Action_ICCV_2023_paper.html",
+    "meta": {
+      "citation_title": [
+        "SINC: Spatial Composition of 3D Human Motions for Simultaneous Action Generation"
+      ],
+      "citation_author": [
+        "Athanasiou, Nikos",
+        "Petrovich, Mathis",
+        "Black, Michael J.",
+        "Varol, Gül"
+      ],
+      "citation_publication_date": [
+        "2023"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF International Conference on Computer Vision"
+      ],
+      "citation_firstpage": [
+        "9984"
+      ],
+      "citation_lastpage": [
+        "9995"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/ICCV2023/papers/Athanasiou_SINC_Spatial_Composition_of_3D_Human_Motions_for_Simultaneous_Action_ICCV_2023_paper.pdf"
+      ]
+    },
+    "title": "SINC: Spatial Composition of 3D Human Motions for Simultaneous Action Generation",
+    "authors": [
+      "Athanasiou, Nikos",
+      "Petrovich, Mathis",
+      "Black, Michael J.",
+      "Varol, Gül"
+    ],
+    "year": 2023,
+    "bibtex": "@InProceedings{Athanasiou_2023_ICCV,\n    author    = {Athanasiou, Nikos and Petrovich, Mathis and Black, Michael J. and Varol, G\\\"ul},\n    title     = {SINC: Spatial Composition of 3D Human Motions for Simultaneous Action Generation},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2023},\n    pages     = {9984-9995}\n}"
+  },
+  "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Sequential_Texts_Driven_Cohesive_Motions_Synthesis_with_Natural_Transitions_ICCV_2023_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Sequential_Texts_Driven_Cohesive_Motions_Synthesis_with_Natural_Transitions_ICCV_2023_paper.pdf",
+    "checked_utc": "2026-11-19T07:48:01.370066+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_Sequential_Texts_Driven_Cohesive_Motions_Synthesis_with_Natural_Transitions_ICCV_2023_paper.html",
+    "meta": {
+      "citation_title": [
+        "Sequential Texts Driven Cohesive Motions Synthesis with Natural Transitions"
+      ],
+      "citation_author": [
+        "Li, Shuai",
+        "Zhuang, Sisi",
+        "Song, Wenfeng",
+        "Zhang, Xinyu",
+        "Chen, Hejia",
+        "Hao, Aimin"
+      ],
+      "citation_publication_date": [
+        "2023"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF International Conference on Computer Vision"
+      ],
+      "citation_firstpage": [
+        "9498"
+      ],
+      "citation_lastpage": [
+        "9508"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Sequential_Texts_Driven_Cohesive_Motions_Synthesis_with_Natural_Transitions_ICCV_2023_paper.pdf"
+      ]
+    },
+    "title": "Sequential Texts Driven Cohesive Motions Synthesis with Natural Transitions",
+    "authors": [
+      "Li, Shuai",
+      "Zhuang, Sisi",
+      "Song, Wenfeng",
+      "Zhang, Xinyu",
+      "Chen, Hejia",
+      "Hao, Aimin"
+    ],
+    "year": 2023,
+    "bibtex": "@InProceedings{Li_2023_ICCV,\n    author    = {Li, Shuai and Zhuang, Sisi and Song, Wenfeng and Zhang, Xinyu and Chen, Hejia and Hao, Aimin},\n    title     = {Sequential Texts Driven Cohesive Motions Synthesis with Natural Transitions},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2023},\n    pages     = {9498-9508}\n}"
+  },
+  "https://openaccess.thecvf.com/content/ICCV2025/papers/Wu_Human-Object_Interaction_from_Human-Level_Instructions_ICCV_2025_paper.pdf": {
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wu_Human-Object_Interaction_from_Human-Level_Instructions_ICCV_2025_paper.pdf",
+    "checked_utc": "2026-11-19T07:48:01.404887+00:00",
+    "status": "ok",
+    "metadata_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wu_Human-Object_Interaction_from_Human-Level_Instructions_ICCV_2025_paper.html",
+    "meta": {
+      "citation_title": [
+        "Human-Object Interaction from Human-Level Instructions"
+      ],
+      "citation_author": [
+        "Wu, Zhen",
+        "Li, Jiaman",
+        "Xu, Pei",
+        "Liu, C. Karen"
+      ],
+      "citation_publication_date": [
+        "2025"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the IEEE/CVF International Conference on Computer Vision"
+      ],
+      "citation_firstpage": [
+        "11176"
+      ],
+      "citation_lastpage": [
+        "11186"
+      ],
+      "citation_pdf_url": [
+        "https://openaccess.thecvf.com/content/ICCV2025/papers/Wu_Human-Object_Interaction_from_Human-Level_Instructions_ICCV_2025_paper.pdf"
+      ]
+    },
+    "title": "Human-Object Interaction from Human-Level Instructions",
+    "authors": [
+      "Wu, Zhen",
+      "Li, Jiaman",
+      "Xu, Pei",
+      "Liu, C. Karen"
+    ],
+    "year": 2025,
+    "bibtex": "@InProceedings{Wu_2025_ICCV,\n    author    = {Wu, Zhen and Li, Jiaman and Xu, Pei and Liu, C. Karen},\n    title     = {Human-Object Interaction from Human-Level Instructions},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2025},\n    pages     = {11176-11186}\n}"
+  },
+  "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01249.pdf": {
+    "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01249.pdf",
+    "checked_utc": "2026-11-19T07:48:01.405771+00:00",
+    "status": "metadata_unavailable",
+    "error": "PDF identity retained; no HTML bibliography endpoint configured"
+  },
+  "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02316.pdf": {
+    "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02316.pdf",
+    "checked_utc": "2026-11-19T07:48:01.405785+00:00",
+    "status": "metadata_unavailable",
+    "error": "PDF identity retained; no HTML bibliography endpoint configured"
+  },
+  "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05358.pdf": {
+    "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05358.pdf",
+    "checked_utc": "2026-11-19T07:48:01.405793+00:00",
+    "status": "metadata_unavailable",
+    "error": "PDF identity retained; no HTML bibliography endpoint configured"
+  },
+  "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06630.pdf": {
+    "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06630.pdf",
+    "checked_utc": "2026-11-19T07:48:01.405798+00:00",
+    "status": "metadata_unavailable",
+    "error": "PDF identity retained; no HTML bibliography endpoint configured"
+  },
+  "https://www.ipab.inf.ed.ac.uk/cgvu/motionsynthesis.pdf": {
+    "url": "https://www.ipab.inf.ed.ac.uk/cgvu/motionsynthesis.pdf",
+    "checked_utc": "2026-11-19T07:48:01.405804+00:00",
+    "status": "metadata_unavailable",
+    "error": "PDF identity retained; no HTML bibliography endpoint configured"
+  },
+  "https://arxiv.org/abs/2212.07555": {
+    "url": "https://arxiv.org/abs/2212.07555",
+    "checked_utc": "2026-11-19T07:49:54.321463+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2212.07555",
+    "bibtex": "@misc{ghosh2023imosintentdrivenfullbodymotion,\n      title={IMos: Intent-Driven Full-Body Motion Synthesis for Human-Object Interactions}, \n      author={Anindita Ghosh and Rishabh Dabral and Vladislav Golyanik and Christian Theobalt and Philipp Slusallek},\n      year={2023},\n      eprint={2212.07555},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2212.07555}, \n}",
+    "title": "IMos: Intent-Driven Full-Body Motion Synthesis for Human-Object Interactions",
+    "authors": [
+      "Anindita Ghosh",
+      "Rishabh Dabral",
+      "Vladislav Golyanik",
+      "Christian Theobalt",
+      "Philipp Slusallek"
+    ],
+    "year": 2023,
+    "arxiv": "2212.07555"
+  },
+  "https://arxiv.org/abs/2311.17057": {
+    "url": "https://arxiv.org/abs/2311.17057",
+    "checked_utc": "2026-11-19T07:49:54.322188+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2311.17057",
+    "bibtex": "@misc{ghosh2024remos3dmotionconditionedreaction,\n      title={ReMoS: 3D Motion-Conditioned Reaction Synthesis for Two-Person Interactions}, \n      author={Anindita Ghosh and Rishabh Dabral and Vladislav Golyanik and Christian Theobalt and Philipp Slusallek},\n      year={2024},\n      eprint={2311.17057},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2311.17057}, \n}",
+    "title": "ReMoS: 3D Motion-Conditioned Reaction Synthesis for Two-Person Interactions",
+    "authors": [
+      "Anindita Ghosh",
+      "Rishabh Dabral",
+      "Vladislav Golyanik",
+      "Christian Theobalt",
+      "Philipp Slusallek"
+    ],
+    "year": 2024,
+    "arxiv": "2311.17057"
+  },
+  "https://arxiv.org/abs/2312.02700": {
+    "url": "https://arxiv.org/abs/2312.02700",
+    "checked_utc": "2026-11-19T07:49:54.322584+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2312.02700",
+    "bibtex": "@misc{liu2024revisithumansceneinteractionspace,\n      title={Revisit Human-Scene Interaction via Space Occupancy}, \n      author={Xinpeng Liu and Haowen Hou and Yanchao Yang and Yong-Lu Li and Cewu Lu},\n      year={2024},\n      eprint={2312.02700},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2312.02700}, \n}",
+    "title": "Revisit Human-Scene Interaction via Space Occupancy",
+    "authors": [
+      "Xinpeng Liu",
+      "Haowen Hou",
+      "Yanchao Yang",
+      "Yong-Lu Li",
+      "Cewu Lu"
+    ],
+    "year": 2024,
+    "arxiv": "2312.02700"
+  },
+  "https://arxiv.org/abs/2403.19435": {
+    "url": "https://arxiv.org/abs/2403.19435",
+    "checked_utc": "2026-11-19T07:49:54.322977+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2403.19435",
+    "bibtex": "@misc{pinyoanuntapong2024bammbidirectionalautoregressivemotion,\n      title={BAMM: Bidirectional Autoregressive Motion Model}, \n      author={Ekkasit Pinyoanuntapong and Muhammad Usama Saleem and Pu Wang and Minwoo Lee and Srijan Das and Chen Chen},\n      year={2024},\n      eprint={2403.19435},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2403.19435}, \n}",
+    "title": "BAMM: Bidirectional Autoregressive Motion Model",
+    "authors": [
+      "Ekkasit Pinyoanuntapong",
+      "Muhammad Usama Saleem",
+      "Pu Wang",
+      "Minwoo Lee",
+      "Srijan Das",
+      "Chen Chen"
+    ],
+    "year": 2024,
+    "arxiv": "2403.19435"
+  },
+  "https://arxiv.org/abs/2405.15763": {
+    "url": "https://arxiv.org/abs/2405.15763",
+    "checked_utc": "2026-11-19T07:49:55.044018+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2405.15763",
+    "bibtex": "@misc{fan2024freemotionunifiedframeworknumberfree,\n      title={FreeMotion: A Unified Framework for Number-free Text-to-Motion Synthesis}, \n      author={Ke Fan and Junshu Tang and Weijian Cao and Ran Yi and Moran Li and Jingyu Gong and Jiangning Zhang and Yabiao Wang and Chengjie Wang and Lizhuang Ma},\n      year={2024},\n      eprint={2405.15763},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2405.15763}, \n}",
+    "title": "FreeMotion: A Unified Framework for Number-free Text-to-Motion Synthesis",
+    "authors": [
+      "Ke Fan",
+      "Junshu Tang",
+      "Weijian Cao",
+      "Ran Yi",
+      "Moran Li",
+      "Jingyu Gong",
+      "Jiangning Zhang",
+      "Yabiao Wang",
+      "Chengjie Wang",
+      "Lizhuang Ma"
+    ],
+    "year": 2024,
+    "arxiv": "2405.15763"
+  },
+  "https://arxiv.org/abs/2509.23612": {
+    "url": "https://arxiv.org/abs/2509.23612",
+    "checked_utc": "2026-11-19T07:49:55.248804+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2509.23612",
+    "bibtex": "@misc{cai2025interactmovetextcontrolledhumanobjectinteraction,\n      title={InteractMove: Text-Controlled Human-Object Interaction Generation in 3D Scenes with Movable Objects}, \n      author={Xinhao Cai and Minghang Zheng and Xin Jin and Yang Liu},\n      year={2025},\n      eprint={2509.23612},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2509.23612}, \n}",
+    "title": "InteractMove: Text-Controlled Human-Object Interaction Generation in 3D Scenes with Movable Objects",
+    "authors": [
+      "Xinhao Cai",
+      "Minghang Zheng",
+      "Xin Jin",
+      "Yang Liu"
+    ],
+    "year": 2025,
+    "arxiv": "2509.23612"
+  },
+  "https://escholarship.org/uc/item/23g204tp": {
+    "url": "https://escholarship.org/uc/item/23g204tp",
+    "metadata_url": "https://escholarship.org/uc/item/23g204tp",
+    "status": "ok",
+    "origin": "manually_transcribed_primary_source",
+    "title": "Motion Synthesis from Annotations",
+    "authors": [
+      "Okan Arikan",
+      "David A. Forsyth",
+      "James F. O'Brien"
+    ],
+    "year": 2003,
+    "bibtex": "@article{arikan2003annotations,\n title={{Motion Synthesis from Annotations}},\n author={Okan Arikan and David A. Forsyth and James F. O'Brien},\n journal={ACM Transactions on Graphics}, year={2003},\n doi={10.1145/882262.882284}, url={https://escholarship.org/uc/item/23g204tp}\n}",
+    "checked_utc": "2026-11-19T07:52:57.797281+00:00"
+  },
+  "https://experts.illinois.edu/en/publications/interactive-motion-generation-from-examples/": {
+    "url": "https://experts.illinois.edu/en/publications/interactive-motion-generation-from-examples/",
+    "checked_utc": "2026-11-19T07:49:55.458665+00:00",
+    "status": "ok",
+    "metadata_url": "https://experts.illinois.edu/en/publications/interactive-motion-generation-from-examples/",
+    "meta": {
+      "citation_title": [
+        "Interactive motion generation from examples"
+      ],
+      "citation_inbook_title": [
+        "Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02"
+      ],
+      "citation_author": [
+        "Okan Arikan",
+        "D. A. Forsyth"
+      ],
+      "citation_author_institution": [
+        "University of California at Berkeley",
+        "University of California at Berkeley"
+      ],
+      "citation_author_email": [
+        "daf@illinois.edu"
+      ],
+      "citation_publication_date": [
+        "2002"
+      ],
+      "citation_doi": [
+        "10.1145/566570.566606"
+      ],
+      "citation_language": [
+        "English (US)"
+      ],
+      "citation_keywords": [
+        "animation with constraints; clustering; graph search; human motion; motion capture; motion synthesis"
+      ],
+      "citation_firstpage": [
+        "483"
+      ],
+      "citation_lastpage": [
+        "490"
+      ],
+      "citation_conference_title": [
+        "29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02"
+      ]
+    },
+    "title": "Interactive motion generation from examples",
+    "authors": [
+      "Okan Arikan",
+      "D. A. Forsyth"
+    ],
+    "year": 2002,
+    "bibtex": "@inproceedings{02effbbf236d45edb64eeddfb6bd6d18,\n  title     = \"Interactive motion generation from examples\",\n  abstract  = \"There are many applications that demand large quantities of natural looking motion. It is difficult to synthesize motion that looks natural, particularly when it is people who must move. In this paper, we present a framework that generates human motions by cutting and pasting motion capture data. Selecting a collection of clips that yields an acceptable motion is a combinatorial problem that we manage as a randomized search of a hierarchy of graphs. This approach can generate motion sequences that satisfy a variety of constraints automatically. The motions are smooth and human-looking. They are generated in real time so that we can author complex motions interactively. The algorithm generates multiple motions that satisfy a given set of constraints, allowing a variety of choices for the animator. It can easily synthesize multiple motions that interact with each other using constraints. This framework allows the extensive re-use of motion capture data for new purposes.\",\n  keywords  = \"animation with constraints, clustering, graph search, human motion, motion capture, motion synthesis\",\n  author    = \"Okan Arikan and Forsyth, \\{D. A.\\}\",\n  year      = \"2002\",\n  doi       = \"10.1145/566570.566606\",\n  language  = \"English (US)\",\n  isbn      = \"1581135211\",\n  series    = \"Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02\",\n  pages     = \"483--490\",\n  booktitle = \"Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02\",\n  note      = \"29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02 ; Conference date: 23-07-2002 Through 26-07-2002\",\n}"
+  },
+  "https://graphics.cs.wisc.edu/Papers/2007/HG07/": {
+    "url": "https://graphics.cs.wisc.edu/Papers/2007/HG07/",
+    "checked_utc": "2026-11-19T07:49:55.662545+00:00",
+    "status": "ok",
+    "metadata_url": "https://graphics.cs.wisc.edu/Papers/2007/HG07/",
+    "meta": {},
+    "bibtex": "@InProceedings{HG07,\n  author       = \"Heck, Rachel and Gleicher, Michael\",\n  title        = \"Parametric Motion Graphs\",\n  booktitle    = \"Proceedings of the Symposium on Interactive 3D Graphics\",\n  month        = \"apr\",\n  year         = \"2007\",\n  url          = \"http://graphics.cs.wisc.edu/Papers/2007/HG07\"\n}",
+    "title": null
+  },
+  "https://www.research.ed.ac.uk/en/publications/a-deep-learning-framework-for-character-motion-synthesis-and-edit/": {
+    "url": "https://www.research.ed.ac.uk/en/publications/a-deep-learning-framework-for-character-motion-synthesis-and-edit/",
+    "checked_utc": "2026-11-19T07:49:56.061326+00:00",
+    "status": "ok",
+    "metadata_url": "https://www.research.ed.ac.uk/en/publications/a-deep-learning-framework-for-character-motion-synthesis-and-edit/",
+    "meta": {
+      "citation_title": [
+        "A Deep Learning Framework for Character Motion Synthesis and Editing"
+      ],
+      "citation_author": [
+        "Daniel Holden",
+        "Jun Saito",
+        "Taku Komura"
+      ],
+      "citation_author_institution": [
+        "Yale University",
+        "School of Informatics",
+        "Institute of Perception, Action and Behaviour ",
+        "Language, Interaction, and Robotics"
+      ],
+      "citation_publication_date": [
+        "2016/07/11"
+      ],
+      "citation_online_date": [
+        "2016/09/27",
+        "2016/09/27"
+      ],
+      "citation_pdf_url": [
+        "https://www.research.ed.ac.uk/files/25269752/motionsynthesis.pdf"
+      ],
+      "citation_doi": [
+        "10.1145/2897824.2925975"
+      ],
+      "citation_language": [
+        "English"
+      ],
+      "citation_journal_title": [
+        "ACM Transactions on Graphics"
+      ],
+      "citation_issn": [
+        "0730-0301"
+      ],
+      "citation_publisher": [
+        "Association for Computing Machinery"
+      ],
+      "citation_volume": [
+        "35"
+      ],
+      "citation_issue": [
+        "4"
+      ],
+      "citation_firstpage": [
+        "138"
+      ]
+    },
+    "title": "A Deep Learning Framework for Character Motion Synthesis and Editing",
+    "authors": [
+      "Daniel Holden",
+      "Jun Saito",
+      "Taku Komura"
+    ],
+    "year": 2016,
+    "bibtex": "@article{0938c539935a41e686fc2f27fff4f022,\n  title     = \"A Deep Learning Framework for Character Motion Synthesis and Editing\",\n  abstract  = \"We present a framework to synthesize character movements based on high level parameters, such that the produced movements respec t he manifold of human motion, trained on a large motion capture dataset. The learned motion manifold, which is represented by the hidden units of a convolutional autoencoder, represents motion data in sparse components which can be combined to produce a wide range of complex movements. To map from high level parameters to the motion manifold, we stack a deep feedforward neural network on top of the trained autoencoder. This network is trained to produce realistic motion sequences from parameters such as a curve over the terrain that the character should follow, or a target location for punching and kicking. The feedforward control network and the motion manifold are trained independently, allowing the user to easily switch between feedforward networks according to the desired interface, without re-training the motion manifold.Once motion is generated it can be edited by performing optimization in the space of the motion manifold. This allows for imposingkinematic constraints, or transforming the style of the motion, while ensuring the edited motion remains natural. As a result, the system can produce smooth, high quality motion sequences without any manual pre-processing of the training data.\",\n  author    = \"Daniel Holden and Jun Saito and Taku Komura\",\n  year      = \"2016\",\n  month     = jul,\n  day       = \"11\",\n  doi       = \"10.1145/2897824.2925975\",\n  language  = \"English\",\n  volume    = \"35\",\n  journal   = \"ACM Transactions on Graphics\",\n  issn      = \"0730-0301\",\n  publisher = \"Association for Computing Machinery\",\n  number    = \"4\",\n}"
+  },
+  "https://arxiv.org/abs/2309.10248": {
+    "url": "https://arxiv.org/abs/2309.10248",
+    "checked_utc": "2026-11-19T07:52:06.013992+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2309.10248",
+    "bibtex": "@misc{voas2023bestautomatedmetrictext,\n      title={What is the Best Automated Metric for Text to Motion Generation?}, \n      author={Jordan Voas and Yili Wang and Qixing Huang and Raymond Mooney},\n      year={2023},\n      eprint={2309.10248},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      doi={https://doi.org/10.1145/3588432.3591550},\n      url={https://arxiv.org/abs/2309.10248}, \n}",
+    "title": "What is the Best Automated Metric for Text to Motion Generation?",
+    "authors": [
+      "Jordan Voas",
+      "Yili Wang",
+      "Qixing Huang",
+      "Raymond Mooney"
+    ],
+    "year": 2023,
+    "arxiv": "2309.10248"
+  },
+  "https://arxiv.org/abs/2507.07095": {
+    "url": "https://arxiv.org/abs/2507.07095",
+    "checked_utc": "2026-11-19T07:52:06.014709+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2507.07095",
+    "bibtex": "@misc{fan2025zerozeroshotmotiongeneration,\n      title={Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data}, \n      author={Ke Fan and Shunlin Lu and Minyue Dai and Runyi Yu and Lixing Xiao and Zhiyang Dou and Junting Dong and Lizhuang Ma and Jingbo Wang},\n      year={2025},\n      eprint={2507.07095},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2507.07095}, \n}",
+    "title": "Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data",
+    "authors": [
+      "Ke Fan",
+      "Shunlin Lu",
+      "Minyue Dai",
+      "Runyi Yu",
+      "Lixing Xiao",
+      "Zhiyang Dou",
+      "Junting Dong",
+      "Lizhuang Ma",
+      "Jingbo Wang"
+    ],
+    "year": 2025,
+    "arxiv": "2507.07095"
+  },
+  "https://arxiv.org/abs/2507.19850": {
+    "url": "https://arxiv.org/abs/2507.19850",
+    "checked_utc": "2026-11-19T07:52:06.015106+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2507.19850",
+    "bibtex": "@misc{wu2025finemotiondatasetbenchmarkspatial,\n      title={FineMotion: A Dataset and Benchmark with both Spatial and Temporal Annotation for Fine-grained Motion Generation and Editing}, \n      author={Bizhu Wu and Jinheng Xie and Meidan Ding and Zhe Kong and Jianfeng Ren and Ruibin Bai and Rong Qu and Linlin Shen},\n      year={2025},\n      eprint={2507.19850},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2507.19850}, \n}",
+    "title": "FineMotion: A Dataset and Benchmark with both Spatial and Temporal Annotation for Fine-grained Motion Generation and Editing",
+    "authors": [
+      "Bizhu Wu",
+      "Jinheng Xie",
+      "Meidan Ding",
+      "Zhe Kong",
+      "Jianfeng Ren",
+      "Ruibin Bai",
+      "Rong Qu",
+      "Linlin Shen"
+    ],
+    "year": 2025,
+    "arxiv": "2507.19850"
+  },
+  "https://arxiv.org/abs/2510.26794": {
+    "url": "https://arxiv.org/abs/2510.26794",
+    "checked_utc": "2026-11-19T07:52:06.015437+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2510.26794",
+    "bibtex": "@misc{lin2026questgeneralizablemotiongeneration,\n      title={The Quest for Generalizable Motion Generation: Data, Model, and Evaluation}, \n      author={Jing Lin and Ruisi Wang and Junzhe Lu and Ziqi Huang and Guorui Song and Ailing Zeng and Xian Liu and Chen Wei and Wanqi Yin and Qingping Sun and Zhongang Cai and Lei Yang and Ziwei Liu},\n      year={2026},\n      eprint={2510.26794},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2510.26794}, \n}",
+    "title": "The Quest for Generalizable Motion Generation: Data, Model, and Evaluation",
+    "authors": [
+      "Jing Lin",
+      "Ruisi Wang",
+      "Junzhe Lu",
+      "Ziqi Huang",
+      "Guorui Song",
+      "Ailing Zeng",
+      "Xian Liu",
+      "Chen Wei",
+      "Wanqi Yin",
+      "Qingping Sun",
+      "Zhongang Cai",
+      "Lei Yang",
+      "Ziwei Liu"
+    ],
+    "year": 2026,
+    "arxiv": "2510.26794"
+  }
+}

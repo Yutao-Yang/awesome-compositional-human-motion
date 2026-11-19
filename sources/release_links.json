@@ -1,0 +1,844 @@
+[
+  {
+    "id": "parametric-motion-graphs",
+    "source": "https://graphics.cs.wisc.edu/Papers/2007/HG07/",
+    "checked_utc": "2026-11-19T07:57:13.441795+00:00"
+  },
+  {
+    "id": "motion-annotations",
+    "source": "https://escholarship.org/uc/item/23g204tp",
+    "checked_utc": "2026-11-19T07:57:13.442036+00:00"
+  },
+  {
+    "id": "interactive-motion-examples",
+    "source": "https://experts.illinois.edu/en/publications/interactive-motion-generation-from-examples/",
+    "checked_utc": "2026-11-19T07:57:13.441999+00:00"
+  },
+  {
+    "id": "motion-graphs",
+    "source": "https://graphics.cs.wisc.edu/Papers/2002/KGP02/",
+    "checked_utc": "2026-11-19T07:57:13.442220+00:00"
+  },
+  {
+    "id": "prism",
+    "source": "https://arxiv.org/abs/2603.08590",
+    "checked_utc": "2026-11-19T07:57:13.442695+00:00",
+    "code_candidates": [
+      "https://github.com/ZeyuLing/PRISM"
+    ],
+    "code": "https://github.com/ZeyuLing/PRISM",
+    "code_http_status": 200
+  },
+  {
+    "id": "timelinecontrol",
+    "source": "https://arxiv.org/abs/2610.03873",
+    "checked_utc": "2026-11-19T07:57:13.442238+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "t2lm",
+    "source": "https://arxiv.org/abs/2406.00636",
+    "checked_utc": "2026-11-19T07:57:13.443063+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "dart",
+    "source": "https://arxiv.org/abs/2410.05260",
+    "checked_utc": "2026-11-19T07:57:13.443339+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://zkf1997.github.io/DART/"
+    ]
+  },
+  {
+    "id": "amd-autoregressive",
+    "source": "https://arxiv.org/abs/2305.09381",
+    "checked_utc": "2026-11-19T07:57:14.359826+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "motion-mamba",
+    "source": "https://arxiv.org/abs/2403.07487",
+    "checked_utc": "2026-11-19T07:57:14.524612+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://steve-zeyu-zhang.github.io/MotionMamba/"
+    ]
+  },
+  {
+    "id": "stmc",
+    "source": "https://openaccess.thecvf.com/content/CVPR2024W/HuMoGen/papers/Petrovich_Multi-Track_Timeline_Control_for_Text-Driven_3D_Human_Motion_Generation_CVPRW_2024_paper.pdf",
+    "checked_utc": "2026-11-19T07:57:14.525252+00:00"
+  },
+  {
+    "id": "flowmdm",
+    "source": "https://arxiv.org/abs/2402.15509",
+    "checked_utc": "2026-11-19T07:57:14.525267+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "diffcollage",
+    "source": "https://arxiv.org/abs/2303.17076",
+    "checked_utc": "2026-11-19T07:57:14.970564+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "priormdm",
+    "source": "https://arxiv.org/abs/2303.01418",
+    "checked_utc": "2026-11-19T07:57:15.379142+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "multi-act-2022",
+    "source": "https://arxiv.org/abs/2212.05897",
+    "checked_utc": "2026-11-19T07:57:15.379625+00:00",
+    "code_candidates": [
+      "https://github.com/TaeryungLee/MultiAct_RELEASE"
+    ],
+    "code": "https://github.com/TaeryungLee/MultiAct_RELEASE",
+    "code_http_status": 200
+  },
+  {
+    "id": "st2m",
+    "source": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Sequential_Texts_Driven_Cohesive_Motions_Synthesis_with_Natural_Transitions_ICCV_2023_paper.pdf",
+    "checked_utc": "2026-11-19T07:57:15.379966+00:00"
+  },
+  {
+    "id": "teach",
+    "source": "https://arxiv.org/abs/2209.04066",
+    "checked_utc": "2026-11-19T07:57:15.379978+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "amd-anatomical",
+    "source": "https://arxiv.org/abs/2312.12763",
+    "checked_utc": "2026-11-19T07:57:15.992953+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "fusion",
+    "source": "https://arxiv.org/abs/2601.03959",
+    "checked_utc": "2026-11-19T07:57:15.995902+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "frankenmotion",
+    "source": "https://arxiv.org/abs/2601.10909",
+    "checked_utc": "2026-11-19T07:57:16.200253+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "demogen",
+    "source": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Towards_Decompositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Models_CVPR_2026_paper.pdf",
+    "checked_utc": "2026-11-19T07:57:16.605964+00:00"
+  },
+  {
+    "id": "coma",
+    "source": "https://arxiv.org/abs/2412.07320",
+    "checked_utc": "2026-11-19T07:57:16.605988+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "energymogen",
+    "source": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_EnergyMoGen_Compositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Model_in_CVPR_2025_paper.pdf",
+    "checked_utc": "2026-11-19T07:57:16.607210+00:00"
+  },
+  {
+    "id": "mixermdm",
+    "source": "https://arxiv.org/abs/2504.01019",
+    "checked_utc": "2026-11-19T07:57:16.607222+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "salad",
+    "source": "https://arxiv.org/abs/2503.13836",
+    "checked_utc": "2026-11-19T07:57:16.813105+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "parco",
+    "source": "https://arxiv.org/abs/2403.18512",
+    "checked_utc": "2026-11-19T07:57:17.224890+00:00",
+    "code_candidates": [
+      "https://github.com/qrzou/ParCo"
+    ],
+    "code": "https://github.com/qrzou/ParCo",
+    "code_http_status": 200
+  },
+  {
+    "id": "sinc",
+    "source": "https://arxiv.org/abs/2304.10417",
+    "checked_utc": "2026-11-19T07:57:17.225938+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "motionlab",
+    "source": "https://arxiv.org/abs/2502.02358",
+    "checked_utc": "2026-11-19T07:57:17.226172+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://diouo.github.io/motionlab.github.io/"
+    ]
+  },
+  {
+    "id": "motionclr",
+    "source": "https://arxiv.org/abs/2410.18977",
+    "checked_utc": "2026-11-19T07:57:17.840701+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "bamm",
+    "source": "https://arxiv.org/abs/2403.19435",
+    "checked_utc": "2026-11-19T07:57:18.071929+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://exitudio.github.io/BAMM-page"
+    ]
+  },
+  {
+    "id": "infinite-motion",
+    "source": "https://arxiv.org/abs/2407.08443",
+    "checked_utc": "2026-11-19T07:57:18.456583+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://shuochengzhai.github.io/Infinite-motion.github.io/"
+    ]
+  },
+  {
+    "id": "mmm",
+    "source": "https://arxiv.org/abs/2312.03596",
+    "checked_utc": "2026-11-19T07:57:19.035554+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://exitudio.github.io/MMM-page"
+    ]
+  },
+  {
+    "id": "motionfix",
+    "source": "https://arxiv.org/abs/2408.00712",
+    "checked_utc": "2026-11-19T07:57:19.266508+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "motionclip",
+    "source": "https://arxiv.org/abs/2203.08063",
+    "checked_utc": "2026-11-19T07:57:19.478544+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "holden-deep-motion",
+    "source": "https://www.research.ed.ac.uk/en/publications/a-deep-learning-framework-for-character-motion-synthesis-and-edit/",
+    "checked_utc": "2026-11-19T07:57:19.479330+00:00"
+  },
+  {
+    "id": "mld",
+    "source": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf",
+    "checked_utc": "2026-11-19T07:57:19.479344+00:00"
+  },
+  {
+    "id": "momask",
+    "source": "https://arxiv.org/abs/2312.00063",
+    "checked_utc": "2026-11-19T07:57:19.479353+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "t2m-gpt",
+    "source": "https://arxiv.org/abs/2301.06052",
+    "checked_utc": "2026-11-19T07:57:19.887660+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "tmr",
+    "source": "https://arxiv.org/abs/2305.00976",
+    "checked_utc": "2026-11-19T07:57:20.093490+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "mdm",
+    "source": "https://arxiv.org/abs/2209.14916",
+    "checked_utc": "2026-11-19T07:57:20.296522+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://guytevet.github.io/mdm-page/"
+    ]
+  },
+  {
+    "id": "motion-puzzle",
+    "source": "https://arxiv.org/abs/2202.05274",
+    "checked_utc": "2026-11-19T07:57:20.704923+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "motiondiffuse",
+    "source": "https://arxiv.org/abs/2208.15001",
+    "checked_utc": "2026-11-19T07:57:20.705697+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://mingyuan-zhang.github.io/projects/MotionDiffuse.html"
+    ]
+  },
+  {
+    "id": "temos",
+    "source": "https://arxiv.org/abs/2204.14109",
+    "checked_utc": "2026-11-19T07:57:20.706520+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "actor",
+    "source": "https://arxiv.org/abs/2104.05670",
+    "checked_utc": "2026-11-19T07:57:20.910125+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "skeleton-aware-retarget",
+    "source": "https://arxiv.org/abs/2005.05732",
+    "checked_utc": "2026-11-19T07:57:21.319875+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "unpaired-style",
+    "source": "https://arxiv.org/abs/2005.05751",
+    "checked_utc": "2026-11-19T07:57:21.519955+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "language2pose",
+    "source": "https://arxiv.org/abs/1907.01108",
+    "checked_utc": "2026-11-19T07:57:21.520512+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "plappert-bidirectional",
+    "source": "https://arxiv.org/abs/1705.06400",
+    "checked_utc": "2026-11-19T07:57:21.930629+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "cosmi",
+    "source": "https://arxiv.org/abs/2610.03252",
+    "checked_utc": "2026-11-19T07:57:22.139244+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://ptrvilya.github.io/cosmi"
+    ]
+  },
+  {
+    "id": "dechoi",
+    "source": "https://arxiv.org/abs/2512.19049",
+    "checked_utc": "2026-11-19T07:57:22.139740+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "duethoi",
+    "source": "https://arxiv.org/abs/2603.08390",
+    "checked_utc": "2026-11-19T07:57:22.550754+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "trace",
+    "source": "https://arxiv.org/abs/2609.32551",
+    "checked_utc": "2026-11-19T07:57:22.571034+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "pami",
+    "source": "https://arxiv.org/abs/2609.38466",
+    "checked_utc": "2026-11-19T07:57:22.751551+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "sk-hoi",
+    "source": "https://arxiv.org/abs/2608.03158",
+    "checked_utc": "2026-11-19T07:57:22.907191+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "hoifhli",
+    "source": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wu_Human-Object_Interaction_from_Human-Level_Instructions_ICCV_2025_paper.pdf",
+    "checked_utc": "2026-11-19T07:57:23.367927+00:00"
+  },
+  {
+    "id": "interact",
+    "source": "https://arxiv.org/abs/2509.09555",
+    "checked_utc": "2026-11-19T07:57:23.367938+00:00",
+    "code_candidates": [
+      "https://github.com/wzyabcas/InterAct"
+    ],
+    "code": "https://github.com/wzyabcas/InterAct",
+    "code_http_status": 200
+  },
+  {
+    "id": "interactmove",
+    "source": "https://arxiv.org/abs/2509.23612",
+    "checked_utc": "2026-11-19T07:57:23.571857+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "primhoi",
+    "source": "https://openaccess.thecvf.com/content/ICCV2025/html/Jia_PrimHOI_Compositional_Human-Object_Interaction_via_Reusable_Primitives_ICCV_2025_paper.html",
+    "checked_utc": "2026-11-19T07:57:23.572204+00:00"
+  },
+  {
+    "id": "cg-hoi",
+    "source": "https://arxiv.org/abs/2311.16097",
+    "checked_utc": "2026-11-19T07:57:23.572216+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "chois",
+    "source": "https://arxiv.org/abs/2312.03913",
+    "checked_utc": "2026-11-19T07:57:23.775350+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "himo",
+    "source": "https://arxiv.org/abs/2407.12371",
+    "checked_utc": "2026-11-19T07:57:24.389770+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "procigen",
+    "source": "https://arxiv.org/abs/2312.07063",
+    "checked_utc": "2026-11-19T07:57:24.601699+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "goal",
+    "source": "https://arxiv.org/abs/2112.11454",
+    "checked_utc": "2026-11-19T07:57:24.602176+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "imos",
+    "source": "https://arxiv.org/abs/2212.07555",
+    "checked_utc": "2026-11-19T07:57:24.809657+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "interdiff",
+    "source": "https://arxiv.org/abs/2308.16905",
+    "checked_utc": "2026-11-19T07:57:24.991834+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "omomo",
+    "source": "https://arxiv.org/abs/2309.16237",
+    "checked_utc": "2026-11-19T07:57:25.415700+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "saga",
+    "source": "https://arxiv.org/abs/2112.10103",
+    "checked_utc": "2026-11-19T07:57:25.416375+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://jiahaoplus.github.io/SAGA/saga.html"
+    ]
+  },
+  {
+    "id": "world2hosi",
+    "source": "https://arxiv.org/abs/2610.27725",
+    "checked_utc": "2026-11-19T07:57:25.416688+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "occupancy",
+    "source": "https://arxiv.org/abs/2312.02700",
+    "checked_utc": "2026-11-19T07:57:25.835986+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://foruck.github.io/occu-page/"
+    ]
+  },
+  {
+    "id": "trumans",
+    "source": "https://openaccess.thecvf.com/content/CVPR2024/papers/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.pdf",
+    "checked_utc": "2026-11-19T07:57:26.035473+00:00"
+  },
+  {
+    "id": "circle",
+    "source": "https://arxiv.org/abs/2303.17912",
+    "checked_utc": "2026-11-19T07:57:26.035484+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://stanford-tml.github.io/circle_dataset/"
+    ]
+  },
+  {
+    "id": "scenediffuser",
+    "source": "https://arxiv.org/abs/2301.06015",
+    "checked_utc": "2026-11-19T07:57:26.055754+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "dimos",
+    "source": "https://arxiv.org/abs/2305.12411",
+    "checked_utc": "2026-11-19T07:57:26.233741+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://zkf1997.github.io/DIMOS"
+    ]
+  },
+  {
+    "id": "coins",
+    "source": "https://arxiv.org/abs/2207.12824",
+    "checked_utc": "2026-11-19T07:57:26.643071+00:00",
+    "code_candidates": [
+      "https://github.com/zkf1997/COINS"
+    ],
+    "code": "https://github.com/zkf1997/COINS",
+    "code_http_status": 200
+  },
+  {
+    "id": "samp",
+    "source": "https://arxiv.org/abs/2108.08284",
+    "checked_utc": "2026-11-19T07:57:26.643343+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "pigraphs",
+    "source": "https://graphics.stanford.edu/projects/pigraphs/",
+    "checked_utc": "2026-11-19T07:57:26.853015+00:00"
+  },
+  {
+    "id": "hhoi-text",
+    "source": "https://arxiv.org/abs/2511.20446",
+    "checked_utc": "2026-11-19T07:57:26.853026+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "core4d",
+    "source": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_CORE4D_A_4D_Human-Object-Human_Interaction_Dataset_for_Collaborative_Object_REarrangement_CVPR_2025_paper.pdf",
+    "checked_utc": "2026-11-19T07:57:27.032080+00:00"
+  },
+  {
+    "id": "intermask",
+    "source": "https://arxiv.org/abs/2410.10010",
+    "checked_utc": "2026-11-19T07:57:27.032093+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "freemotion",
+    "source": "https://arxiv.org/abs/2405.15763",
+    "checked_utc": "2026-11-19T07:57:27.466205+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "intergen",
+    "source": "https://arxiv.org/abs/2304.05684",
+    "checked_utc": "2026-11-19T07:57:27.668967+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "remos",
+    "source": "https://arxiv.org/abs/2311.17057",
+    "checked_utc": "2026-11-19T07:57:27.669411+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "inter-x",
+    "source": "https://arxiv.org/abs/2312.16051",
+    "checked_utc": "2026-11-19T07:57:28.697830+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "hiphi",
+    "source": "https://arxiv.org/abs/2608.16222",
+    "checked_utc": "2026-11-19T07:57:29.306844+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://noitom-robotics.github.io/hiphi/"
+    ]
+  },
+  {
+    "id": "robomocap",
+    "source": "https://arxiv.org/abs/2611.10994",
+    "checked_utc": "2026-11-19T07:57:29.309104+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "vimogen-mbench",
+    "source": "https://arxiv.org/abs/2510.26794",
+    "checked_utc": "2026-11-19T07:57:29.507104+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://motrixlab.github.io/2026_iclr_vimogen"
+    ]
+  },
+  {
+    "id": "finemotion",
+    "source": "https://arxiv.org/abs/2507.19850",
+    "checked_utc": "2026-11-19T07:57:29.507642+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "motionmillion",
+    "source": "https://arxiv.org/abs/2507.07095",
+    "checked_utc": "2026-11-19T07:57:29.921162+00:00",
+    "code_candidates": [
+      "https://github.com/VankouF/MotionMillion-Codes"
+    ],
+    "code": "https://github.com/VankouF/MotionMillion-Codes",
+    "code_http_status": 200
+  },
+  {
+    "id": "parahome",
+    "source": "https://arxiv.org/abs/2401.10232",
+    "checked_utc": "2026-11-19T07:57:30.127922+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "instructmotion",
+    "source": "https://arxiv.org/abs/2405.15541",
+    "checked_utc": "2026-11-19T07:57:30.329418+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "motionx",
+    "source": "https://arxiv.org/abs/2307.00818",
+    "checked_utc": "2026-11-19T07:57:30.542850+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "mocapact",
+    "source": "https://arxiv.org/abs/2208.07363",
+    "checked_utc": "2026-11-19T07:57:31.169952+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://microsoft.github.io/MoCapAct"
+    ]
+  },
+  {
+    "id": "best-automated-metric",
+    "source": "https://arxiv.org/abs/2309.10248",
+    "checked_utc": "2026-11-19T07:57:31.362685+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "behave",
+    "source": "https://arxiv.org/abs/2204.06950",
+    "checked_utc": "2026-11-19T07:57:31.560876+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "humanml3d",
+    "source": "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.pdf",
+    "checked_utc": "2026-11-19T07:57:31.778463+00:00"
+  },
+  {
+    "id": "intercap",
+    "source": "https://arxiv.org/abs/2209.12354",
+    "checked_utc": "2026-11-19T07:57:31.778475+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "babel",
+    "source": "https://arxiv.org/abs/2106.09696",
+    "checked_utc": "2026-11-19T07:57:31.977040+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "grab",
+    "source": "https://arxiv.org/abs/2008.11200",
+    "checked_utc": "2026-11-19T07:57:31.977363+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "amass",
+    "source": "https://arxiv.org/abs/1904.03278",
+    "checked_utc": "2026-11-19T07:57:32.383912+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "kitml",
+    "source": "https://arxiv.org/abs/1607.03827",
+    "checked_utc": "2026-11-19T07:57:32.589887+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "mhc",
+    "source": "https://arxiv.org/abs/2408.07295",
+    "checked_utc": "2026-11-19T07:57:32.795046+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "maskadapt",
+    "source": "https://arxiv.org/abs/2603.29272",
+    "checked_utc": "2026-11-19T07:57:32.954417+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "simdiff",
+    "source": "https://arxiv.org/abs/2509.20927",
+    "checked_utc": "2026-11-19T07:57:32.954869+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "closd",
+    "source": "https://arxiv.org/abs/2410.03441",
+    "checked_utc": "2026-11-19T07:57:33.203101+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://guytevet.github.io/CLoSD-page/"
+    ]
+  },
+  {
+    "id": "maskedmimic",
+    "source": "https://arxiv.org/abs/2409.14393",
+    "checked_utc": "2026-11-19T07:57:33.608514+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "pulse",
+    "source": "https://arxiv.org/abs/2310.04582",
+    "checked_utc": "2026-11-19T07:57:33.809361+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "diffmimic",
+    "source": "https://arxiv.org/abs/2304.03274",
+    "checked_utc": "2026-11-19T07:57:33.809697+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "phc",
+    "source": "https://arxiv.org/abs/2305.06456",
+    "checked_utc": "2026-11-19T07:57:34.223244+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "amp",
+    "source": "https://arxiv.org/abs/2104.02180",
+    "checked_utc": "2026-11-19T07:57:34.431953+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "ase",
+    "source": "https://arxiv.org/abs/2205.01906",
+    "checked_utc": "2026-11-19T07:57:34.432415+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "deepmimic",
+    "source": "https://arxiv.org/abs/1804.02717",
+    "checked_utc": "2026-11-19T07:57:34.434152+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "grail",
+    "source": "https://arxiv.org/abs/2606.05160",
+    "checked_utc": "2026-11-19T07:57:34.839758+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "intermimicgen",
+    "source": "https://arxiv.org/abs/2610.06850",
+    "checked_utc": "2026-11-19T07:57:35.245689+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "weave",
+    "source": "https://arxiv.org/abs/2609.16683",
+    "checked_utc": "2026-11-19T07:57:35.245907+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://xiaohu-art.github.io/Weave/"
+    ]
+  },
+  {
+    "id": "beyondmimic",
+    "source": "https://arxiv.org/abs/2508.08241",
+    "checked_utc": "2026-11-19T07:57:35.246198+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "gmr",
+    "source": "https://arxiv.org/abs/2510.02252",
+    "checked_utc": "2026-11-19T07:57:35.663421+00:00",
+    "code_candidates": [
+      "https://github.com/YanjieZe/GMR"
+    ],
+    "code": "https://github.com/YanjieZe/GMR",
+    "code_http_status": 200,
+    "project_candidates": [
+      "https://jaraujo98.github.io/retargeting_matters"
+    ]
+  },
+  {
+    "id": "exbody",
+    "source": "https://arxiv.org/abs/2402.16796",
+    "checked_utc": "2026-11-19T07:57:35.869575+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "cfgcomposer",
+    "source": "https://arxiv.org/abs/2611.15101",
+    "checked_utc": "2026-11-19T07:57:35.871324+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "moco",
+    "source": "https://feifeifeiliu.github.io/MOCO/",
+    "checked_utc": "2026-11-19T07:57:36.062726+00:00"
+  },
+  {
+    "id": "emage",
+    "source": "https://arxiv.org/abs/2401.00374",
+    "checked_utc": "2026-11-19T07:57:36.062759+00:00",
+    "code_candidates": [],
+    "project_candidates": [
+      "https://pantomatrix.github.io/EMAGE/"
+    ]
+  },
+  {
+    "id": "lodge",
+    "source": "https://arxiv.org/abs/2403.10518",
+    "checked_utc": "2026-11-19T07:57:36.478826+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "finedance",
+    "source": "https://arxiv.org/abs/2212.03741",
+    "checked_utc": "2026-11-19T07:57:36.684712+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "edge",
+    "source": "https://arxiv.org/abs/2211.10658",
+    "checked_utc": "2026-11-19T07:57:37.046760+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "interaction-survey",
+    "source": "https://arxiv.org/abs/2503.12763",
+    "checked_utc": "2026-11-19T07:57:37.297437+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "video-motion-survey",
+    "source": "https://arxiv.org/abs/2509.03883",
+    "checked_utc": "2026-11-19T07:57:37.504565+00:00",
+    "code_candidates": [
+      "https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation"
+    ],
+    "code": "https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation",
+    "code_http_status": 200
+  },
+  {
+    "id": "generative-survey",
+    "source": "https://arxiv.org/abs/2507.05419",
+    "checked_utc": "2026-11-19T07:57:37.505032+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "text-motion-overview",
+    "source": "https://arxiv.org/abs/2505.09379",
+    "checked_utc": "2026-11-19T07:57:37.704814+00:00",
+    "code_candidates": []
+  },
+  {
+    "id": "realis-motion",
+    "source": "https://proceedings.mlr.press/v306/liang26ad.html",
+    "checked_utc": "2026-11-19T07:57:38.329890+00:00"
+  }
+]

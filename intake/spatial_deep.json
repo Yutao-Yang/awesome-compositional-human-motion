@@ -1,0 +1,86 @@
+[
+  {
+    "id": "frankenmotion",
+    "title": "FrankenMotion: Part-level Human Motion Generation and Composition",
+    "year": 2026,
+    "category": "spatiotemporal part composition",
+    "url": "https://arxiv.org/abs/2601.10909",
+    "authors": [
+      "Chuqiao Li",
+      "Xianghui Xie",
+      "Yong Cao",
+      "Andreas Geiger",
+      "Gerard Pons-Moll"
+    ],
+    "summary": "Learns hierarchical part/action/sequence-conditioned diffusion instead of test-time pose stitching.",
+    "method": "CLIP action/part embeddings are PCA-reduced to 50 dimensions, expanded framewise and concatenated with noisy motion through an MLP; sequence and diffusion-step features are extra tokens. Unknown labels are zeroed; Beta-distributed random masking improves sparse-conditioning robustness.",
+    "conditions": "Temporally aligned, potentially sparse sequence, action and seven-body-part text; FrankenStein extends existing mocap annotations using LLM reasoning.",
+    "evaluation": "UniMotion, STMC and DART are adapted and retrained on FrankenStein using the same pose representation. Nine separate TMR-style evaluators assess seven parts, actions and sequences using R-Precision/M2T; realism uses FID/Diversity. Evaluations repeat 20 times with 95% confidence intervals. Annotation audit: 50 sequences, three experts.",
+    "limitations": "Authors explicitly cannot generate minute-long sequences in one pass. Label audit samples only 50 sequences; learned semantic metrics do not establish contact physics.",
+    "evidence_level": "method",
+    "evidence_url": "https://arxiv.org/html/2601.10909v1",
+    "evidence_locator": "Sections 4.1–4.3; 5.1–5.2; 6; Eq. (2)–(4).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "demogen",
+    "title": "Towards Decompositional Human Motion Generation with Energy-Based Diffusion Models",
+    "year": 2025,
+    "category": "semantic motion decomposition",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Towards_Decompositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Models_CVPR_2026_paper.pdf",
+    "authors": [
+      "Jianrong Zhang",
+      "Hehe Fan",
+      "Yi Yang"
+    ],
+    "code": "https://github.com/Jiro-zhang/DeMoGen",
+    "summary": "Trains compositional scores to reconstruct holistic motion without individual-concept motion targets.",
+    "method": "Frozen-VAE motion latents are denoised with summed concept-conditioned predictions (latent-aware), or decomposed cross-attention (semantic-aware). Exp uses decomposed captions; OSS splits text embeddings with orthogonality; SC adds semantic consistency against decomposed embeddings.",
+    "conditions": "Exp requires decomposed text; OSS/SC infer concepts without decomposed inference prompts. DeCompML splits HumanML3D captions using GPT-4.1; default decomposition uses two concepts.",
+    "evaluation": "HumanML3D-pretrained models are directly evaluated on MTT and DeCompML. Exp handles multiple-text composition; OSS/SC handle single-text multi-concept generation. DeCompML combines decomposed captions with HumanML3D test motions and uses its text-motion evaluator. MTT reports R-Precision, TMR scores, FID and transition distance.",
+    "limitations": "Authors find Exp degrades for three/four text components as captions lack information. Component visualization is qualitative; it does not supply independent ground-truth primitive motions.",
+    "evidence_level": "method",
+    "evidence_url": "https://arxiv.org/html/2512.22324v1",
+    "evidence_locator": "Algorithm 1; Sections 3.2–3.4, 4.1–4.4; Table 2–3; Appendix F/Table 11.",
+    "checked": "2026-11-19",
+    "year_basis": "First preprint 26 December 2025; CVPR 2026 publication."
+  },
+  {
+    "id": "energymogen",
+    "title": "EnergyMoGen: Compositional Human Motion Generation with Energy-Based Diffusion Model in Latent Space",
+    "year": 2024,
+    "category": "energy/model composition",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_EnergyMoGen_Compositional_Human_Motion_Generation_with_Energy-Based_Diffusion_Model_in_CVPR_2025_paper.pdf",
+    "authors": [
+      "Jianrong Zhang",
+      "Hehe Fan",
+      "Yi Yang"
+    ],
+    "year_basis": "First preprint arXiv:2412.14706 in 2024; CVPR 2025.",
+    "summary": "Combines latent and text-attention energy formulations for concept conjunction and negation.",
+    "method": "Classifier-free diffusion predictions implement latent-aware energy composition. Cross-attention provides semantic-aware composition and adaptive text-embedding gradient updates; Synergistic Energy Fusion reconciles the two. Main inference uses five latent vectors and 50 diffusion steps.",
+    "conditions": "Multiple textual concepts, logical conjunction/negation; whole-motion latent representation rather than explicit per-frame body-part stitching.",
+    "evaluation": "HumanML3D/KIT-ML evaluate ordinary text generation. MTT compares combined single text against multiple-text composition using original constituent captions. Metrics follow STMC: R-Precision, TMR-Score, FID, transition distance. CompML contains 5,000 generated pairs from random triples of STMC captions, used with HumanML3D for augmentation experiments.",
+    "limitations": "Appendix J reports failure on completely novel concepts. MTT semantic/transition metrics and synthetic augmentation do not demonstrate real object-contact consistency.",
+    "evidence_level": "method",
+    "evidence_url": "https://arxiv.org/html/2412.14706v2",
+    "evidence_locator": "Sections 3.1–3.2, 5.1–5.4; Eq. (3)–(4); Table 3; Appendix J/Figure 8.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "stmc",
+    "title": "Multi-Track Timeline Control for Text-Driven 3D Human Motion Generation",
+    "year": 2024,
+    "category": "spatiotemporal timeline composition",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024W/HuMoGen/papers/Petrovich_Multi-Track_Timeline_Control_for_Text-Driven_3D_Human_Motion_Generation_CVPRW_2024_paper.pdf",
+    "summary": "Test-time spatial stitching and temporal score arithmetic operate at every diffusion step.",
+    "method": "Independently denoises prompt crops; body-part assignments select explicit pose components. Adjacent crops are extended by overlap (example: 0.25 seconds); their predictions are summed and an unconditional overlap prediction subtracted before the next reverse step.",
+    "conditions": "Text intervals with durations and compatible body-part assignments from GPT-3 or user. Requires explicit-pose denoisers; latent models cannot directly expose stitchable joints.",
+    "evaluation": "MTT has 500 automatically constructed timelines, each three prompts over two tracks, drawn from 60 manually collected/body-part-labeled actions with matching AMASS references. Compares single-text, DiffCollage and SINC variants using semantic and realism metrics plus perceptual studies.",
+    "limitations": "Authors report inherited base-model limits, unfamiliar stitched poses, compatible-part restriction and imperfect timing. Proposed late-denoising stitching schedules are future work, not evaluated capability.",
+    "evidence_level": "method",
+    "evidence_url": "https://arxiv.org/html/2401.08559v2",
+    "evidence_locator": "Section 3.3 (Spatial/Temporal stitching); Sections 4.1–4.4; 4.6; Appendix B–C.",
+    "checked": "2026-11-19"
+  }
+]

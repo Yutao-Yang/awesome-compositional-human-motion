@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.pdf
+*.mp4
+*.png
+*.jpg
+node_modules/

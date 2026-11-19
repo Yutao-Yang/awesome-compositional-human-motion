@@ -1,0 +1,211 @@
+[
+  {
+    "paper": "motion-mamba",
+    "url": "https://github.com/steve-zeyu-zhang/MotionMamba",
+    "checked_utc": "2026-11-19T07:55:59.690066+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/steve-zeyu-zhang/MotionMamba"
+  },
+  {
+    "paper": "flowmdm",
+    "url": "https://github.com/BarqueroGerman/FlowMDM",
+    "checked_utc": "2026-11-19T07:55:59.690877+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/BarqueroGerman/FlowMDM"
+  },
+  {
+    "paper": "priormdm",
+    "url": "https://github.com/priorMDM/priorMDM",
+    "checked_utc": "2026-11-19T07:55:59.691251+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/priorMDM/priorMDM"
+  },
+  {
+    "paper": "st2m",
+    "url": "https://github.com/Druthrie/ST2M",
+    "checked_utc": "2026-11-19T07:55:59.691569+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/Druthrie/ST2M"
+  },
+  {
+    "paper": "teach",
+    "url": "https://github.com/athnnik/teach",
+    "checked_utc": "2026-11-19T07:56:00.637050+00:00",
+    "http_status": 404
+  },
+  {
+    "paper": "demogen",
+    "url": "https://github.com/Jiro-zhang/DeMoGen",
+    "checked_utc": "2026-11-19T07:56:00.837498+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/Jiro-zhang/DeMoGen"
+  },
+  {
+    "paper": "parco",
+    "url": "https://github.com/qrzou/ParCo",
+    "checked_utc": "2026-11-19T07:56:01.241463+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/qrzou/ParCo"
+  },
+  {
+    "paper": "motionclr",
+    "url": "https://github.com/IDEA-Research/MotionCLR",
+    "checked_utc": "2026-11-19T07:56:01.250009+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/IDEA-Research/MotionCLR"
+  },
+  {
+    "paper": "mmm",
+    "url": "https://github.com/exitudio/MMM",
+    "checked_utc": "2026-11-19T07:56:01.456366+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/exitudio/MMM"
+  },
+  {
+    "paper": "mld",
+    "url": "https://github.com/ChenFengYe/motion-latent-diffusion",
+    "checked_utc": "2026-11-19T07:56:02.268659+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/ChenFengYe/motion-latent-diffusion"
+  },
+  {
+    "paper": "tmr",
+    "url": "https://github.com/Mathux/TMR",
+    "checked_utc": "2026-11-19T07:56:02.275573+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/Mathux/TMR"
+  },
+  {
+    "paper": "sk-hoi",
+    "url": "https://github.com/neu-vi/SK-HOI",
+    "checked_utc": "2026-11-19T07:56:02.471397+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/neu-3dvi/SK-HOI"
+  },
+  {
+    "paper": "primhoi",
+    "url": "https://github.com/Kairobo/PrimitiveHOI",
+    "checked_utc": "2026-11-19T07:56:02.675216+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/Kairobo/PrimitiveHOI"
+  },
+  {
+    "paper": "chois",
+    "url": "https://github.com/lijiaman/chois_release",
+    "checked_utc": "2026-11-19T07:56:03.522560+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/lijiaman/chois_release"
+  },
+  {
+    "paper": "imos",
+    "url": "https://github.com/anindita127/IMoS",
+    "checked_utc": "2026-11-19T07:56:03.541332+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/anindita127/IMoS"
+  },
+  {
+    "paper": "trumans",
+    "url": "https://github.com/hygenie1228/TRUMANS",
+    "checked_utc": "2026-11-19T07:56:04.109663+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/hygenie1228/TRUMANS"
+  },
+  {
+    "paper": "scenediffuser",
+    "url": "https://github.com/scenediffuser/Scene-Diffuser",
+    "checked_utc": "2026-11-19T07:56:04.528153+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/scenediffuser/Scene-Diffuser"
+  },
+  {
+    "paper": "dimos",
+    "url": "https://github.com/zkf1997/DIMOS",
+    "checked_utc": "2026-11-19T07:56:05.133165+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/zkf1997/DIMOS"
+  },
+  {
+    "paper": "coins",
+    "url": "https://github.com/zkf1997/COINS",
+    "checked_utc": "2026-11-19T07:56:05.346292+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/zkf1997/COINS"
+  },
+  {
+    "paper": "pigraphs",
+    "url": "https://github.com/msavva/pigraphs",
+    "checked_utc": "2026-11-19T07:56:05.544330+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/msavva/pigraphs"
+  },
+  {
+    "paper": "remos",
+    "url": "https://github.com/anindita127/ReMoS",
+    "checked_utc": "2026-11-19T07:56:05.544803+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/anindita127/ReMoS"
+  },
+  {
+    "paper": "inter-x",
+    "url": "https://github.com/liangxuy/Inter-X",
+    "checked_utc": "2026-11-19T07:56:05.999652+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/liangxuy/Inter-X"
+  },
+  {
+    "paper": "hiphi",
+    "url": "https://github.com/noitom-robotics/hiphi",
+    "checked_utc": "2026-11-19T07:56:06.363212+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/noitom-robotics/hiphi"
+  },
+  {
+    "paper": "vimogen-mbench",
+    "url": "https://github.com/MotrixLab/ViMoGen",
+    "checked_utc": "2026-11-19T07:56:06.575333+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/MotrixLab/ViMoGen"
+  },
+  {
+    "paper": "finemotion",
+    "url": "https://github.com/CVI-SZU/FineMotion",
+    "checked_utc": "2026-11-19T07:56:06.771050+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/CVI-SZU/FineMotion"
+  },
+  {
+    "paper": "motionmillion",
+    "url": "https://github.com/VankouF/MotionMillion-Codes",
+    "checked_utc": "2026-11-19T07:56:06.979044+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/VankouF/MotionMillion-Codes"
+  },
+  {
+    "paper": "motionx",
+    "url": "https://github.com/IDEA-Research/Motion-X",
+    "checked_utc": "2026-11-19T07:56:07.599648+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/IDEA-Research/Motion-X"
+  },
+  {
+    "paper": "grab",
+    "url": "https://github.com/otaheri/GRAB",
+    "checked_utc": "2026-11-19T07:56:08.001924+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/otaheri/GRAB"
+  },
+  {
+    "paper": "phc",
+    "url": "https://github.com/ZhengyiLuo/PHC",
+    "checked_utc": "2026-11-19T07:56:08.203896+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/ZhengyiLuo/PHC"
+  },
+  {
+    "paper": "exbody",
+    "url": "https://github.com/chengxuxin/expressive-humanoid",
+    "checked_utc": "2026-11-19T07:56:08.407799+00:00",
+    "http_status": 200,
+    "resolved_url": "https://github.com/chengxuxin/expressive-humanoid"
+  }
+]
