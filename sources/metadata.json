@@ -1212,11 +1212,10 @@
   },
   "https://arxiv.org/abs/2603.08590": {
     "url": "https://arxiv.org/abs/2603.08590",
-    "checked_utc": "2026-11-19T07:45:20.554738+00:00",
+    "metadata_url": "https://arxiv.org/pdf/2603.08590v4",
     "status": "ok",
-    "metadata_url": "https://arxiv.org/bibtex/2603.08590",
-    "bibtex": "@misc{ling2026prismstreaminghumanmotion,\n      title={PRISM: Streaming Human Motion Generation with Per-Joint Latent Decomposition}, \n      author={Zeyu Ling and Qing Shuai and Teng Zhang and Shiyang Li and Bo Han and Changqing Zou},\n      year={2026},\n      eprint={2603.08590},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2603.08590}, \n}",
-    "title": "PRISM: Streaming Human Motion Generation with Per-Joint Latent Decomposition",
+    "origin": "manually_transcribed_primary_source",
+    "title": "PRISM: Per-unit Kinematic Motion Generation in a Structured Latent Manifold",
     "authors": [
       "Zeyu Ling",
       "Qing Shuai",
@@ -1226,7 +1225,9 @@
       "Changqing Zou"
     ],
     "year": 2026,
-    "arxiv": "2603.08590"
+    "arxiv": "2603.08590",
+    "bibtex": "@misc{ling2026prismv4,\n title={{PRISM: Per-unit Kinematic Motion Generation in a Structured Latent Manifold}},\n author={Zeyu Ling and Qing Shuai and Teng Zhang and Shiyang Li and Bo Han and Changqing Zou},\n year={2026}, eprint={2603.08590v4}, archivePrefix={arXiv}, primaryClass={cs.CV},\n url={https://arxiv.org/abs/2603.08590v4},\n note={Title transcribed from the inspected v4 PDF; official BibTeX endpoint retained an earlier title when checked on 2026-11-19}\n}",
+    "checked_utc": "2026-11-19T10:08:09.670993+00:00"
   },
   "https://arxiv.org/abs/2603.29272": {
     "url": "https://arxiv.org/abs/2603.29272",
@@ -1628,7 +1629,7 @@
       "Fan Wang"
     ],
     "year": 2026,
-    "bibtex": "@InProceedings{pmlr-v306-liang26ad,\n  title = \t {{R}ealis{M}otion: Decomposed Human Motion Control and Video Generation in the World Space},\n  author =       {Liang, Jingyun and Zhou, Jingkai and Li, Shikai and Cao, Chenjie and Sun, Lei and Qian, Yichen and Chen, Weihua and Wang, Fan},\n  booktitle = \t {Proceedings of the 43rd International Conference on Machine Learning},\n  pages = \t {73719--73743},\n  year = \t {2026},\n  editor = \t {Zhang, Tong and Dudik, Miroslav and Jaggi, Martin and Agarwal, Alekh and Li, Sharon and Schuurmans, Dale and Zhu, Jerry and Berkenkamp, Felix and Dong, Hanze and Bietti, Alberto},\n  volume = \t {306},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {06--11 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://raw.githubusercontent.com/mlresearch/v306/main/assets/liang26ad/liang26ad.pdf},\n  url = \t {https://proceedings.mlr.press/v306/liang26ad.html},\n  abstract = \t {Generating human videos with realistic and controllable motions is a challenging task. While existing methods can generate visually compelling videos, they lack separate control over four key video elements: foreground subject, background video, human trajectory, and action patterns. In this paper, we propose a decomposed human motion control and video generation framework that explicitly decouples motion from appearance, subject from background, and action from trajectory, enabling flexible mix-and-match composition of these elements. Concretely, we first build a ground-aware 3D world coordinate system and perform motion editing directly in the 3D space. Trajectory control is implemented by unprojecting edited 2D trajectories into 3D with focal-length calibration and coordinate transformation, followed by speed alignment and orientation adjustment; actions are supplied by a motion bank or generated via text-to-motion methods. Then, based on modern text-to-video diffusion transformer models, we inject the subject as tokens for full attention, concatenate the background along the channel dimension, and add motion (trajectory and action) control signals by addition. Such a design opens up the possibility for us to generate realistic videos of anyone doing anything anywhere. Extensive experiments on benchmark datasets and real-world cases demonstrate that our method achieves state-of-the-art performance on both element-wise controllability and overall video quality.}\n}"
+    "bibtex": "@InProceedings{pmlr-v306-liang26ad,\n  title = \t {{R}ealis{M}otion: Decomposed Human Motion Control and Video Generation in the World Space},\n  author =       {Liang, Jingyun and Zhou, Jingkai and Li, Shikai and Cao, Chenjie and Sun, Lei and Qian, Yichen and Chen, Weihua and Wang, Fan},\n  booktitle = \t {Proceedings of the 43rd International Conference on Machine Learning},\n  pages = \t {73719--73743},\n  year = \t {2026},\n  editor = \t {Zhang, Tong and Dudik, Miroslav and Jaggi, Martin and Agarwal, Alekh and Li, Sharon and Schuurmans, Dale and Zhu, Jerry and Berkenkamp, Felix and Dong, Hanze and Bietti, Alberto},\n  volume = \t {306},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {06--11 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://raw.githubusercontent.com/mlresearch/v306/main/assets/liang26ad/liang26ad.pdf},\n  url = \t {https://proceedings.mlr.press/v306/liang26ad.html},\n}"
   },
   "https://arxiv.org/abs/1705.06400": {
     "url": "https://arxiv.org/abs/1705.06400",
@@ -2650,7 +2651,7 @@
       "D. A. Forsyth"
     ],
     "year": 2002,
-    "bibtex": "@inproceedings{02effbbf236d45edb64eeddfb6bd6d18,\n  title     = \"Interactive motion generation from examples\",\n  abstract  = \"There are many applications that demand large quantities of natural looking motion. It is difficult to synthesize motion that looks natural, particularly when it is people who must move. In this paper, we present a framework that generates human motions by cutting and pasting motion capture data. Selecting a collection of clips that yields an acceptable motion is a combinatorial problem that we manage as a randomized search of a hierarchy of graphs. This approach can generate motion sequences that satisfy a variety of constraints automatically. The motions are smooth and human-looking. They are generated in real time so that we can author complex motions interactively. The algorithm generates multiple motions that satisfy a given set of constraints, allowing a variety of choices for the animator. It can easily synthesize multiple motions that interact with each other using constraints. This framework allows the extensive re-use of motion capture data for new purposes.\",\n  keywords  = \"animation with constraints, clustering, graph search, human motion, motion capture, motion synthesis\",\n  author    = \"Okan Arikan and Forsyth, \\{D. A.\\}\",\n  year      = \"2002\",\n  doi       = \"10.1145/566570.566606\",\n  language  = \"English (US)\",\n  isbn      = \"1581135211\",\n  series    = \"Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02\",\n  pages     = \"483--490\",\n  booktitle = \"Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02\",\n  note      = \"29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02 ; Conference date: 23-07-2002 Through 26-07-2002\",\n}"
+    "bibtex": "@inproceedings{02effbbf236d45edb64eeddfb6bd6d18,\n  title     = \"Interactive motion generation from examples\",\n  keywords  = \"animation with constraints, clustering, graph search, human motion, motion capture, motion synthesis\",\n  author    = \"Okan Arikan and Forsyth, \\{D. A.\\}\",\n  year      = \"2002\",\n  doi       = \"10.1145/566570.566606\",\n  language  = \"English (US)\",\n  isbn      = \"1581135211\",\n  series    = \"Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02\",\n  pages     = \"483--490\",\n  booktitle = \"Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02\",\n  note      = \"29th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH '02 ; Conference date: 23-07-2002 Through 26-07-2002\",\n}"
   },
   "https://graphics.cs.wisc.edu/Papers/2007/HG07/": {
     "url": "https://graphics.cs.wisc.edu/Papers/2007/HG07/",
@@ -2723,7 +2724,7 @@
       "Taku Komura"
     ],
     "year": 2016,
-    "bibtex": "@article{0938c539935a41e686fc2f27fff4f022,\n  title     = \"A Deep Learning Framework for Character Motion Synthesis and Editing\",\n  abstract  = \"We present a framework to synthesize character movements based on high level parameters, such that the produced movements respec t he manifold of human motion, trained on a large motion capture dataset. The learned motion manifold, which is represented by the hidden units of a convolutional autoencoder, represents motion data in sparse components which can be combined to produce a wide range of complex movements. To map from high level parameters to the motion manifold, we stack a deep feedforward neural network on top of the trained autoencoder. This network is trained to produce realistic motion sequences from parameters such as a curve over the terrain that the character should follow, or a target location for punching and kicking. The feedforward control network and the motion manifold are trained independently, allowing the user to easily switch between feedforward networks according to the desired interface, without re-training the motion manifold.Once motion is generated it can be edited by performing optimization in the space of the motion manifold. This allows for imposingkinematic constraints, or transforming the style of the motion, while ensuring the edited motion remains natural. As a result, the system can produce smooth, high quality motion sequences without any manual pre-processing of the training data.\",\n  author    = \"Daniel Holden and Jun Saito and Taku Komura\",\n  year      = \"2016\",\n  month     = jul,\n  day       = \"11\",\n  doi       = \"10.1145/2897824.2925975\",\n  language  = \"English\",\n  volume    = \"35\",\n  journal   = \"ACM Transactions on Graphics\",\n  issn      = \"0730-0301\",\n  publisher = \"Association for Computing Machinery\",\n  number    = \"4\",\n}"
+    "bibtex": "@article{0938c539935a41e686fc2f27fff4f022,\n  title     = \"A Deep Learning Framework for Character Motion Synthesis and Editing\",\n  author    = \"Daniel Holden and Jun Saito and Taku Komura\",\n  year      = \"2016\",\n  month     = jul,\n  day       = \"11\",\n  doi       = \"10.1145/2897824.2925975\",\n  language  = \"English\",\n  volume    = \"35\",\n  journal   = \"ACM Transactions on Graphics\",\n  issn      = \"0730-0301\",\n  publisher = \"Association for Computing Machinery\",\n  number    = \"4\",\n}"
   },
   "https://arxiv.org/abs/2309.10248": {
     "url": "https://arxiv.org/abs/2309.10248",
@@ -2806,5 +2807,165 @@
     ],
     "year": 2026,
     "arxiv": "2510.26794"
+  },
+  "https://arxiv.org/abs/2212.02500": {
+    "url": "https://arxiv.org/abs/2212.02500",
+    "checked_utc": "2026-11-19T10:06:40.576738+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2212.02500",
+    "bibtex": "@misc{yuan2023physdiffphysicsguidedhumanmotion,\n      title={PhysDiff: Physics-Guided Human Motion Diffusion Model}, \n      author={Ye Yuan and Jiaming Song and Umar Iqbal and Arash Vahdat and Jan Kautz},\n      year={2023},\n      eprint={2212.02500},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2212.02500}, \n}",
+    "title": "PhysDiff: Physics-Guided Human Motion Diffusion Model",
+    "authors": [
+      "Ye Yuan",
+      "Jiaming Song",
+      "Umar Iqbal",
+      "Arash Vahdat",
+      "Jan Kautz"
+    ],
+    "year": 2023,
+    "arxiv": "2212.02500"
+  },
+  "https://arxiv.org/abs/2304.01116": {
+    "url": "https://arxiv.org/abs/2304.01116",
+    "checked_utc": "2026-11-19T10:06:40.577314+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2304.01116",
+    "bibtex": "@misc{zhang2023remodiffuseretrievalaugmentedmotiondiffusion,\n      title={ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model}, \n      author={Mingyuan Zhang and Xinying Guo and Liang Pan and Zhongang Cai and Fangzhou Hong and Huirong Li and Lei Yang and Ziwei Liu},\n      year={2023},\n      eprint={2304.01116},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2304.01116}, \n}",
+    "title": "ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model",
+    "authors": [
+      "Mingyuan Zhang",
+      "Xinying Guo",
+      "Liang Pan",
+      "Zhongang Cai",
+      "Fangzhou Hong",
+      "Huirong Li",
+      "Lei Yang",
+      "Ziwei Liu"
+    ],
+    "year": 2023,
+    "arxiv": "2304.01116"
+  },
+  "https://arxiv.org/abs/2305.12577": {
+    "url": "https://arxiv.org/abs/2305.12577",
+    "checked_utc": "2026-11-19T10:06:40.577849+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2305.12577",
+    "bibtex": "@misc{karunratanakul2023guidedmotiondiffusioncontrollable,\n      title={Guided Motion Diffusion for Controllable Human Motion Synthesis}, \n      author={Korrawe Karunratanakul and Konpat Preechakul and Supasorn Suwajanakorn and Siyu Tang},\n      year={2023},\n      eprint={2305.12577},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2305.12577}, \n}",
+    "title": "Guided Motion Diffusion for Controllable Human Motion Synthesis",
+    "authors": [
+      "Korrawe Karunratanakul",
+      "Konpat Preechakul",
+      "Supasorn Suwajanakorn",
+      "Siyu Tang"
+    ],
+    "year": 2023,
+    "arxiv": "2305.12577"
+  },
+  "https://arxiv.org/abs/2309.07918": {
+    "url": "https://arxiv.org/abs/2309.07918",
+    "checked_utc": "2026-11-19T10:06:40.578215+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2309.07918",
+    "bibtex": "@misc{xiao2024unifiedhumansceneinteractionprompted,\n      title={Unified Human-Scene Interaction via Prompted Chain-of-Contacts}, \n      author={Zeqi Xiao and Tai Wang and Jingbo Wang and Jinkun Cao and Wenwei Zhang and Bo Dai and Dahua Lin and Jiangmiao Pang},\n      year={2024},\n      eprint={2309.07918},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2309.07918}, \n}",
+    "title": "Unified Human-Scene Interaction via Prompted Chain-of-Contacts",
+    "authors": [
+      "Zeqi Xiao",
+      "Tai Wang",
+      "Jingbo Wang",
+      "Jinkun Cao",
+      "Wenwei Zhang",
+      "Bo Dai",
+      "Dahua Lin",
+      "Jiangmiao Pang"
+    ],
+    "year": 2024,
+    "arxiv": "2309.07918"
+  },
+  "https://arxiv.org/abs/2310.08580": {
+    "url": "https://arxiv.org/abs/2310.08580",
+    "checked_utc": "2026-11-19T10:06:41.510219+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2310.08580",
+    "bibtex": "@misc{xie2024omnicontrolcontroljointtime,\n      title={OmniControl: Control Any Joint at Any Time for Human Motion Generation}, \n      author={Yiming Xie and Varun Jampani and Lei Zhong and Deqing Sun and Huaizu Jiang},\n      year={2024},\n      eprint={2310.08580},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2310.08580}, \n}",
+    "title": "OmniControl: Control Any Joint at Any Time for Human Motion Generation",
+    "authors": [
+      "Yiming Xie",
+      "Varun Jampani",
+      "Lei Zhong",
+      "Deqing Sun",
+      "Huaizu Jiang"
+    ],
+    "year": 2024,
+    "arxiv": "2310.08580"
+  },
+  "https://arxiv.org/abs/2312.11994": {
+    "url": "https://arxiv.org/abs/2312.11994",
+    "checked_utc": "2026-11-19T10:06:41.510747+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2312.11994",
+    "bibtex": "@misc{karunratanakul2024optimizingdiffusionnoiseserve,\n      title={Optimizing Diffusion Noise Can Serve As Universal Motion Priors}, \n      author={Korrawe Karunratanakul and Konpat Preechakul and Emre Aksan and Thabo Beeler and Supasorn Suwajanakorn and Siyu Tang},\n      year={2024},\n      eprint={2312.11994},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2312.11994}, \n}",
+    "title": "Optimizing Diffusion Noise Can Serve As Universal Motion Priors",
+    "authors": [
+      "Korrawe Karunratanakul",
+      "Konpat Preechakul",
+      "Emre Aksan",
+      "Thabo Beeler",
+      "Supasorn Suwajanakorn",
+      "Siyu Tang"
+    ],
+    "year": 2024,
+    "arxiv": "2312.11994"
+  },
+  "https://arxiv.org/abs/2312.15004": {
+    "url": "https://arxiv.org/abs/2312.15004",
+    "checked_utc": "2026-11-19T10:06:41.511317+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2312.15004",
+    "bibtex": "@misc{zhang2023finemogenfinegrainedspatiotemporalmotion,\n      title={FineMoGen: Fine-Grained Spatio-Temporal Motion Generation and Editing}, \n      author={Mingyuan Zhang and Huirong Li and Zhongang Cai and Jiawei Ren and Lei Yang and Ziwei Liu},\n      year={2023},\n      eprint={2312.15004},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2312.15004}, \n}",
+    "title": "FineMoGen: Fine-Grained Spatio-Temporal Motion Generation and Editing",
+    "authors": [
+      "Mingyuan Zhang",
+      "Huirong Li",
+      "Zhongang Cai",
+      "Jiawei Ren",
+      "Lei Yang",
+      "Ziwei Liu"
+    ],
+    "year": 2023,
+    "arxiv": "2312.15004"
+  },
+  "https://arxiv.org/abs/2605.08054": {
+    "url": "https://arxiv.org/abs/2605.08054",
+    "checked_utc": "2026-11-19T10:06:41.511464+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2605.08054",
+    "bibtex": "@misc{liu2026highlyconstrainedhumanmotiongeneration,\n      title={Towards Highly-Constrained Human Motion Generation with Retrieval-Guided Diffusion Noise Optimization}, \n      author={Hanchao Liu and Fang-Lue Zhang and Shining Zhang and Tai-Jiang Mu and Shi-Min Hu},\n      year={2026},\n      eprint={2605.08054},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2605.08054}, \n}",
+    "title": "Towards Highly-Constrained Human Motion Generation with Retrieval-Guided Diffusion Noise Optimization",
+    "authors": [
+      "Hanchao Liu",
+      "Fang-Lue Zhang",
+      "Shining Zhang",
+      "Tai-Jiang Mu",
+      "Shi-Min Hu"
+    ],
+    "year": 2026,
+    "arxiv": "2605.08054"
+  },
+  "https://arxiv.org/abs/2610.25649": {
+    "url": "https://arxiv.org/abs/2610.25649",
+    "checked_utc": "2026-11-19T10:06:42.328925+00:00",
+    "status": "ok",
+    "metadata_url": "https://arxiv.org/bibtex/2610.25649",
+    "bibtex": "@misc{zhang2026interactagentagentichumanmotion,\n      title={InteractAgent: Agentic Human Motion Interaction with Memory-Augmented Reflection}, \n      author={Senhe Zhang and Tao Zhang and Yujia Zhang and Zeyu Zhang and Dong Gong},\n      year={2026},\n      eprint={2610.25649},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2610.25649}, \n}",
+    "title": "InteractAgent: Agentic Human Motion Interaction with Memory-Augmented Reflection",
+    "authors": [
+      "Senhe Zhang",
+      "Tao Zhang",
+      "Yujia Zhang",
+      "Zeyu Zhang",
+      "Dong Gong"
+    ],
+    "year": 2026,
+    "arxiv": "2610.25649"
   }
 }

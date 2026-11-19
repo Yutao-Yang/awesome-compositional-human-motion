@@ -1,21 +1,21 @@
 {
+  "full_text_checked": 137,
   "date": "2026-11-19",
-  "papers": 128,
+  "papers": 137,
   "evidence": {
-    "abstract": 100,
-    "method": 28
+    "method": 137
   },
   "categories": {
     "classics": 4,
     "temporal": 13,
-    "spatial": 10,
-    "editing": 8,
-    "backbones": 13,
+    "spatial": 11,
+    "editing": 12,
+    "backbones": 14,
     "objects": 19,
-    "scenes": 9,
+    "scenes": 11,
     "people": 7,
     "datasets": 17,
-    "physics": 11,
+    "physics": 12,
     "humanoids": 6,
     "audio": 6,
     "surveys": 4,
@@ -173,6 +173,1030 @@
         "energymogen"
       ],
       "intake": "temporal_extra.json"
+    },
+    {
+      "identity": "parametricmotiongraphs",
+      "ids": [
+        "parametric-motion-graphs",
+        "parametric-motion-graphs"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2603.08590",
+      "ids": [
+        "prism",
+        "prism"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2403.07487",
+      "ids": [
+        "motion-mamba",
+        "motion-mamba"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2303.17076",
+      "ids": [
+        "diffcollage",
+        "diffcollage"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2209.04066",
+      "ids": [
+        "teach",
+        "teach"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2412.07320",
+      "ids": [
+        "coma",
+        "coma"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2502.02358",
+      "ids": [
+        "motionlab",
+        "motionlab"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2408.00712",
+      "ids": [
+        "motionfix",
+        "motionfix"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2203.08063",
+      "ids": [
+        "motionclip",
+        "motionclip"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2301.06052",
+      "ids": [
+        "t2m-gpt",
+        "t2m-gpt"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2209.14916",
+      "ids": [
+        "mdm",
+        "mdm"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2204.14109",
+      "ids": [
+        "temos",
+        "temos"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2005.05751",
+      "ids": [
+        "unpaired-style",
+        "unpaired-style"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2609.32551",
+      "ids": [
+        "trace",
+        "trace"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2509.23612",
+      "ids": [
+        "interactmove",
+        "interactmove"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2309.16237",
+      "ids": [
+        "omomo",
+        "omomo"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2112.10103",
+      "ids": [
+        "saga",
+        "saga"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2301.06015",
+      "ids": [
+        "scenediffuser",
+        "scenediffuser"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2108.08284",
+      "ids": [
+        "samp",
+        "samp"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2511.20446",
+      "ids": [
+        "hhoi-text",
+        "hhoi-text"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2608.16222",
+      "ids": [
+        "hiphi",
+        "hiphi"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2507.07095",
+      "ids": [
+        "motionmillion",
+        "motionmillion"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2307.00818",
+      "ids": [
+        "motionx",
+        "motionx"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2209.12354",
+      "ids": [
+        "intercap",
+        "intercap"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2008.11200",
+      "ids": [
+        "grab",
+        "grab"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2603.29272",
+      "ids": [
+        "maskadapt",
+        "maskadapt"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2408.07295",
+      "ids": [
+        "mhc",
+        "mhc"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2310.04582",
+      "ids": [
+        "pulse",
+        "pulse"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "1804.02717",
+      "ids": [
+        "deepmimic",
+        "deepmimic"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2508.08241",
+      "ids": [
+        "beyondmimic",
+        "beyondmimic"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2611.15101",
+      "ids": [
+        "cfgcomposer",
+        "cfgcomposer"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2211.10658",
+      "ids": [
+        "edge",
+        "edge"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "2509.03883",
+      "ids": [
+        "video-motion-survey",
+        "video-motion-survey"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "realismotiondecomposedhumanmotioncontrolandvideogenerationintheworldspace",
+      "ids": [
+        "realis-motion",
+        "realis-motion"
+      ],
+      "intake": "deep_batch1_20261119.json"
+    },
+    {
+      "identity": "interactivemotiongenerationfromexamples",
+      "ids": [
+        "interactive-motion-examples",
+        "interactive-motion-examples"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2610.03873",
+      "ids": [
+        "timelinecontrol",
+        "timelinecontrol"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2406.00636",
+      "ids": [
+        "t2lm",
+        "t2lm"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "sequentialtextsdrivencohesivemotionssynthesiswithnaturaltransitions",
+      "ids": [
+        "st2m",
+        "st2m"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2504.01019",
+      "ids": [
+        "mixermdm",
+        "mixermdm"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2403.18512",
+      "ids": [
+        "parco",
+        "parco"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2403.19435",
+      "ids": [
+        "bamm",
+        "bamm"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2410.18977",
+      "ids": [
+        "motionclr",
+        "motionclr"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "adeeplearningframeworkforcharactermotionsynthesisandediting",
+      "ids": [
+        "holden-deep-motion",
+        "holden-deep-motion"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2305.00976",
+      "ids": [
+        "tmr",
+        "tmr"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2202.05274",
+      "ids": [
+        "motion-puzzle",
+        "motion-puzzle"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2104.05670",
+      "ids": [
+        "actor",
+        "actor"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "1907.01108",
+      "ids": [
+        "language2pose",
+        "language2pose"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2609.38466",
+      "ids": [
+        "pami",
+        "pami"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2311.16097",
+      "ids": [
+        "cg-hoi",
+        "cg-hoi"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2212.07555",
+      "ids": [
+        "imos",
+        "imos"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "scalingupdynamichumansceneinteractionmodeling",
+      "ids": [
+        "trumans",
+        "trumans"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2312.02700",
+      "ids": [
+        "occupancy",
+        "occupancy"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "pigraphslearninginteractionsnapshotsfromobservations",
+      "ids": [
+        "pigraphs",
+        "pigraphs"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2405.15763",
+      "ids": [
+        "freemotion",
+        "freemotion"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2611.10994",
+      "ids": [
+        "robomocap",
+        "robomocap"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2510.26794",
+      "ids": [
+        "vimogen-mbench",
+        "vimogen-mbench"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2309.10248",
+      "ids": [
+        "best-automated-metric",
+        "best-automated-metric"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2208.07363",
+      "ids": [
+        "mocapact",
+        "mocapact"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "1904.03278",
+      "ids": [
+        "amass",
+        "amass"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2509.20927",
+      "ids": [
+        "simdiff",
+        "simdiff"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2409.14393",
+      "ids": [
+        "maskedmimic",
+        "maskedmimic"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2205.01906",
+      "ids": [
+        "ase",
+        "ase"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2606.05160",
+      "ids": [
+        "grail",
+        "grail"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2510.02252",
+      "ids": [
+        "gmr",
+        "gmr"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2401.00374",
+      "ids": [
+        "emage",
+        "emage"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2212.03741",
+      "ids": [
+        "finedance",
+        "finedance"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "2507.05419",
+      "ids": [
+        "generative-survey",
+        "generative-survey"
+      ],
+      "intake": "deep_batch2_20261119.json"
+    },
+    {
+      "identity": "motionsynthesisfromannotations",
+      "ids": [
+        "motion-annotations",
+        "motion-annotations"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "multitracktimelinecontrolfortextdriven3dhumanmotiongeneration",
+      "ids": [
+        "stmc",
+        "stmc"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "seamlesshumanmotioncompositionwithblendedpositionalencodings",
+      "ids": [
+        "flowmdm",
+        "flowmdm"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2303.01418",
+      "ids": [
+        "priormdm",
+        "priormdm"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2601.03959",
+      "ids": [
+        "fusion",
+        "fusion"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2601.10909",
+      "ids": [
+        "frankenmotion",
+        "frankenmotion"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "towardsdecompositionalhumanmotiongenerationwithenergybaseddiffusionmodels",
+      "ids": [
+        "demogen",
+        "demogen"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "energymogencompositionalhumanmotiongenerationwithenergybaseddiffusionmodelinlatentspace",
+      "ids": [
+        "energymogen",
+        "energymogen"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "sincspatialcompositionof3dhumanmotionsforsimultaneousactiongeneration",
+      "ids": [
+        "sinc",
+        "sinc"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2610.03252",
+      "ids": [
+        "cosmi",
+        "cosmi"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2603.08390",
+      "ids": [
+        "duethoi",
+        "duethoi"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2608.03158",
+      "ids": [
+        "sk-hoi",
+        "sk-hoi"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2512.19049",
+      "ids": [
+        "dechoi",
+        "dechoi"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "humanobjectinteractionfromhumanlevelinstructions",
+      "ids": [
+        "hoifhli",
+        "hoifhli"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "primhoicompositionalhumanobjectinteractionviareusableprimitives",
+      "ids": [
+        "primhoi",
+        "primhoi"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2407.12371",
+      "ids": [
+        "himo",
+        "himo"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2312.03913",
+      "ids": [
+        "chois",
+        "chois"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2312.07063",
+      "ids": [
+        "procigen",
+        "procigen"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2610.27725",
+      "ids": [
+        "world2hosi",
+        "world2hosi"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2305.12411",
+      "ids": [
+        "dimos",
+        "dimos"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2410.10010",
+      "ids": [
+        "intermask",
+        "intermask"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2304.05684",
+      "ids": [
+        "intergen",
+        "intergen"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2311.17057",
+      "ids": [
+        "remos",
+        "remos"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2401.10232",
+      "ids": [
+        "parahome",
+        "parahome"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "generatingdiverseandnatural3dhumanmotionsfromtext",
+      "ids": [
+        "humanml3d",
+        "humanml3d"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2305.06456",
+      "ids": [
+        "phc",
+        "phc"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "2609.16683",
+      "ids": [
+        "weave",
+        "weave"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "multimodalcontrolledcoherentmotiongeneration",
+      "ids": [
+        "moco",
+        "moco"
+      ],
+      "intake": "deep_batch2_original28_20261119.json"
+    },
+    {
+      "identity": "motiongraphs",
+      "ids": [
+        "motion-graphs",
+        "motion-graphs"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2410.05260",
+      "ids": [
+        "dart",
+        "dart"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2305.09381",
+      "ids": [
+        "amd-autoregressive",
+        "amd-autoregressive"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2212.05897",
+      "ids": [
+        "multi-act-2022",
+        "multi-act-2022"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2503.13836",
+      "ids": [
+        "salad",
+        "salad"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2312.12763",
+      "ids": [
+        "amd-anatomical",
+        "amd-anatomical"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2407.08443",
+      "ids": [
+        "infinite-motion",
+        "infinite-motion"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2312.03596",
+      "ids": [
+        "mmm",
+        "mmm"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2312.00063",
+      "ids": [
+        "momask",
+        "momask"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "executingyourcommandsviamotiondiffusioninlatentspace",
+      "ids": [
+        "mld",
+        "mld"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2208.15001",
+      "ids": [
+        "motiondiffuse",
+        "motiondiffuse"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2005.05732",
+      "ids": [
+        "skeleton-aware-retarget",
+        "skeleton-aware-retarget"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "1705.06400",
+      "ids": [
+        "plappert-bidirectional",
+        "plappert-bidirectional"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2509.09555",
+      "ids": [
+        "interact",
+        "interact"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2308.16905",
+      "ids": [
+        "interdiff",
+        "interdiff"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2112.11454",
+      "ids": [
+        "goal",
+        "goal"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2303.17912",
+      "ids": [
+        "circle",
+        "circle"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2207.12824",
+      "ids": [
+        "coins",
+        "coins"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "core4da4dhumanobjecthumaninteractiondatasetforcollaborativeobjectrearrangement",
+      "ids": [
+        "core4d",
+        "core4d"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2312.16051",
+      "ids": [
+        "inter-x",
+        "inter-x"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2507.19850",
+      "ids": [
+        "finemotion",
+        "finemotion"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2405.15541",
+      "ids": [
+        "instructmotion",
+        "instructmotion"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2204.06950",
+      "ids": [
+        "behave",
+        "behave"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2106.09696",
+      "ids": [
+        "babel",
+        "babel"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "1607.03827",
+      "ids": [
+        "kitml",
+        "kitml"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2410.03441",
+      "ids": [
+        "closd",
+        "closd"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2304.03274",
+      "ids": [
+        "diffmimic",
+        "diffmimic"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2104.02180",
+      "ids": [
+        "amp",
+        "amp"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2610.06850",
+      "ids": [
+        "intermimicgen",
+        "intermimicgen"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2402.16796",
+      "ids": [
+        "exbody",
+        "exbody"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2403.10518",
+      "ids": [
+        "lodge",
+        "lodge"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2503.12763",
+      "ids": [
+        "interaction-survey",
+        "interaction-survey"
+      ],
+      "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2505.09379",
+      "ids": [
+        "text-motion-overview",
+        "text-motion-overview"
+      ],
+      "intake": "deep_batch3_20261119.json"
     }
   ],
   "title_differences_to_review": [],

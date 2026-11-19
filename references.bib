@@ -116,7 +116,6 @@
   publisher =    {PMLR},
   pdf = 	 {https://raw.githubusercontent.com/mlresearch/v306/main/assets/liang26ad/liang26ad.pdf},
   url = 	 {https://proceedings.mlr.press/v306/liang26ad.html},
-  abstract = 	 {Generating human videos with realistic and controllable motions is a challenging task. While existing methods can generate visually compelling videos, they lack separate control over four key video elements: foreground subject, background video, human trajectory, and action patterns. In this paper, we propose a decomposed human motion control and video generation framework that explicitly decouples motion from appearance, subject from background, and action from trajectory, enabling flexible mix-and-match composition of these elements. Concretely, we first build a ground-aware 3D world coordinate system and perform motion editing directly in the 3D space. Trajectory control is implemented by unprojecting edited 2D trajectories into 3D with focal-length calibration and coordinate transformation, followed by speed alignment and orientation adjustment; actions are supplied by a motion bank or generated via text-to-motion methods. Then, based on modern text-to-video diffusion transformer models, we inject the subject as tokens for full attention, concatenate the background along the channel dimension, and add motion (trajectory and action) control signals by addition. Such a design opens up the possibility for us to generate realistic videos of anyone doing anything anywhere. Extensive experiments on benchmark datasets and real-world cases demonstrate that our method achieves state-of-the-art performance on both element-wise controllability and overall video quality.}
 }
 
 @inproceedings{moco2026,
@@ -907,7 +906,6 @@
 
 @inproceedings{interactivemotionexamples2002,
   title     = "Interactive motion generation from examples",
-  abstract  = "There are many applications that demand large quantities of natural looking motion. It is difficult to synthesize motion that looks natural, particularly when it is people who must move. In this paper, we present a framework that generates human motions by cutting and pasting motion capture data. Selecting a collection of clips that yields an acceptable motion is a combinatorial problem that we manage as a randomized search of a hierarchy of graphs. This approach can generate motion sequences that satisfy a variety of constraints automatically. The motions are smooth and human-looking. They are generated in real time so that we can author complex motions interactively. The algorithm generates multiple motions that satisfy a given set of constraints, allowing a variety of choices for the animator. It can easily synthesize multiple motions that interact with each other using constraints. This framework allows the extensive re-use of motion capture data for new purposes.",
   keywords  = "animation with constraints, clustering, graph search, human motion, motion capture, motion synthesis",
   author    = "Okan Arikan and Forsyth, \{D. A.\}",
   year      = "2002",
@@ -1116,13 +1114,11 @@
 }
 
 @misc{prism2026,
-      title={PRISM: Streaming Human Motion Generation with Per-Joint Latent Decomposition},
-      author={Zeyu Ling and Qing Shuai and Teng Zhang and Shiyang Li and Bo Han and Changqing Zou},
-      year={2026},
-      eprint={2603.08590},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.08590},
+ title={{PRISM: Per-unit Kinematic Motion Generation in a Structured Latent Manifold}},
+ author={Zeyu Ling and Qing Shuai and Teng Zhang and Shiyang Li and Bo Han and Changqing Zou},
+ year={2026}, eprint={2603.08590v4}, archivePrefix={arXiv}, primaryClass={cs.CV},
+ url={https://arxiv.org/abs/2603.08590v4},
+ note={Title transcribed from the inspected v4 PDF; official BibTeX endpoint retained an earlier title when checked on 2026-11-19}
 }
 
 @misc{coma2025,
@@ -1147,7 +1143,6 @@
 
 @article{holdendeepmotion2016,
   title     = "A Deep Learning Framework for Character Motion Synthesis and Editing",
-  abstract  = "We present a framework to synthesize character movements based on high level parameters, such that the produced movements respec t he manifold of human motion, trained on a large motion capture dataset. The learned motion manifold, which is represented by the hidden units of a convolutional autoencoder, represents motion data in sparse components which can be combined to produce a wide range of complex movements. To map from high level parameters to the motion manifold, we stack a deep feedforward neural network on top of the trained autoencoder. This network is trained to produce realistic motion sequences from parameters such as a curve over the terrain that the character should follow, or a target location for punching and kicking. The feedforward control network and the motion manifold are trained independently, allowing the user to easily switch between feedforward networks according to the desired interface, without re-training the motion manifold.Once motion is generated it can be edited by performing optimization in the space of the motion manifold. This allows for imposingkinematic constraints, or transforming the style of the motion, while ensuring the edited motion remains natural. As a result, the system can produce smooth, high quality motion sequences without any manual pre-processing of the training data.",
   author    = "Daniel Holden and Jun Saito and Taku Komura",
   year      = "2016",
   month     = jul,
@@ -1292,4 +1287,94 @@
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2407.08443},
+}
+
+@misc{omnicontrol2024,
+      title={OmniControl: Control Any Joint at Any Time for Human Motion Generation},
+      author={Yiming Xie and Varun Jampani and Lei Zhong and Deqing Sun and Huaizu Jiang},
+      year={2024},
+      eprint={2310.08580},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2310.08580},
+}
+
+@misc{gmd2023,
+      title={Guided Motion Diffusion for Controllable Human Motion Synthesis},
+      author={Korrawe Karunratanakul and Konpat Preechakul and Supasorn Suwajanakorn and Siyu Tang},
+      year={2023},
+      eprint={2305.12577},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2305.12577},
+}
+
+@misc{finemogen2023,
+      title={FineMoGen: Fine-Grained Spatio-Temporal Motion Generation and Editing},
+      author={Mingyuan Zhang and Huirong Li and Zhongang Cai and Jiawei Ren and Lei Yang and Ziwei Liu},
+      year={2023},
+      eprint={2312.15004},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2312.15004},
+}
+
+@misc{remodiffuse2023,
+      title={ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model},
+      author={Mingyuan Zhang and Xinying Guo and Liang Pan and Zhongang Cai and Fangzhou Hong and Huirong Li and Lei Yang and Ziwei Liu},
+      year={2023},
+      eprint={2304.01116},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2304.01116},
+}
+
+@misc{dno2024,
+      title={Optimizing Diffusion Noise Can Serve As Universal Motion Priors},
+      author={Korrawe Karunratanakul and Konpat Preechakul and Emre Aksan and Thabo Beeler and Supasorn Suwajanakorn and Siyu Tang},
+      year={2024},
+      eprint={2312.11994},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2312.11994},
+}
+
+@misc{physdiff2023,
+      title={PhysDiff: Physics-Guided Human Motion Diffusion Model},
+      author={Ye Yuan and Jiaming Song and Umar Iqbal and Arash Vahdat and Jan Kautz},
+      year={2023},
+      eprint={2212.02500},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2212.02500},
+}
+
+@misc{unihsi2024,
+      title={Unified Human-Scene Interaction via Prompted Chain-of-Contacts},
+      author={Zeqi Xiao and Tai Wang and Jingbo Wang and Jinkun Cao and Wenwei Zhang and Bo Dai and Dahua Lin and Jiangmiao Pang},
+      year={2024},
+      eprint={2309.07918},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2309.07918},
+}
+
+@misc{rgdno2026,
+      title={Towards Highly-Constrained Human Motion Generation with Retrieval-Guided Diffusion Noise Optimization},
+      author={Hanchao Liu and Fang-Lue Zhang and Shining Zhang and Tai-Jiang Mu and Shi-Min Hu},
+      year={2026},
+      eprint={2605.08054},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.08054},
+}
+
+@misc{interactagent2026,
+      title={InteractAgent: Agentic Human Motion Interaction with Memory-Augmented Reflection},
+      author={Senhe Zhang and Tao Zhang and Yujia Zhang and Zeyu Zhang and Dong Gong},
+      year={2026},
+      eprint={2610.25649},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2610.25649},
 }

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "prism",
+    "old_endpoint_title": "PRISM: Streaming Human Motion Generation with Per-Joint Latent Decomposition",
+    "audited_pdf_title": "PRISM: Per-unit Kinematic Motion Generation in a Structured Latent Manifold",
+    "source": "https://arxiv.org/pdf/2603.08590v4",
+    "resolution": "Cite the inspected v4 PDF; preserve endpoint/title discrepancy explicitly.",
+    "checked": "2026-11-19"
+  }
+]

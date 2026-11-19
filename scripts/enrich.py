@@ -8,6 +8,7 @@ import datetime as dt
 import html
 from html.parser import HTMLParser
 import json,re,time,urllib.request
+from bibtex_fields import strip_abstract
 ROOT=Path(__file__).resolve().parents[1]
 class Metadata(HTMLParser):
  def __init__(self): super().__init__(); self.meta={}; self.text=[]
@@ -34,7 +35,7 @@ def fetch(url):
   if ar:
    u='https://arxiv.org/bibtex/'+ar[1]; bib=get(u)
    if not bib.lstrip().startswith('@'):raise ValueError('Official endpoint did not return BibTeX')
-   out.update(status='ok',metadata_url=u,bibtex=bib,title=field(bib,'title'),authors=(field(bib,'author') or '').split(' and '),year=int(field(bib,'year')),arxiv=ar[1])
+   out.update(status='ok',metadata_url=u,bibtex=strip_abstract(bib),title=field(bib,'title'),authors=(field(bib,'author') or '').split(' and '),year=int(field(bib,'year')),arxiv=ar[1])
   else:
    landing=url
    if 'openaccess.thecvf.com/' in url and '/papers/' in url and url.endswith('.pdf'):
@@ -55,7 +56,7 @@ def fetch(url):
      if text[i]=='{':depth+=1
      if text[i]=='}':depth-=1
      i+=1
-    bib=text[start:i];out['bibtex']=bib
+    bib=text[start:i];out['bibtex']=strip_abstract(bib)
     if not out.get('title'):out['title']=field(bib,'title')
     if not out.get('authors') and field(bib,'author'):out['authors']=field(bib,'author').split(' and ')
     if not out.get('year') and (field(bib,'year') or '').isdigit():out['year']=int(field(bib,'year'))

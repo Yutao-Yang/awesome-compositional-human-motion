@@ -1,6 +1,8 @@
 # Maintaining the survey
 
-The canonical editable research inputs are `intake/*.json`; official bibliographic receipts are `sources/metadata.json`. Generated `papers.json`, `README.md`, `notes/papers.md`, `references.bib`, `audit.json` and `docs/papers.js` should be rebuilt together.
+The canonical editable research inputs are `intake/*.json`; official bibliographic receipts are `sources/metadata.json`. Full-text audits also require `data_split`, `metrics`, `full_text_source`, `full_text_version`, `full_text_sha256`, `full_text_bytes` and precise evidence locators.
+
+Generated `papers.json`, `README.md`, `notes/papers.md`, `references.bib`, `audit.json` and `docs/papers.js` should be rebuilt together.
 
 1. Search for an existing arXiv ID, title and alias before adding a record. Preprint revisions and conference versions normally remain one paper; preserve version-specific metadata.
 2. Add a focused intake record using the existing schema: `id`, `title`, `year`, `category`, `url`, `summary`, `limitations`, `evidence_level`, `evidence_url`, `checked`. Prefer HTTPS primary sources. Authors and official code are optional until verified.
@@ -18,3 +20,5 @@ A source returning 403/429 is unresolved access, not proof that the paper or rep
 Prioritize missing mechanisms and evaluation contracts over raw paper count. Keep foundational, direct-composition and adjacent application branches explicit. Start with `notes/reading-guide.zh.md` and `notes/benchmarks.md`; additional topics can be added without renaming existing paper IDs or citekeys.
 
 No scheduled background maintenance is configured. Updates are made when requested or when adding research evidence during active work.
+
+The `figures/` directory holds the explicitly requested editable PowerPoint taxonomy and its native slide renders. Rebuild and visually inspect it when paper coverage changes. Other PDFs or media remain excluded.

@@ -1,0 +1,86 @@
+{
+  "checked": "2026-11-19",
+  "scope": "Independent primary-full-text spot checks of selected protocol and scope claims, not reproduction",
+  "independently_reviewed_count": 43,
+  "reviewed_ids": [
+    "actor",
+    "amass",
+    "babel",
+    "best-automated-metric",
+    "cfgcomposer",
+    "chois",
+    "closd",
+    "core4d",
+    "cosmi",
+    "dno",
+    "duethoi",
+    "emage",
+    "finedance",
+    "finemogen",
+    "fusion",
+    "gmd",
+    "gmr",
+    "grail",
+    "hhoi-text",
+    "imos",
+    "interact",
+    "interactagent",
+    "intermimicgen",
+    "kitml",
+    "mdm",
+    "mld",
+    "momask",
+    "motion-mamba",
+    "occupancy",
+    "omnicontrol",
+    "physdiff",
+    "prism",
+    "realis-motion",
+    "remodiffuse",
+    "rg-dno",
+    "scenediffuser",
+    "sinc",
+    "t2m-gpt",
+    "teach",
+    "temos",
+    "trumans",
+    "unihsi",
+    "weave"
+  ],
+  "resolved_corrections": [
+    {
+      "id": "prism",
+      "change": "Align title/citation to inspected v4 and correct limitations/table locators; record stale official BibTeX endpoint title."
+    },
+    {
+      "id": "grail",
+      "change": "Distinguish 1,000 object assets from 1,000 terrain configurations."
+    },
+    {
+      "id": "trumans",
+      "change": "Name dynamic FID/diversity/scene-penetration/discrimination metrics separately from static contact/penetration."
+    },
+    {
+      "id": "occupancy",
+      "change": "Include OMOMO trajectory-conditioned extension and dynamic-scene experiments; preserve shared-object and one-run scope."
+    },
+    {
+      "id": "momask",
+      "change": "Replace unsupported author-attributed editing limitation with actual diversity/length/fast-root-motion limitations."
+    },
+    {
+      "id": "mld",
+      "change": "Limit separate train/test FID claim to UESTC, not HumanAct12."
+    },
+    {
+      "id": "fusion",
+      "change": "Keep 145,100 body clips, 41,148 hand clips and 17.4M assembled frames as separate construction-stage quantities."
+    }
+  ],
+  "retained_source_ambiguities": [
+    "CORE4D main/supplement object counts and contact-metric wording",
+    "ParaHome capture-count discrepancy",
+    "Some papers defer or omit exact actor/source-ancestor split enumeration"
+  ],
+  "private_evidence_policy": "PDFs, decoded text, exact excerpts and review receipts remain private; public catalog retains primary-source URLs, versions and SHA256."
+}

@@ -1,0 +1,1235 @@
+[
+  {
+    "id": "parametric-motion-graphs",
+    "full_text_source": "https://graphics.cs.wisc.edu/Papers/2007/HG07/PMGFullPaper.pdf",
+    "full_text_version": "Official primary PDF fetched 2026-11-19; file SHA-256 retained in private audit receipt.",
+    "full_text_sha256": "efbb0efd7d9f50960a46e67d5952f3d19f08b195eeb4f979e038a3b399f93979",
+    "full_text_bytes": 314593,
+    "evidence_locator": "§§3.1–3.3 (transition construction), §4 (runtime extraction), §§5.1–5.2 and Figures 6,10 (examples/timing), §6 (limitations).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motion-annotations",
+    "full_text_source": "https://jamesobrien.com/papers/Arikan-MSF-2003-08/Arikan-MSF-2003-08.pdf",
+    "full_text_version": "Proceedings/author PDF as retrieved 2026-11-19; no printed own-paper arXiv version found.",
+    "full_text_sha256": "cf9eba6cb88ce07d3f3f3cb282ab8558f751793fc998297927095301b9eb93ac",
+    "full_text_bytes": 5266086,
+    "evidence_locator": "Sections 2–3 (annotations/synthesis), 4–5 (search/smoothing), 6 (Results); Figures 1, 5–7.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "interactive-motion-examples",
+    "full_text_source": "https://www.cs.toronto.edu/~jacobson/seminar/arikan-and-forsyth-2002.pdf",
+    "full_text_version": "Author/institution or proceedings PDF as retrieved 2026-11-19; version string not printed for this paper.",
+    "full_text_sha256": "f115e74b6c496c4dfcf13a291d5fd2a014d9db9721d55c33d31f5c8628f9598f",
+    "full_text_bytes": 7306768,
+    "evidence_locator": "Sections 3–4 (graph/hierarchical search), Section 5 (Results), Appendix A (transition cost).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motion-graphs",
+    "full_text_source": "https://graphics.cs.wisc.edu/Papers/2002/KGP02/mograph.pdf",
+    "full_text_version": "Primary author/proceedings PDF retrieved 2026-11-19; identity fixed by SHA256",
+    "full_text_sha256": "314cdb4ffe999411ffe446ddb3cfdf25d59e148dce001ad40723a3406bd5b5cb",
+    "full_text_bytes": 789851,
+    "evidence_locator": "Sections 3.1–3.4, 4.1–4.2, 5.1–5.2 and 6; Figures 6–8.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "prism",
+    "full_text_source": "https://arxiv.org/pdf/2603.08590v4",
+    "full_text_version": "arXiv:2603.08590v4 [cs.CV] 24 Aug 2026",
+    "full_text_sha256": "d10db9f8bd269f1e85af5bc19dc8a0c77b632f31c2d73cd99df3fa0ba25eb065",
+    "full_text_bytes": 2586821,
+    "evidence_locator": "§III (causal kinematic-unit VAE, KU-FlowT, KT-RoPE, KAFS), §IV.A–G and Tables I–VIII; Appendix A shared TMR protocol and Appendix B narrative composition/user-study setup; §VI limitations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "timelinecontrol",
+    "full_text_source": "https://arxiv.org/pdf/2610.03873v2",
+    "full_text_version": "2610.03873v2",
+    "full_text_sha256": "80a46e332c3db90fa2683d64a7f53655bd9916d4c08cade79c8c7fe9e9cb93be",
+    "full_text_bytes": 23541284,
+    "evidence_locator": "Sections 4.1–4.4; Sections 5.1–5.4, Tables 1–4; Appendices A and C (data/protocol).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "dart",
+    "full_text_source": "https://arxiv.org/pdf/2410.05260v3",
+    "full_text_version": "arXiv:2410.05260v3",
+    "full_text_sha256": "16c2579e2e969f131d267dfdff33b744531dd558baaa2a07bd708ea49d9f3127",
+    "full_text_bytes": 5864232,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.3; Tables 1–4; Appendices B, E and G.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motion-mamba",
+    "full_text_source": "https://arxiv.org/pdf/2403.07487v4",
+    "full_text_version": "arXiv:2403.07487v4 [cs.CV] 3 Aug 2024",
+    "full_text_sha256": "37660be61a5100d6992ea911fc7a2a8f6dcf3d3d51893880f71454650c95e65c",
+    "full_text_bytes": 5432968,
+    "evidence_locator": "§3 and Figure 2 (HTM/BSM architecture), §§4.1–4.5, Tables 1–4, Figure 4 (V100 latency).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "stmc",
+    "full_text_source": "https://openaccess.thecvf.com/content/CVPR2024W/HuMoGen/papers/Petrovich_Multi-Track_Timeline_Control_for_Text-Driven_3D_Human_Motion_Generation_CVPRW_2024_paper.pdf",
+    "full_text_version": "Proceedings/author PDF as retrieved 2026-11-19; no printed own-paper arXiv version found.",
+    "full_text_sha256": "b7ee8f2fe147e5862158b74271f6f81215ce76477a47d29712b9a3f26a168473",
+    "full_text_bytes": 1557289,
+    "evidence_locator": "Sections 3.1–3.4, 4.1–4.6; Table 1 and user-study protocol.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "flowmdm",
+    "full_text_source": "https://arxiv.org/pdf/2402.15509v1",
+    "full_text_version": "2402.15509v1",
+    "full_text_sha256": "9fd900b5bb96bf777e62c9052922f0579b5fae7a6a23cc8242b553861ef690cf",
+    "full_text_bytes": 15286424,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.4; Tables 1–2; Eq. 4 for PJ/AUJ and supplementary evaluation details.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "t2lm",
+    "full_text_source": "https://arxiv.org/pdf/2406.00636v2",
+    "full_text_version": "2406.00636v2",
+    "full_text_sha256": "26a48d5e15d7448654af64229f12805d3e93dd217ff70610864a1032a27bc5ab",
+    "full_text_bytes": 732523,
+    "evidence_locator": "Sections 3, 4.2–4.5; Tables 2–7; discussion following Table 5.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "amd-autoregressive",
+    "full_text_source": "https://arxiv.org/pdf/2305.09381v8",
+    "full_text_version": "arXiv:2305.09381v8",
+    "full_text_sha256": "d0c4cca3329f951c588742a33ecf4bbe7bded3b6d0a3f397d37d4f0d968a5c44",
+    "full_text_bytes": 4877457,
+    "evidence_locator": "Our Approach; Datasets and Evaluation Metrics; Comparisons on Compound Motion; Tables 1–3; Figure 1.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "diffcollage",
+    "full_text_source": "https://arxiv.org/pdf/2303.17076v1",
+    "full_text_version": "arXiv:2303.17076v1 [cs.CV] 30 Mar 2023",
+    "full_text_sha256": "9133ff74be495530f7f7acc9c4062ca155cd030d37b89cdcad460c3f6ac6cd28",
+    "full_text_bytes": 30081186,
+    "evidence_locator": "§§3–4 (factor graphs and score assembly), §5.2, Table 3 and motion-composition examples; appendix implementation details.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "priormdm",
+    "full_text_source": "https://arxiv.org/pdf/2303.01418v3",
+    "full_text_version": "2303.01418v3",
+    "full_text_sha256": "5dd735fb15e2ddaaa8ab87e8ba99db0c96582229fe67e1216a41b8539c7b13fe",
+    "full_text_bytes": 3433197,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.3; Tables 1–3 and fine-control quantitative results.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "st2m",
+    "full_text_source": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Sequential_Texts_Driven_Cohesive_Motions_Synthesis_with_Natural_Transitions_ICCV_2023_paper.pdf",
+    "full_text_version": "Author/institution or proceedings PDF as retrieved 2026-11-19; version string not printed for this paper.",
+    "full_text_sha256": "18c58f22a5cfd41ac1077e9f856555236982fd8eafd11798895194aeb30bb662",
+    "full_text_bytes": 5600591,
+    "evidence_locator": "Sections 3.1–3.4; Sections 4.1–4.5; Tables 1–3; transition fluency Eq. 7.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "multi-act-2022",
+    "full_text_source": "https://arxiv.org/pdf/2212.05897v3",
+    "full_text_version": "arXiv:2212.05897v3",
+    "full_text_sha256": "e933ea9a7d53a182b4d76aee54676694140531fae90f266d91fc8e21af0a37a7",
+    "full_text_bytes": 7936290,
+    "evidence_locator": "MACVAE and Long-Term Motion Generation sections; Datasets; Evaluation metrics; Tables 1–3; Figures 4–6.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "teach",
+    "full_text_source": "https://arxiv.org/pdf/2209.04066v2",
+    "full_text_version": "arXiv:2209.04066v2 [cs.CV] 12 Sep 2022",
+    "full_text_sha256": "bfdfb838ecd7f112454e720a87cbec38cbbeef156563cbbf8f3f3bebb01d1f32",
+    "full_text_bytes": 1167807,
+    "evidence_locator": "§3 (hierarchical variational architecture), §§4.1–4.6, Tables 1–3; appendix D.1 explicitly states original splits and validation reporting.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "fusion",
+    "full_text_source": "https://arxiv.org/pdf/2601.03959v1",
+    "full_text_version": "2601.03959v1",
+    "full_text_sha256": "ac0ece417fefa4e887ec5b4f1fbc4c28647a10685f06443a59e19d79398c527f",
+    "full_text_bytes": 3333054,
+    "evidence_locator": "Sections 3.1–3.3, 4–5; Table 1; supplementary Sections 9–12 (metrics, ablations, self-contact).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "frankenmotion",
+    "full_text_source": "https://arxiv.org/pdf/2601.10909v1",
+    "full_text_version": "2601.10909v1",
+    "full_text_sha256": "d5663bdf6265dcbcab9bb04b14e4e17f73f380cb906070f1f3d564661e11524b",
+    "full_text_bytes": 2447914,
+    "evidence_locator": "Sections 3–4; dataset split paragraph, evaluation protocol and comparison tables; limitations and supplementary label audit.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "mixermdm",
+    "full_text_source": "https://arxiv.org/pdf/2504.01019v1",
+    "full_text_version": "2504.01019v1",
+    "full_text_sha256": "fd099bb01279db61dcf000cbbf53b8043b74837846d6000c5e2ef388a8353e6d",
+    "full_text_bytes": 5606153,
+    "evidence_locator": "Sections 3.2–3.4, 4.1–4.5; Tables 1–3; Limitations and Future Work.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "salad",
+    "full_text_source": "https://arxiv.org/pdf/2503.13836v1",
+    "full_text_version": "arXiv:2503.13836v1",
+    "full_text_sha256": "3193515bfccc890418fedaef12080917dfd6e5d5b212e3ae42dfc72a93d78be1",
+    "full_text_bytes": 5086768,
+    "evidence_locator": "Sections 3, 4.1–4.5 and 5; Tables 1–4; Figures 3 and 7; Supplement A–C.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "demogen",
+    "full_text_source": "https://arxiv.org/pdf/2512.22324v1",
+    "full_text_version": "2512.22324v1",
+    "full_text_sha256": "d17e7dbbeda26a1a354e33ccf48c8c8f81650a02a08f3c9cc9637cd1ab1f5303",
+    "full_text_bytes": 4346200,
+    "evidence_locator": "Sections 3.1–3.4, 4.1–4.5; Tables 1–7; Appendices G–I (decomposition/data/metrics).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "coma",
+    "full_text_source": "https://arxiv.org/pdf/2412.07320v2",
+    "full_text_version": "arXiv:2412.07320v2 [cs.CV] 7 Jan 2025",
+    "full_text_sha256": "01446d27be1674f4438644c38a4faf55aa72dfc7e10bafbda4df911f842b30ad",
+    "full_text_bytes": 16742905,
+    "evidence_locator": "§§3–4 (agents and SPAM), §5 and Tables 2–6; appendix A (complex split/Table 7), B (54-participant study), F.4 (MAS).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "energymogen",
+    "full_text_source": "https://arxiv.org/pdf/2412.14706v2",
+    "full_text_version": "2412.14706v2",
+    "full_text_sha256": "977757dc3ad5ee41ca7afa58802f648343618adf2ec560953e2ed307ff5ec865",
+    "full_text_bytes": 5060961,
+    "evidence_locator": "Sections 3–5.4, Tables 1–3; Appendices D–E, I (datasets/metrics), J (limitations).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "parco",
+    "full_text_source": "https://arxiv.org/pdf/2403.18512v2",
+    "full_text_version": "2403.18512v2",
+    "full_text_sha256": "b78a1c7857a1bf02032fdc1c378ae41ea0ca9f74643ee80ddbc5fb5814c03e0c",
+    "full_text_bytes": 11353311,
+    "evidence_locator": "Sections 3–4; Tables 1–5; supplementary Appendix B (caption-length splits).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "amd-anatomical",
+    "full_text_source": "https://arxiv.org/pdf/2312.12763v3",
+    "full_text_version": "arXiv:2312.12763v3",
+    "full_text_sha256": "89c430f73efd2bf747b6a16060d5abde23fc269fb2e99525e55117c16e7f28f1",
+    "full_text_bytes": 3064276,
+    "evidence_locator": "Text Decomposition; Motion Diffusion and Fusion; Training and Inference; Experiments; Tables 1–3 and Figures 5–7; Conclusion limitation paragraph.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "finemogen",
+    "full_text_source": "https://arxiv.org/pdf/2312.15004v1",
+    "full_text_version": "arXiv:2312.15004v1",
+    "full_text_sha256": "3c1651e98e68a89b7f35d14aa67ea5658d3053d77c46825ce22d4dc3b7eab0f9",
+    "full_text_bytes": 2160053,
+    "evidence_locator": "§§3.1–3.5; §§4.1–4.6, Tables 1–4; §5 limitations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "sinc",
+    "full_text_source": "https://arxiv.org/pdf/2304.10417v3",
+    "full_text_version": "2304.10417v3",
+    "full_text_sha256": "eedcb7cba7fda40a6e04ba6fcab5dc3e9edd0eaa864dc4db12ab990e09ba4fc6",
+    "full_text_bytes": 9097460,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.6; Tables 1–3; Appendix E evaluation extensions.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "rg-dno",
+    "full_text_source": "https://arxiv.org/pdf/2605.08054v1",
+    "full_text_version": "arXiv:2605.08054v1",
+    "full_text_sha256": "358e199a97ab84504af76cc7d4d4a4f6d1b78ae6c72cbc4f9e06896e05bbacd9",
+    "full_text_bytes": 2667838,
+    "evidence_locator": "§§4.1–4.5/Algorithm 1; §§5.1–5.6, Tables 1–5; limitations in §5.6.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motionlab",
+    "full_text_source": "https://arxiv.org/pdf/2502.02358v5",
+    "full_text_version": "arXiv:2502.02358v5 [cs.CV] 22 Jul 2025",
+    "full_text_sha256": "aa38185437aec9e102d2fda8035bee299c985ebabaf36894951b764423374387",
+    "full_text_bytes": 2770122,
+    "evidence_locator": "§4 (MCM task definitions), §5 and Figure 2 (MFT/training), §6 setup and metrics, Tables 3–9; supplementary in-between and style experiments.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "bamm",
+    "full_text_source": "https://arxiv.org/pdf/2403.19435v3",
+    "full_text_version": "2403.19435v3",
+    "full_text_sha256": "1dd6989b8f265b5fabd83afa1f70fe437b92cfeb423f25f4bd551935f9750056",
+    "full_text_bytes": 18658990,
+    "evidence_locator": "Sections 3.1–3.4, 4.1–4.3; Tables 2–3; application figures for editing/completion.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "infinite-motion",
+    "full_text_source": "https://arxiv.org/pdf/2407.08443v2",
+    "full_text_version": "arXiv:2407.08443v2",
+    "full_text_sha256": "4760679184c23f21b8729dc4e2167af697570f27d8a0a6b710d42a8b297eaa41",
+    "full_text_bytes": 19113124,
+    "evidence_locator": "Section 3 dataset construction and generation; Algorithm 1; Sections 4.1–4.4 and 5; Tables 2–5; conclusion limitations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motionfix",
+    "full_text_source": "https://arxiv.org/pdf/2408.00712v3",
+    "full_text_version": "arXiv:2408.00712v3 [cs.CV] 24 Nov 2024",
+    "full_text_sha256": "b6096d8de52d0467c56581c8c82e3932e27583dde95022676e7eb3c2552adfb5",
+    "full_text_bytes": 9442472,
+    "evidence_locator": "§3 (pair mining/annotation and 5387/330/1013 partition), §4 (TMED and guidance), §§5.1–5.3 (retrieval protocol, comparisons, ablations).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motionclr",
+    "full_text_source": "https://arxiv.org/pdf/2410.18977v2",
+    "full_text_version": "2410.18977v2",
+    "full_text_sha256": "a1f8095c524319b388452db1cdb5056301391d70ba93d70b7087df28df91bfe4",
+    "full_text_bytes": 16726863,
+    "evidence_locator": "Sections 3–5; Tables 1–3; Section 6 and discussion of robustness; Appendix A.6.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "gmd",
+    "full_text_source": "https://arxiv.org/pdf/2305.12577v3",
+    "full_text_version": "arXiv:2305.12577v3",
+    "full_text_sha256": "d1699db8dfc015cbb46ec519a61182af549e9131d3d52af451655ae481c061af",
+    "full_text_bytes": 4993268,
+    "evidence_locator": "§§3–5; §§6.1–6.5, Tables 1–3; §7 and supplementary representation/guidance discussions.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "mmm",
+    "full_text_source": "https://arxiv.org/pdf/2312.03596v2",
+    "full_text_version": "arXiv:2312.03596v2",
+    "full_text_sha256": "aaaa000e2059dfb61ef4aab05d61cf34d588e96b6834364e842dabd3fce409f0",
+    "full_text_bytes": 3711068,
+    "evidence_locator": "Sections 3.1–3.2, 4, 5 and 6; Tables 1–2; Supplement B and J.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "omnicontrol",
+    "full_text_source": "https://arxiv.org/pdf/2310.08580v2",
+    "full_text_version": "arXiv:2310.08580v2",
+    "full_text_sha256": "5adbd5b18228230603561e57d8461e94e7679b7c7038ee8495230901df0ccd5d",
+    "full_text_bytes": 1744235,
+    "evidence_locator": "§§3.1–3.3; §4 and Tables 1–3; Appendices A.4–A.5, A.8, A.10–A.11.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "dno",
+    "full_text_source": "https://arxiv.org/pdf/2312.11994v2",
+    "full_text_version": "arXiv:2312.11994v2",
+    "full_text_sha256": "723fee492b2375a17aae1d280ff42d244b70943667a5ece7186bc3958caef379",
+    "full_text_bytes": 1373661,
+    "evidence_locator": "§§3–5; §6.1/Table 1, §6.2/Table 2, §6.3/Table 3; §7.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motionclip",
+    "full_text_source": "https://arxiv.org/pdf/2203.08063v1",
+    "full_text_version": "arXiv:2203.08063v1 [cs.CV] 15 Mar 2022",
+    "full_text_sha256": "2975f021d7c1370c44c130ff7b63875ed055881ac4415cb37aa5ed486a288585",
+    "full_text_bytes": 5812246,
+    "evidence_locator": "§3 and Figures 2–3 (alignment/autoencoder), §4 application experiments and ablations; concluding discussion of directional limitations; supplementary experimental settings.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "holden-deep-motion",
+    "full_text_source": "https://www.pure.ed.ac.uk/ws/files/25269752/motionsynthesis.pdf",
+    "full_text_version": "Author/institution or proceedings PDF as retrieved 2026-11-19; version string not printed for this paper.",
+    "full_text_sha256": "56b5890eac9d0ceb43ff77ef7e6cfe1e63f5e670eb8bc0d764d07672f494fb4d",
+    "full_text_bytes": 2769845,
+    "evidence_locator": "Sections 4–7; Section 8 Experimental Results and Table 1; Section 9 Discussions.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "momask",
+    "full_text_source": "https://arxiv.org/pdf/2312.00063v1",
+    "full_text_version": "arXiv:2312.00063v1",
+    "full_text_sha256": "69de7fc3144a25308e7bc56a3fcc294cd2e18ea9024392601dd87951b0045aba",
+    "full_text_bytes": 6007285,
+    "evidence_locator": "Sections 3.1–3.3, 4 and 5; Table 1; Figures 5–6; quantization ablations and Discussion limitations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "remodiffuse",
+    "full_text_source": "https://arxiv.org/pdf/2304.01116v1",
+    "full_text_version": "arXiv:2304.01116v1",
+    "full_text_sha256": "acce93d3c24949807ad15839690dbc2db4873c3fc34e989d9e9bdae18107dc51",
+    "full_text_bytes": 1981111,
+    "evidence_locator": "§§3.1–3.5; §4.1–4.4, Tables 2–4; rarity evaluation around Figure 5.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "t2m-gpt",
+    "full_text_source": "https://arxiv.org/pdf/2301.06052v4",
+    "full_text_version": "arXiv:2301.06052v4 [cs.CV] 24 Sep 2023",
+    "full_text_sha256": "682b4818d0d4bc9799fe9038341162a6e63477dfbc31e597411cecb3b1966197",
+    "full_text_bytes": 8092306,
+    "evidence_locator": "§§3.1–3.2 (VQ-VAE/GPT), §4.1 (80/5/15 protocols), Tables 1–3; appendix C (corruption), E (metrics), G (limitations).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "tmr",
+    "full_text_source": "https://arxiv.org/pdf/2305.00976v2",
+    "full_text_version": "2305.00976v2",
+    "full_text_sha256": "a981b14b9c261432b8af7cd2b8fcccbfe2b0d35dc80f26093dfa38510bd0d995",
+    "full_text_bytes": 4800777,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.3; retrieval protocol and Tables 1–2; long-sequence retrieval examples.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "mld",
+    "full_text_source": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf",
+    "full_text_version": "Primary author/proceedings PDF retrieved 2026-11-19; identity fixed by SHA256",
+    "full_text_sha256": "28b2170d37d283b6e1ee119dcdae6f3aca57801782d3c25a8b8f5345ae2f1286",
+    "full_text_bytes": 2452597,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.5, 5 and 6; Tables 1–5.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "mdm",
+    "full_text_source": "https://arxiv.org/pdf/2209.14916v2",
+    "full_text_version": "arXiv:2209.14916v2 [cs.CV] 3 Oct 2022",
+    "full_text_sha256": "cfe20558dfb4670e9a23e52cff289bb305ebace9b079333e9541e3dfa2b2669c",
+    "full_text_bytes": 12058408,
+    "evidence_locator": "§3 and Equations 2–5 (clean prediction/geometric losses), §§4.1–4.2, Tables 1–5, §5.1 (editing), Figure 4 (guidance/user study).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motion-puzzle",
+    "full_text_source": "https://arxiv.org/pdf/2202.05274v2",
+    "full_text_version": "2202.05274v2",
+    "full_text_sha256": "ea0cbd5554ef4f2c025ee5a246aaf21ded33c976b590cd0020e567f832c4a330",
+    "full_text_bytes": 35233418,
+    "evidence_locator": "Sections 3–5; Sections 7.1–7.3 and Table 2; Section 8 Limitations and Future Work.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motiondiffuse",
+    "full_text_source": "https://arxiv.org/pdf/2208.15001v1",
+    "full_text_version": "arXiv:2208.15001v1",
+    "full_text_sha256": "dac6aa8d785f490533312ab8dd900e49213c0fc53699b9f029d2dccb88bec2e0",
+    "full_text_bytes": 2072174,
+    "evidence_locator": "Sections 3.2–3.5 and 4.1–4.3; Equations 10–11; Tables 1–3.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "temos",
+    "full_text_source": "https://arxiv.org/pdf/2204.14109v2",
+    "full_text_version": "arXiv:2204.14109v2 [cs.CV] 22 Jul 2022",
+    "full_text_sha256": "dc09335fbd3b0efb6cccbb61b231b4c49acdadd687b0a1c8cce42051b55d86aa",
+    "full_text_bytes": 5787921,
+    "evidence_locator": "§3 architecture/losses, §4.1 exact KIT counts and 520-sequence subset, Tables 1–4; appendices A.5 and C (sampling and metric caveats).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "actor",
+    "full_text_source": "https://arxiv.org/pdf/2104.05670",
+    "full_text_version": "Author/institution or proceedings PDF as retrieved 2026-11-19; version string not printed for this paper.",
+    "full_text_sha256": "33613983a89f3ce731236ca82205a9a1c43084cc1e7959d08b7128fbb9457ec9",
+    "full_text_bytes": 40800600,
+    "evidence_locator": "Sections 3.1–3.2; Sections 4.1–4.3, Tables 1–4; supplementary implementation and duration studies.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "skeleton-aware-retarget",
+    "full_text_source": "https://arxiv.org/pdf/2005.05732v1",
+    "full_text_version": "arXiv:2005.05732v1",
+    "full_text_sha256": "4bcc7909d54711b9ed8b9edef39569837bd519bdcc75e9585991efb48064b71e",
+    "full_text_bytes": 8267043,
+    "evidence_locator": "Sections 3–5, 6.1–6.3; Equation 10; Tables 1–2; Figures 7–10.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "unpaired-style",
+    "full_text_source": "https://arxiv.org/pdf/2005.05751v1",
+    "full_text_version": "arXiv:2005.05751v1 [cs.GR] 12 May 2020",
+    "full_text_sha256": "35ab434af7cce3df4f9c170dd14fdd4de4ed037c5649ef0a823675523b638fba",
+    "full_text_bytes": 9782325,
+    "evidence_locator": "§§3–4 (content/style encoders, AdaIN and training collections), §5 and Table 1; unseen-style and content-code analyses in Figures 5–8.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "language2pose",
+    "full_text_source": "https://arxiv.org/pdf/1907.01108v2",
+    "full_text_version": "1907.01108v2",
+    "full_text_sha256": "0190b9879cd44507b33c2510fa14293abcd8b40f2f415a71368943c2d1de2865",
+    "full_text_bytes": 1214890,
+    "evidence_locator": "Sections 4.1–4.4; Sections 5.1–5.4; Section 6, Table 1 and user-study results.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "plappert-bidirectional",
+    "full_text_source": "https://arxiv.org/pdf/1705.06400v2",
+    "full_text_version": "arXiv:1705.06400v2",
+    "full_text_sha256": "456ddb4b4293ae43c3ad856357a7fd9bc5d17176433f03b3a38bd6b456a80ed6",
+    "full_text_bytes": 3972206,
+    "evidence_locator": "Sections 3, 4.1–4.3, 5.1, 5.3.3 and 5.4.3; Tables 2–4; Figure 8.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "cosmi",
+    "full_text_source": "https://arxiv.org/pdf/2610.03252v1",
+    "full_text_version": "2610.03252v1",
+    "full_text_sha256": "79d8df8770af044e5924d48c7572a4af8c318640f80527b912686a3859f337f4",
+    "full_text_bytes": 19292038,
+    "evidence_locator": "Sections 3–5; Data split/Protocol/Metrics; Tables 2–4; Appendix A split details and evaluator appendix.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "duethoi",
+    "full_text_source": "https://arxiv.org/pdf/2603.08390v3",
+    "full_text_version": "2603.08390v3",
+    "full_text_sha256": "ea88d09156fee5ceca08a2e8d1bedd00b0ef6204206a6707bda7d81c00b32d70",
+    "full_text_bytes": 9941175,
+    "evidence_locator": "Method sections ContactVAE/ArtPlanner/ManiVAE/DualFormer/ProxiRefine; Experiments and Tables 1–3; limitations section.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "trace",
+    "full_text_source": "https://arxiv.org/pdf/2609.32551v2",
+    "full_text_version": "arXiv:2609.32551v2 [cs.CV] 29 Sep 2026",
+    "full_text_sha256": "c352abc8eb595c806e383556b56cb9b0556417b08dbd9a978b65632beb85f112",
+    "full_text_bytes": 38785102,
+    "evidence_locator": "§3 (split VAE, coupled flow, geometric objectives), §4 setup/metrics and Tables 1–2; completion and coupling ablations in experimental subsections.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "pami",
+    "full_text_source": "https://arxiv.org/pdf/2609.38466v1",
+    "full_text_version": "2609.38466v1",
+    "full_text_sha256": "06d3a9ab84d721d18373f7d86d581a1af3b6d343bf80b9750189b96365768cdb",
+    "full_text_bytes": 18535596,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.3; Tables 1–3; Appendices A–C, including generator/refiner ablations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "sk-hoi",
+    "full_text_source": "https://arxiv.org/pdf/2608.03158v1",
+    "full_text_version": "2608.03158v1",
+    "full_text_sha256": "83a8a0cc97f1bb83d7150b9d1184e9dfd593956e08c54b05277eba5e014bd827",
+    "full_text_bytes": 30551457,
+    "evidence_locator": "Sections 3.1–3.4, 4.1–4.3; Tables 1–5; Appendix E and Tables 8–10 (held-out compositions/slot order).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "dechoi",
+    "full_text_source": "https://arxiv.org/pdf/2512.19049v1",
+    "full_text_version": "2512.19049v1",
+    "full_text_sha256": "4509be969487f003683dc3986caeb51e414a2d544b94fc48cc0987fbb889871e",
+    "full_text_bytes": 11063004,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.5; Tables 1–2; Appendices B–D (metric tradeoffs, guidance, DynaPlan).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "hoifhli",
+    "full_text_source": "https://arxiv.org/pdf/2406.17840v3",
+    "full_text_version": "2406.17840v3",
+    "full_text_sha256": "abc21ebd6b0aa5a402522c8e8a92c823a55a2181da62339c2e9ea8ffc8212c49",
+    "full_text_bytes": 3048652,
+    "evidence_locator": "Sections 3–6; Sections 7.1–7.4 and Tables 2–3; supplementary implementation/navigation and tracker evaluations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "interact",
+    "full_text_source": "https://arxiv.org/pdf/2509.09555v1",
+    "full_text_version": "arXiv:2509.09555v1",
+    "full_text_sha256": "9cf4c8115c13e2fe38f891d378a59b9edc5a3e9f8b2dcb87ac9cfe3065b86a04",
+    "full_text_bytes": 6303285,
+    "evidence_locator": "Sections 3.1–3.3, 4 and 5.1–5.5; Tables 2–8; Supplement C.2–C.7 and E.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "interactmove",
+    "full_text_source": "https://arxiv.org/pdf/2509.23612v1",
+    "full_text_version": "arXiv:2509.23612v1 [cs.CV] 28 Sep 2025",
+    "full_text_sha256": "ee36cc373249145f984a3fbf2f1c8bc5832f253ee0e53152c58214f091b522d2",
+    "full_text_bytes": 2245654,
+    "evidence_locator": "§3 and Table 1 (dataset/augmentation), §§4.1–4.5 (AGCA), §5.1 metric definitions, Tables 2–4 (comparisons and ablations).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "primhoi",
+    "full_text_source": "https://openaccess.thecvf.com/content/ICCV2025/papers/Jia_PrimHOI_Compositional_Human-Object_Interaction_via_Reusable_Primitives_ICCV_2025_paper.pdf",
+    "full_text_version": "Proceedings/author PDF as retrieved 2026-11-19; no printed own-paper arXiv version found.",
+    "full_text_sha256": "4becca53b7ade207b983ec52163fcf7363761a9c3d2289d1dcb646bdecf74da1",
+    "full_text_bytes": 11381460,
+    "evidence_locator": "Sections 3.1–3.4, 4.1–4.4; Tables 1–3; Appendix B evaluation details.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "himo",
+    "full_text_source": "https://arxiv.org/pdf/2407.12371v1",
+    "full_text_version": "2407.12371v1",
+    "full_text_sha256": "ad94c75d2b5fad5d8128b6d4b9884bcc3ac4631854590192f4a41d6a59cd372a",
+    "full_text_bytes": 42833901,
+    "evidence_locator": "Sections 3–4; Section 5 Dataset Details/Evaluation Metrics; Tables 2–4 and supplementary baseline details.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "cg-hoi",
+    "full_text_source": "https://arxiv.org/pdf/2311.16097v2",
+    "full_text_version": "2311.16097v2",
+    "full_text_sha256": "3d5c2c6c9b65f4e5ac0333a83b1fc11d39eb0e081d9127f53d70c4220d6db53d",
+    "full_text_bytes": 10289487,
+    "evidence_locator": "Sections 4–5 (joint diffusion/contact guidance); Sections 6.1–6.4, Table 1 and contact ablations. Section 6.6 (Limitations).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "chois",
+    "full_text_source": "https://arxiv.org/pdf/2312.03913v2",
+    "full_text_version": "2312.03913v2",
+    "full_text_sha256": "f2db1581b361fa982a3be8ccc9a1aaa9b158003a649347f48ccb286ea5cffabc",
+    "full_text_bytes": 3292032,
+    "evidence_locator": "Sections 3.1–3.4, 4.1–4.5; Tables 1–2; unseen-object conditions in Section 4.1.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "interdiff",
+    "full_text_source": "https://arxiv.org/pdf/2308.16905v1",
+    "full_text_version": "arXiv:2308.16905v1",
+    "full_text_sha256": "0b50fc92ec4d4ffa01fcd2165d29c9e58bb7f48fc9c2b9212b251a84f846ddbf",
+    "full_text_bytes": 22874331,
+    "evidence_locator": "Sections 3.1–3.2 and 4.1–4.4; Tables 1–4; Figures 3 and 7.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "omomo",
+    "full_text_source": "https://arxiv.org/pdf/2309.16237v1",
+    "full_text_version": "arXiv:2309.16237v1 [cs.CV] 28 Sep 2023",
+    "full_text_sha256": "d51b7b9e2921de84e5ca1f78ea787770bc6f341c2a3d7d55998609e9337c102d",
+    "full_text_bytes": 13811482,
+    "evidence_locator": "§3 (two-stage generation and hand correction), §4/Table 1 (capture), §5.1 (15/2 subjects, 10/5 objects and metrics), Tables 2–3, §6 application.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "procigen",
+    "full_text_source": "https://arxiv.org/pdf/2312.07063v3",
+    "full_text_version": "2312.07063v3",
+    "full_text_sha256": "790da66b13b69f675867ec9ee1c65900652b1bd8ce5c05464e3d1e8dd991b90a",
+    "full_text_bytes": 22659582,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.4; reconstruction result tables; supplementary Sections B–C (ablation/limitations).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "imos",
+    "full_text_source": "https://arxiv.org/pdf/2212.07555v3",
+    "full_text_version": "2212.07555v3",
+    "full_text_sha256": "00e0f1a4a8c3f5d24c4921dfc558397a9571f75b5eb02d7a4a7523f8e926555e",
+    "full_text_bytes": 4545493,
+    "evidence_locator": "Sections 3–4; Sections 5.1–5.6; Table 2, Figure 6; dataset split in Section 5.1.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "goal",
+    "full_text_source": "https://arxiv.org/pdf/2112.11454v2",
+    "full_text_version": "arXiv:2112.11454v2",
+    "full_text_sha256": "33c5036e9d960596d7222067d92afde3c0b0d3cc6f0e9353e48991d84b108385",
+    "full_text_bytes": 16000959,
+    "evidence_locator": "Sections 3.1–3.5, 4.1–4.3 and 5; Tables 1–3; Supplement 6 Data Preparation.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "saga",
+    "full_text_source": "https://arxiv.org/pdf/2112.10103v3",
+    "full_text_version": "arXiv:2112.10103v3 [cs.CV] 17 Aug 2022",
+    "full_text_sha256": "9b95b549bb7c8e95cbbd018ddb1295570f32973f97acd1bc387e46b2b152b92d",
+    "full_text_bytes": 9704051,
+    "evidence_locator": "§3 (WholeGrasp/MotionFill and optimizers), §4 experiments and Tables 1–2; supplementary training-data section naming 41/4/6 objects and motion metrics.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "interactagent",
+    "full_text_source": "https://arxiv.org/pdf/2610.25649v2",
+    "full_text_version": "arXiv:2610.25649v2",
+    "full_text_sha256": "dc1b7952f9f400e97f118f7ec4c4ed18c1051c07d97ee5356e30c83130bf0e33",
+    "full_text_bytes": 3856537,
+    "evidence_locator": "§§3.1–3.4/Algorithms 1–2; §4.1–4.2, Tables 1–3; §5.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "world2hosi",
+    "full_text_source": "https://arxiv.org/pdf/2610.27725v1",
+    "full_text_version": "2610.27725v1",
+    "full_text_sha256": "529aac9c1b4ee05fd21af98ff85cbf00ec3d2048399f2ba4ff093f86d9f18895",
+    "full_text_bytes": 27414636,
+    "evidence_locator": "Sections 3–4; Section 4 Dataset and metrics; main comparison/ablation tables; Appendix A.4 scoring rules.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "trumans",
+    "full_text_source": "https://openaccess.thecvf.com/content/CVPR2024/papers/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.pdf",
+    "full_text_version": "Author/institution or proceedings PDF as retrieved 2026-11-19; version string not printed for this paper.",
+    "full_text_sha256": "350d310b20be15ebba1b170d8414d4d6b9ad798f1564c208307a71278c4eccde",
+    "full_text_bytes": 2597109,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.4; Sections 5.1–5.4, Tables 2–5; Appendix A.4.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "circle",
+    "full_text_source": "https://arxiv.org/pdf/2303.17912v1",
+    "full_text_version": "arXiv:2303.17912v1",
+    "full_text_sha256": "f851621de2c5cadcf8b45034c761476e907b98f0c9660b49b74aa6f6e3c0f94b",
+    "full_text_bytes": 15306445,
+    "evidence_locator": "Sections 3, 4, 5.1–5.3 and 6; Tables 2–3; Figure 6.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "scenediffuser",
+    "full_text_source": "https://arxiv.org/pdf/2301.06015v1",
+    "full_text_version": "arXiv:2301.06015v1 [cs.CV] 15 Jan 2023",
+    "full_text_sha256": "7734045c80ded5304b9603b73257678c1cb4dfe6ae9eda2ecc1bd51c9c20b4ab",
+    "full_text_bytes": 22645998,
+    "evidence_locator": "§4 (conditional denoising/objective guidance), §§5.2–5.6, Tables 1–3; §5.2 PROX split and §5.4 MultiDex 48/10-object protocol.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "occupancy",
+    "full_text_source": "https://arxiv.org/pdf/2312.02700v2",
+    "full_text_version": "2312.02700v2",
+    "full_text_sha256": "62af91b6985f0039b608fb2cea8d864fb4c1e743d8edf89e0ef08b10a6775140",
+    "full_text_bytes": 11298942,
+    "evidence_locator": "Sections 3–4.5; Sections 5.1–5.2; MOB and CIRCLE quantitative tables and occupancy ablations. Supplementary C.2/Table 4 (OMOMO control) and C.3 (dynamic scenes).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "dimos",
+    "full_text_source": "https://arxiv.org/pdf/2305.12411v3",
+    "full_text_version": "2305.12411v3",
+    "full_text_sha256": "8bc9226167034c132b0d6e84237ee86e9931f57422f3981cf99b1d290c3e6092",
+    "full_text_bytes": 22114126,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.3; Tables 1–3; supplementary long-sequence examples.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "unihsi",
+    "full_text_source": "https://arxiv.org/pdf/2309.07918v5",
+    "full_text_version": "arXiv:2309.07918v5",
+    "full_text_sha256": "c8e38861b13205c8bb12770ee8aace905280970336dd95704b2cbbb98ad10bb1",
+    "full_text_bytes": 3580198,
+    "evidence_locator": "§§3.1–3.4; §4.1–4.3, Tables 1–3; Appendices A–C.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "coins",
+    "full_text_source": "https://arxiv.org/pdf/2207.12824v1",
+    "full_text_version": "arXiv:2207.12824v1",
+    "full_text_sha256": "f9029b583ce31e9adca5f30e8a6d2a49de9310d7efe52d0a99ad3bac5efe1ef0",
+    "full_text_bytes": 12824172,
+    "evidence_locator": "Sections 3.2–3.3, 4.1–4.4; Supplement B.1 and D; semantic contact definition and composite-generation equations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "samp",
+    "full_text_source": "https://arxiv.org/pdf/2108.08284v1",
+    "full_text_version": "arXiv:2108.08284v1 [cs.CV] 18 Aug 2021",
+    "full_text_sha256": "c93cfbab9a665a35091d9ba2dc5c00832a093a53c8c2d8fb539509083764130e",
+    "full_text_bytes": 8422834,
+    "evidence_locator": "§3 (MotionNet/GoalNet/planner), §4 (motion and ShapeNet preparation), §§5.1–5.2, Tables 1–4 and Figure 6 (GoalNet ablation).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "pigraphs",
+    "full_text_source": "https://graphics.stanford.edu/projects/pigraphs/pigraphs.pdf",
+    "full_text_version": "Author/institution or proceedings PDF as retrieved 2026-11-19; version string not printed for this paper.",
+    "full_text_sha256": "f52d9de4715137b4b3c881474fb598ff92b29510fea27b5c8805555d56647677",
+    "full_text_bytes": 4016213,
+    "evidence_locator": "Sections 4–7, especially 7.4.3; Sections 8.2–8.5; Figure 10 (study), Figure 11 (novel combinations).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "core4d",
+    "full_text_source": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_CORE4D_A_4D_Human-Object-Human_Interaction_Dataset_for_Collaborative_Object_REarrangement_CVPR_2025_paper.pdf",
+    "full_text_version": "Primary author/proceedings PDF retrieved 2026-11-19; identity fixed by SHA256",
+    "full_text_sha256": "13af14a59b0ae66d42dd176a3e2fba52b08fdad8b47644ced0603fb232aaaa51",
+    "full_text_bytes": 9404473,
+    "evidence_locator": "Main Sections 3.1–3.4, 4.1–4.4 and 5, Tables 2–6; official Supplement E/Table 3, F.1–F.2, I.1–I.2. Supplemental URL: https://openaccess.thecvf.com/content/CVPR2025/supplemental/Liu_CORE4D_A_4D_CVPR_2025_supplemental.pdf",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "hhoi-text",
+    "full_text_source": "https://arxiv.org/pdf/2511.20446v3",
+    "full_text_version": "arXiv:2511.20446v3 [cs.CV] 3 Jul 2026",
+    "full_text_sha256": "aaee773c1f2061892316781a6111ba2165d7baa248ab2f220f7edd11c0cdb032",
+    "full_text_bytes": 49300068,
+    "evidence_locator": "§§3.1–3.3 (HOI/HHI score composition), §5.1 metric definitions, Tables 1–2; appendix A.2–A.3 (9:1 split, sources/statistics).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "freemotion",
+    "full_text_source": "https://arxiv.org/pdf/2405.15763v1",
+    "full_text_version": "2405.15763v1",
+    "full_text_sha256": "fb4959f2468688c1e86f79c014fa25880d5d9107b696ca7f86c4f792dbfe2449",
+    "full_text_bytes": 22594853,
+    "evidence_locator": "Sections 3.2, 4.1–4.5; Sections 5.1–5.4; quantitative comparison and component-ablation tables.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "intermask",
+    "full_text_source": "https://arxiv.org/pdf/2410.10010v3",
+    "full_text_version": "2410.10010v3",
+    "full_text_sha256": "8e7b2fb983bf371a8577399cf5ddf73c5eb01756ce30764939f497b120d31409",
+    "full_text_bytes": 35732504,
+    "evidence_locator": "Sections 3.1–3.4, 4.1–4.4; main comparison/ablation tables; Appendix E implementation and limitations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "inter-x",
+    "full_text_source": "https://arxiv.org/pdf/2312.16051v1",
+    "full_text_version": "arXiv:2312.16051v1",
+    "full_text_sha256": "8e6c7f97eff3416bea481d9b85c9eb70ec6e761203ee64c124fca607350c6e9e",
+    "full_text_bytes": 44258452,
+    "evidence_locator": "Sections 3–5, 6.1–6.4 and 7; Tables 1–5; Supplement A.1–A.4.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "intergen",
+    "full_text_source": "https://arxiv.org/pdf/2304.05684v3",
+    "full_text_version": "2304.05684v3",
+    "full_text_sha256": "3cce82911e5d4a8246dd3b6ec92966f5cba7982db11f176fd79e4c44e54f5136",
+    "full_text_bytes": 24157428,
+    "evidence_locator": "Sections 3–4 (dataset/model), Section 5 Experiments; quantitative comparison and ablation tables; regularization schedule Eq. 14.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "remos",
+    "full_text_source": "https://arxiv.org/pdf/2311.17057v2",
+    "full_text_version": "2311.17057v2",
+    "full_text_sha256": "b2f77bf99b5e53a2b2d90d0761e0c0540a32ecaa7c2dc73488e59b5eb80391d0",
+    "full_text_bytes": 8574073,
+    "evidence_locator": "Sections 3–5; main quantitative/user-study tables; supplementary Appendix B.1 (dataset preparation/splits).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "hiphi",
+    "full_text_source": "https://arxiv.org/pdf/2608.16222v2",
+    "full_text_version": "arXiv:2608.16222v2 [cs.RO] 8 Sep 2026",
+    "full_text_sha256": "e9405b3f84961304476370bab953c8e6222dc5e50ef948f3ce40f44010440a4e",
+    "full_text_bytes": 42542110,
+    "evidence_locator": "§§3–4 (FrameNet construction/capture), §§5.1–5.4 and Tables 1–2, Figures 7–8; §7 limitations; appendices B/E geometry and robustness details.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "robomocap",
+    "full_text_source": "https://arxiv.org/pdf/2611.10994v1",
+    "full_text_version": "2611.10994v1",
+    "full_text_sha256": "beceb0117ce7125a88a579adad4fa569f56653f3f92f56aa124d13adefa6662c",
+    "full_text_bytes": 6116440,
+    "evidence_locator": "Sections 3–4.5; Sections 5.1–5.3; Tables 4–6 and Figure 4; annotation distinction in Section 4.4.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "finemotion",
+    "full_text_source": "https://arxiv.org/pdf/2507.19850v1",
+    "full_text_version": "arXiv:2507.19850v1",
+    "full_text_sha256": "9dc01d569ec9d16927d897d62dec75787262807871d20d26fe4c586fa17ce8b6",
+    "full_text_bytes": 9014946,
+    "evidence_locator": "Sections 3.1.1–3.1.3, 3.2, 4.1–4.5; Table 2; Supplement 16 limitations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motionmillion",
+    "full_text_source": "https://arxiv.org/pdf/2507.07095v1",
+    "full_text_version": "arXiv:2507.07095v1 [cs.CV] 9 Jul 2025",
+    "full_text_sha256": "23f15f7ae6f951c872a554fa8666c3f9388c7d956e8862f3d453799217a70908",
+    "full_text_bytes": 5374567,
+    "evidence_locator": "§3 data pipeline, §§4.2–4.3 (wavelet FSQ/scaled Transformer), §§5.1–5.3 and Tables 2–4; appendix §§8–9 distribution and scoring criteria.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "vimogen-mbench",
+    "full_text_source": "https://arxiv.org/pdf/2510.26794v2",
+    "full_text_version": "2510.26794v2",
+    "full_text_sha256": "0715de219d4733b155761cd482b4bdb85b1259540415693eb7617339137ace78",
+    "full_text_bytes": 6326808,
+    "evidence_locator": "Sections 2–5, Tables 1–7; Appendices C (MBench), D (data), F (HumanML3D); limitations paragraph.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "instructmotion",
+    "full_text_source": "https://arxiv.org/pdf/2405.15541v1",
+    "full_text_version": "arXiv:2405.15541v1",
+    "full_text_sha256": "c3d06c9d0c49b9c18a2e9a40659cc963c6eaeb783da6203a1182bb7347f26cae",
+    "full_text_bytes": 5217105,
+    "evidence_locator": "Sections 3.1, 4.1–4.3, 5 and 6; Tables 1–3; Figures 3 and 5.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "parahome",
+    "full_text_source": "https://arxiv.org/pdf/2401.10232v2",
+    "full_text_version": "2401.10232v2",
+    "full_text_sha256": "4a0ded5d597194826cd7ff92125582bf26f87feba74f52e22cd2c527e51ea0fa",
+    "full_text_bytes": 40489400,
+    "evidence_locator": "Sections 3–4 (capture/validation), 5.1–5.2 and Tables 1–3; Section 6 limitations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "motionx",
+    "full_text_source": "https://arxiv.org/pdf/2307.00818v2",
+    "full_text_version": "arXiv:2307.00818v2 [cs.CV] 26 Jan 2024",
+    "full_text_sha256": "d2567d3814e272336bc481a11b61dcc2e7e704dbe1d38c836eafb56896f5ed94",
+    "full_text_bytes": 24231497,
+    "evidence_locator": "§3 annotation pipeline, §4 dataset, §§5.1–5.3, Tables 3–7; §5.2 explicitly states 80/5/15 and repetition protocol; appendix metric definitions.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "best-automated-metric",
+    "full_text_source": "https://arxiv.org/pdf/2309.10248v1",
+    "full_text_version": "2309.10248v1",
+    "full_text_sha256": "bc2bf1f607d922335c6382741361c0c293e51fba9b1cb54cd5f12974b1336b8c",
+    "full_text_bytes": 15362483,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.2 (including Model Evaluation Process: ten-fold cross-validation), 5; Section 6.1 Limitations; Table 1 and result figures.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "behave",
+    "full_text_source": "https://arxiv.org/pdf/2204.06950v1",
+    "full_text_version": "arXiv:2204.06950v1",
+    "full_text_sha256": "a36f6129acfc3fd1b00a1b807537af619e59b8ab30ffa33587ff39e777b3ba7c",
+    "full_text_bytes": 14286064,
+    "evidence_locator": "Sections 3, 4.1–4.4 and 5.1–5.4; Tables 1–3; Figures 3–5.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "humanml3d",
+    "full_text_source": "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.pdf",
+    "full_text_version": "Proceedings/author PDF as retrieved 2026-11-19; no printed own-paper arXiv version found.",
+    "full_text_sha256": "5b80ce5d73992bec6736dc62e622db15da50394c49ccf433d6bc7a3c90a491ed",
+    "full_text_bytes": 6987379,
+    "evidence_locator": "Sections 3–4 (model/data), Section 5 and Table 1; Section 5.1.1 evaluation metrics and baseline tables.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "intercap",
+    "full_text_source": "https://arxiv.org/pdf/2209.12354v2",
+    "full_text_version": "arXiv:2209.12354v2 [cs.CV] 1 Oct 2022",
+    "full_text_sha256": "f66ed1c0eef06977f7d9b414939e10c500cc85ee6fcff1a83c07b92e62dcaebe",
+    "full_text_bytes": 10247498,
+    "evidence_locator": "§3 InterCap optimization, §4 dataset/capture, §5 experiments (contact heatmaps, mesh penetration, fitting accuracy); §§3.3–3.4 depth fitting and manually annotated contact constraints.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "mocapact",
+    "full_text_source": "https://arxiv.org/pdf/2208.07363v3",
+    "full_text_version": "2208.07363v3",
+    "full_text_sha256": "b6070a10696f581953d72d77ec9d7b02c1a3b767c30f2fb9a4303d8230542db6",
+    "full_text_bytes": 5870810,
+    "evidence_locator": "Sections 4.1–4.2, 5.1–5.2; Tables 1–4; Figure 6 (held-out clips); Appendix C.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "babel",
+    "full_text_source": "https://arxiv.org/pdf/2106.09696v2",
+    "full_text_version": "arXiv:2106.09696v2",
+    "full_text_sha256": "c1b17fce70bbcaae955e92d91d17c89d5581971446ffff6d4be0ce595910574c",
+    "full_text_bytes": 1324159,
+    "evidence_locator": "Sections 3.1–3.4, 4.1–4.2 and 5; Tables 2–3; BABEL action recognition splits and Metrics paragraphs.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "grab",
+    "full_text_source": "https://arxiv.org/pdf/2008.11200v1",
+    "full_text_version": "arXiv:2008.11200v1 [cs.CV] 25 Aug 2020",
+    "full_text_sha256": "f571520fbaf585403a8a23679e977269e59b6c5e263c14835aea6abe85993ddb",
+    "full_text_bytes": 13413454,
+    "evidence_locator": "§3/Table 1 (capture/contact/statistics), §4/Table 2 (GrabNet), supplementary S.8–S.9 (object partitions/evaluation), S.10 (marker bias).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "amass",
+    "full_text_source": "https://arxiv.org/pdf/1904.03278v1",
+    "full_text_version": "1904.03278v1",
+    "full_text_sha256": "2390a1d295d7519cdefcbe970eaa19bf2a8944ff06d1ada9debe07bf68bc2f94",
+    "full_text_bytes": 9198684,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.3; Section 5 and Table 1; SSM protocol and hand-evaluation caveat.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "kitml",
+    "full_text_source": "https://arxiv.org/pdf/1607.03827v2",
+    "full_text_version": "arXiv:1607.03827v2",
+    "full_text_sha256": "4111d46dd6047f24f8caf7a3fc40806b6a38388a1e0e94623c23a634c5eaabed",
+    "full_text_bytes": 3275111,
+    "evidence_locator": "Sections III–IV; Section V.A Structure and V.B Content; Table I; perplexity definition and explicit no-split paragraph.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "maskadapt",
+    "full_text_source": "https://arxiv.org/pdf/2603.29272v2",
+    "full_text_version": "arXiv:2603.29272v2 [cs.CV] 2 Apr 2026",
+    "full_text_sha256": "ae0d314ba1bca428feecae1407b2ff23f167840419fe90ef32a39bac71e7574c",
+    "full_text_bytes": 17352218,
+    "evidence_locator": "§3 base/residual policy and mask invariance; §§4.1–4.3, Tables 1–4 and Figures 5–8; conclusion limitations and supplementary task settings.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "simdiff",
+    "full_text_source": "https://arxiv.org/pdf/2509.20927v1",
+    "full_text_version": "2509.20927v1",
+    "full_text_sha256": "3cb189b97ced2face5f5d92fdf3d7f7da2da0800afe5162088daf4e020c8aaa2",
+    "full_text_bytes": 33200403,
+    "evidence_locator": "Sections 3–4; Sections 5.1–5.4, Tables 1–2 and Figure 4; Section 6 future work.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "closd",
+    "full_text_source": "https://arxiv.org/pdf/2410.03441v1",
+    "full_text_version": "arXiv:2410.03441v1",
+    "full_text_sha256": "84a64f6cae3b7c4ce9054b3d6735eda8c98dcb6577f0c64d38ba9a33eb0245f7",
+    "full_text_bytes": 1344223,
+    "evidence_locator": "Sections 4.1–4.4, 5.1–5.3 and 6; Tables 1–3; task success definitions and physics metric paragraph.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "mhc",
+    "full_text_source": "https://arxiv.org/pdf/2408.07295v4",
+    "full_text_version": "arXiv:2408.07295v4 [cs.RO] 21 Apr 2026",
+    "full_text_sha256": "984f5f01fcc4d79fb5b8a795b68e926e1fa37b4663dd9f95dbc3a38005836966",
+    "full_text_bytes": 4444255,
+    "evidence_locator": "Method sections Motion Directives/Curriculum/Reward Design; Motion Directive Dataset (20/20/35), Experimental Setup and Metrics, Tables 2–5; Real-World Experiments and conclusion.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "maskedmimic",
+    "full_text_source": "https://arxiv.org/pdf/2409.14393v1",
+    "full_text_version": "2409.14393v1",
+    "full_text_sha256": "31e79502e14262b6c9cec33eb4531e4f2f611e9d277a7d243b6f61c5d714b37d",
+    "full_text_bytes": 26114099,
+    "evidence_locator": "Sections 5–6.5, Sections 7.1–7.3; Tables 1–6; goal-program description in task evaluation.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "diffmimic",
+    "full_text_source": "https://arxiv.org/pdf/2304.03274v2",
+    "full_text_version": "arXiv:2304.03274v2",
+    "full_text_sha256": "5565c8970cc201c47f7a4951a10433705c7ba298859099d713a86e23fcfc174d",
+    "full_text_bytes": 3114350,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.4 and 5; Figures 2–4 and 6–8; Equation 4.1.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "phc",
+    "full_text_source": "https://arxiv.org/pdf/2305.06456v3",
+    "full_text_version": "2305.06456v3",
+    "full_text_sha256": "7032182d647e65d6c850a3b8e699fbcd3aa8b978fa8475e6227d029091ec8cda",
+    "full_text_bytes": 7146708,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.4; Table 1 and recovery/noisy-input result tables; limitations.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "pulse",
+    "full_text_source": "https://arxiv.org/pdf/2310.04582v2",
+    "full_text_version": "arXiv:2310.04582v2 [cs.CV] 12 Apr 2024",
+    "full_text_sha256": "cd435bb5c24db5ce04c4d05376903ec95fdf4c57d27b9e976d8d01360ba6649c",
+    "full_text_bytes": 7600191,
+    "evidence_locator": "§§4.1–4.3 (PHC+, variational distillation, downstream RL), §5 metrics/experiments, Tables 1–2; appendix B.1 (cleaning/counts), B.2 (control).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "ase",
+    "full_text_source": "https://arxiv.org/pdf/2205.01906v2",
+    "full_text_version": "2205.01906v2",
+    "full_text_sha256": "e4151dfddd0f79ef496092b58c10ef67b519e9a5be3b4d5b2067c575124050c7",
+    "full_text_bytes": 24478689,
+    "evidence_locator": "Sections 5.1–5.5, 7.1–7.2; Sections 9–10; Figures 6–10 and task learning curves.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "physdiff",
+    "full_text_source": "https://arxiv.org/pdf/2212.02500v3",
+    "full_text_version": "arXiv:2212.02500v3",
+    "full_text_sha256": "b29ad1febf19f8a82d242b5b779048bd037f71cc3e0cb2fa593f30e6f63cc9d4",
+    "full_text_bytes": 16447323,
+    "evidence_locator": "§§3.1–3.2; §4.1–4.4 and Tables 1–4; Appendices A–C.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "amp",
+    "full_text_source": "https://arxiv.org/pdf/2104.02180v2",
+    "full_text_version": "arXiv:2104.02180v2",
+    "full_text_sha256": "93d9e8e40b3908d65e8b88ae3dcbe8d4cd69071d13f3234ad927462477472a29",
+    "full_text_bytes": 8715012,
+    "evidence_locator": "Sections 5–8.5 and 9; Tables 1–3; Figure 9; Appendix task rewards.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "deepmimic",
+    "full_text_source": "https://arxiv.org/pdf/1804.02717v3",
+    "full_text_version": "arXiv:1804.02717v3 [cs.GR] 27 Jul 2018",
+    "full_text_sha256": "4bd4cc353bd2dc19da99bb21a254cbfdb9840e49940ce69d484eb6d45bfa348f",
+    "full_text_bytes": 7770304,
+    "evidence_locator": "§4 rewards/training, §5 environments/characters, §6 and Table 2 (normalized returns and samples), task adaptation, robustness, multi-skill and ablation subsections.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "grail",
+    "full_text_source": "https://arxiv.org/pdf/2606.05160v2",
+    "full_text_version": "2606.05160v2",
+    "full_text_sha256": "caef6ba780b835d9d61297a1bacf175ee8f59be5463e1a0644ba1f688f136009",
+    "full_text_bytes": 12885988,
+    "evidence_locator": "Sections 3.1–3.4; Sections 4.1–4.3, Tables 1–3; Appendix C evaluation settings. Section 6 (Limitations).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "intermimicgen",
+    "full_text_source": "https://arxiv.org/pdf/2610.06850v1",
+    "full_text_version": "arXiv:2610.06850v1",
+    "full_text_sha256": "bfbe3c4dc58e0c8949c67dc0a5776ade10ef9bcc0259ecf3a26fabe6af0a1e1f",
+    "full_text_bytes": 42681059,
+    "evidence_locator": "Sections 3.2–3.4 and 4.1–4.5; Tables 1–3; Appendices A, C.2, E.2–E.4, G and H.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "weave",
+    "full_text_source": "https://arxiv.org/pdf/2609.16683v1",
+    "full_text_version": "2609.16683v1",
+    "full_text_sha256": "593052d04a83591d6136563f86cfc50b1249e3dfc50f04de56b962655b4a5cc4",
+    "full_text_bytes": 6475445,
+    "evidence_locator": "Sections III–IV (reference/control), Section V.A–V.C; Figures 3–5; evaluation metrics and train/test/oracle protocol.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "beyondmimic",
+    "full_text_source": "https://arxiv.org/pdf/2508.08241v4",
+    "full_text_version": "arXiv:2508.08241v4 [cs.RO] 13 Nov 2025",
+    "full_text_sha256": "6219a2b66ccdab4233a1043439bceaaea3252dadbb037b470671584fc1487db1",
+    "full_text_bytes": 12502471,
+    "evidence_locator": "Results: Scalable Learning, Versatile Control, Adaptive Sampling and Latent Diffusion ablations; Methods motion tracking/diffusion guidance; supplementary S2/Table S8 and deployment settings.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "gmr",
+    "full_text_source": "https://arxiv.org/pdf/2510.02252v1",
+    "full_text_version": "2510.02252v1",
+    "full_text_sha256": "cc910a8606c2de1d87c5f34a9e1753165f3cdbefe2b1d61f1bf608dbd419f0a5",
+    "full_text_bytes": 982048,
+    "evidence_locator": "Sections III.A–III.E, IV (GMR), V; Table I and tracking/user-study result tables.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "exbody",
+    "full_text_source": "https://arxiv.org/pdf/2402.16796v2",
+    "full_text_version": "arXiv:2402.16796v2",
+    "full_text_sha256": "3529a700d69a37c2b1307b05762a9a7cde49368a76707c72d37c8ae118eb5780",
+    "full_text_bytes": 22800751,
+    "evidence_locator": "Sections II–IV; Tables II–IV; Figures 3–9; data curation, reward and real-world-results paragraphs.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "cfgcomposer",
+    "full_text_source": "https://arxiv.org/pdf/2611.15101v1",
+    "full_text_version": "arXiv:2611.15101v1 [cs.SD] 11 Nov 2026",
+    "full_text_sha256": "dc9b367482c3f9384e10612f683d735b613bd958ad66bdb80bf3d63a86d1cc2f",
+    "full_text_bytes": 6163777,
+    "evidence_locator": "§III inputs, §IV score derivation, §V/Algorithms 1–2 training/inference, §VI.A (775/195 clips), Table I, §VI.C scale ablations and deployment.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "moco",
+    "full_text_source": "https://arxiv.org/pdf/2609.11439v1",
+    "full_text_version": "2609.11439v1",
+    "full_text_sha256": "601d2b7e530966a072601ff922f8689ad9f1cb33bd12d37f8756e7ec44990a42",
+    "full_text_bytes": 3062027,
+    "evidence_locator": "Sections 3.1–3.4, 4.1–4.4; Table 2; Appendices E/H and extended user-study tables.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "emage",
+    "full_text_source": "https://arxiv.org/pdf/2401.00374v5",
+    "full_text_version": "2401.00374v5",
+    "full_text_sha256": "85d17bc5a8a4678d3205380a9ddb0d8f7cb4a78c6f161884ef1071aca8da91bb",
+    "full_text_bytes": 5543220,
+    "evidence_locator": "Sections 3–4; Section 5.1–5.3 and Tables 3–7; Appendices A (metrics), B (dataset/splits).",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "lodge",
+    "full_text_source": "https://arxiv.org/pdf/2403.10518v3",
+    "full_text_version": "arXiv:2403.10518v3",
+    "full_text_sha256": "29df9d2776926ba2c16a2ec3abaea743443d19291fed6d9214d9b90a5bf264c3",
+    "full_text_bytes": 4340274,
+    "evidence_locator": "Sections 3.2–3.4, 4.1–4.4 and 5; Tables 1–5; Foot Refine Block and evaluation metric definitions.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "edge",
+    "full_text_source": "https://arxiv.org/pdf/2211.10658v2",
+    "full_text_version": "arXiv:2211.10658v2 [cs.SD] 27 Nov 2022",
+    "full_text_sha256": "a86c11da4bc5005b450f5f9ee1f78b32ebdabc86d1e067ff45b9424081ffb4d2",
+    "full_text_bytes": 11673922,
+    "evidence_locator": "§3 diffusion/audio/geometric losses and editing (Figure 3), §4 experimental protocol and Tables 1–2, Equation 10 PFC; appendix A human study.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "finedance",
+    "full_text_source": "https://arxiv.org/pdf/2212.03741v4",
+    "full_text_version": "2212.03741v4",
+    "full_text_sha256": "deb4746922a06f6f4de90ee3329fc4be831db1de02111a0a79a293d49fb1aedc",
+    "full_text_bytes": 11693060,
+    "evidence_locator": "Sections 3–4.3; Section 5 experimental protocol, Tables 1–2; supplementary dataset discussion and user study.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "interaction-survey",
+    "full_text_source": "https://arxiv.org/pdf/2503.12763v2",
+    "full_text_version": "arXiv:2503.12763v2",
+    "full_text_sha256": "41bd882d84ba725c7ac915876f011797814f66a7f2ba27126defd117c03deb38",
+    "full_text_bytes": 6917605,
+    "evidence_locator": "Sections 3.1–3.3, 4.1–4.4, 5, 6.1–6.4 and 7; Tables 1–9, especially Table 9 evaluation taxonomy.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "video-motion-survey",
+    "full_text_source": "https://arxiv.org/pdf/2509.03883v1",
+    "full_text_version": "arXiv:2509.03883v1 [cs.CV] 4 Sep 2025",
+    "full_text_sha256": "b308dc06f38b5da3de3e136f5e06051acc070b574c1b59f71246e42f76905525",
+    "full_text_bytes": 6121335,
+    "evidence_locator": "§I scope/taxonomy, §III motion planning, §IV modality-based generation, §V refinement/output, §VI/Figure 11 and Table VIII (metrics/datasets), §VII challenges.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "generative-survey",
+    "full_text_source": "https://arxiv.org/pdf/2507.05419v1",
+    "full_text_version": "2507.05419v1",
+    "full_text_sha256": "58912e8e46356b5127b8ff9c91b24e42ee91716fef050a83436b72e68289a4d0",
+    "full_text_bytes": 2479918,
+    "evidence_locator": "Sections II–V (representations, generative families, datasets/metrics), Table XIV; statistical analysis and conclusion sections.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "text-motion-overview",
+    "full_text_source": "https://arxiv.org/pdf/2505.09379v1",
+    "full_text_version": "arXiv:2505.09379v1",
+    "full_text_sha256": "76360c3deb4210cd9734dfc2b0e5172527ad1f6472b0ce38c952401351821626",
+    "full_text_bytes": 305657,
+    "evidence_locator": "Sections 3.1–3.2, 4.1–4.2, 5.1–5.3 and 6.1–6.3; Tables 1–6.",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "realis-motion",
+    "full_text_source": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/liang26ad/liang26ad.pdf",
+    "full_text_version": "Official primary PDF fetched 2026-11-19; file SHA-256 retained in private audit receipt.",
+    "full_text_sha256": "aef95b4aff6b31851f60d12c027005830fda9f428a3ccf61988393adfde8d7af",
+    "full_text_bytes": 7603418,
+    "evidence_locator": "§3 decomposed 3D editing/video injection; §§4.1–4.3, Tables 2–4; supplementary training details and depth-error robustness analysis.",
+    "checked": "2026-11-19"
+  }
+]

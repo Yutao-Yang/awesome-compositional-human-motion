@@ -1,6 +1,7 @@
 """Build deterministic public survey views from auditable intake records (stdlib only)."""
 from pathlib import Path
 import collections,datetime as dt,difflib,html,json,re
+from bibtex_fields import strip_abstract
 ROOT=Path(__file__).resolve().parents[1]
 CATS={
  'classics':'Classical motion composition', 'temporal':'Temporal composition & long sequences',
@@ -14,14 +15,14 @@ OVERRIDES={}
 for cat,ids in {
  'classics':'motion-graphs interactive-motion-examples motion-annotations parametric-motion-graphs',
  'temporal':'teach priormdm diffcollage multi-act-2022 st2m amd-autoregressive flowmdm stmc t2lm dart motion-mamba prism timelinecontrol',
- 'spatial':'fusion sinc amd-anatomical parco mixermdm frankenmotion demogen coma energymogen salad',
- 'editing':'motionclip motionfix motionclr motionlab mmm bamm',
- 'backbones':'momask actor temos mdm mld t2m-gpt tmr',
+ 'spatial':'finemogen fusion sinc amd-anatomical parco mixermdm frankenmotion demogen coma energymogen salad',
+ 'editing':'omnicontrol gmd dno rg-dno motionclip motionfix motionclr motionlab mmm bamm',
+ 'backbones':'remodiffuse momask actor temos mdm mld t2m-gpt tmr',
  'objects':'procigen dechoi omomo chois cg-hoi interdiff himo goal saga imos interact pami trace interactmove hoifhli primhoi sk-hoi duethoi cosmi',
- 'scenes':'coins samp dimos scenediffuser circle trumans occupancy pigraphs world2hosi',
+ 'scenes':'unihsi interactagent coins samp dimos scenediffuser circle trumans occupancy pigraphs world2hosi',
  'people':'intermask intergen remos freemotion inter-x core4d hhoi-text',
  'datasets':'finemotion vimogen-mbench motionmillion best-automated-metric parahome amass babel kitml humanml3d grab behave intercap motionx instructmotion robomocap hiphi mocapact',
- 'physics':'simdiff deepmimic amp ase diffmimic phc pulse maskedmimic closd mhc maskadapt',
+ 'physics':'physdiff simdiff deepmimic amp ase diffmimic phc pulse maskedmimic closd mhc maskadapt',
  'humanoids':'exbody beyondmimic gmr weave intermimicgen grail',
  'audio':'cfgcomposer edge lodge emage finedance moco',
  'surveys':'interaction-survey generative-survey text-motion-overview video-motion-survey',
@@ -43,7 +44,7 @@ def clean_title(s):return s.replace('{','').replace('}','').replace('\\&','&').s
 def dump(path,obj):path.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
 def run():
  records={};duplicates=[]
- for file in sorted((ROOT/'intake').glob('*.json')):
+ for file in sorted((ROOT/'intake').glob('*.json'),key=lambda f:(f.name.startswith('deep_batch'),f.name)):
   for raw in json.loads(file.read_text()):
    p=dict(raw); key=next((k for k,v in records.items() if v['id']==p['id']),identity(p));p['intake_sources']=[file.name]
    p['tags']=[p['category']];p['category_id']=group(p)
@@ -52,10 +53,13 @@ def run():
     if 'arxiv.org/abs/' in p['url'] and 'arxiv.org/abs/' not in old['url']:old['url']=p['url']
     duplicates.append({'identity':key,'ids':[old['id'],p['id']],'intake':file.name})
     old['intake_sources']+=p['intake_sources'];old['tags']=sorted(set(old['tags']+p['tags']))
-    for f in ['method','conditions','evaluation','evidence_locator','publication_note','year_basis','venue','code']:
+    for f in ['method','conditions','evaluation','evidence_locator','publication_note','year_basis','venue','code','data_split','metrics','full_text_source','audit_status','version_note','source_receipt','full_text_version','full_text_sha256','full_text_bytes','title_note']:
      if p.get(f):old[f]=p[f]
     if p.get('evidence_level')=='method':old['evidence_level']='method';old['evidence_url']=p['evidence_url']
-    if p['limitations'] not in old['limitations']:old['limitations']+=' '+p['limitations']
+    if p.get('audit_status')=='full_text_checked':
+     old['summary']=p['summary'];old['limitations']=p['limitations'];old['checked']=p['checked']
+     if p.get('bibliographic_correction'):old['title']=p['title']
+    elif p['limitations'] not in old['limitations']:old['limitations']+=' '+p['limitations']
    else:records[key]=p
  metadata=json.loads((ROOT/'sources/metadata.json').read_text())
  releases={x['id']:x for x in json.loads((ROOT/'sources/release_links.json').read_text())} if (ROOT/'sources/release_links.json').exists() else {}
@@ -99,13 +103,16 @@ def run():
    fields={'title':'{'+p['title']+'}','year':str(p['year']),'url':p['url'],'note':'Curated minimal record; verify publication-specific metadata before submission'}
    if p.get('authors'):fields['author']=' and '.join(p['authors'])
    b='@misc{'+p['citekey']+',\n'+''.join('  '+k+' = {'+v+'},\n' for k,v in fields.items())+'}\n'
+  b=strip_abstract(b)
   b='\n'.join(line.rstrip() for line in b.splitlines())+'\n'
   p['bibtex']=b;bib.append(b.strip())
  papers=sorted(records.values(),key=lambda p:(list(CATS).index(p['category_id']),-p['display_year'],p['title']))
  dump(ROOT/'papers.json',papers)
+ dump(ROOT/'sources/full_text_inventory.json',[{k:p[k] for k in ['id','full_text_source','full_text_version','full_text_sha256','full_text_bytes','evidence_locator','checked'] if k in p} for p in papers if p.get('audit_status')=='full_text_checked'])
  (ROOT/'references.bib').write_text('% Official-source records where available; stable survey citekeys.\n% arXiv versions are cited as preprints, not silently relabeled as proceedings.\n\n'+'\n\n'.join(bib)+'\n')
  counts=collections.Counter(p['category_id'] for p in papers);levels=collections.Counter(p['evidence_level'] for p in papers)
- report={'date':'2026-11-19','papers':len(papers),'evidence':dict(levels),'categories':dict(counts),'duplicates_merged':duplicates,'title_differences_to_review':mismatches,'minimal_bibliographies':no_bib,'external_reproduction':False}
+ fulltext=sum(p.get('audit_status')=='full_text_checked' for p in papers)
+ report={'full_text_checked':fulltext,'date':'2026-11-19','papers':len(papers),'evidence':dict(levels),'categories':dict(counts),'duplicates_merged':duplicates,'title_differences_to_review':mismatches,'minimal_bibliographies':no_bib,'external_reproduction':False}
  dump(ROOT/'audit.json',report)
  matrix=['# Method-level comparison matrix','','Input contracts are not interchangeable. These are targeted reading notes, not reproduced scores. Each title links to a fuller audit card.','','| Paper | Composition axes | Inputs checked | Mechanism | Evaluation checked |','|---|---|---|---|---|']
  for p in papers:
@@ -113,26 +120,32 @@ def run():
   cells=[f"[{p['id']}](papers.md#{p['id']})",', '.join(p['composition_axes']),p.get('conditions','Pending'),p.get('method','Pending'),p.get('evaluation','Pending')]
   matrix.append('| '+' | '.join(str(c).replace('|','/').replace('\n',' ') for c in cells)+' |')
  (ROOT/'notes/comparison.md').write_text('\n'.join(matrix)+'\n')
+ protocols=['# Data splits and evaluation protocols','','Only explicitly reported splits are stated. Missing details and non-applicable splits are distinguished. Source locators point into the audited full text.','','| Paper | Data and split | Metrics | Source locator | Reading scope |','|---|---|---|---|---|']
+ for p in papers:
+  cells=[f"[{p['id']}](papers.md#{p['id']})",p.get('data_split','Earlier targeted reading; structured split audit pending.'),p.get('metrics','See evaluation in the earlier targeted audit.'),p.get('evidence_locator','Not recorded in earlier pass'),p.get('audit_status','targeted_method_reading')]
+  protocols.append('| '+' | '.join(str(c).replace('|','/').replace('\n',' ') for c in cells)+' |')
+ (ROOT/'notes/protocols.md').write_text('\n'.join(protocols)+'\n')
  # README: graph gives overview, ordinary Markdown links remain reliable on GitHub.
  lines=['# Compositional Human Motion & Interaction','',
  '**A living paper survey of temporal, spatial, semantic, interaction and skill composition for digital humans.**','',
  '从经典动作拼接到生成模型、交互与具身执行，按“组合了什么、依赖哪些条件、验证了什么”组织。','',
- f'Last audit: **2026-11-19** · **{len(papers)} unique papers** · **{levels["method"]} method-level / {levels["abstract"]} abstract-level records** · No external method reproduced.','',
- '[Interactive clickable map](https://yutao-yang.github.io/awesome-compositional-human-motion/) · [All audit cards](notes/papers.md) · [Comparison matrix](notes/comparison.md) · [Benchmarks](notes/benchmarks.md) · [中文阅读指南](notes/reading-guide.zh.md) · [BibTeX](references.bib) · [JSON](papers.json) · [Search & inclusion protocol](SEARCH_PROTOCOL.md) · [Maintenance](CONTRIBUTING.md)','',
- '> Breadth-first, evidence-labelled curation; not a claim of exhaustive full-text review. “Method” means targeted method/evaluation reading, not reproduction. Displayed years use the first preprint where known; venue and cited-version bibliography years are separate.','',
+ f'Last audit: **2026-11-19** · **{len(papers)} unique papers** · **{fulltext} full-text checks / {levels["method"]-fulltext} earlier targeted method readings / {levels["abstract"]} abstract-only records** · No external method reproduced.','',
+ '[Interactive clickable map](https://yutao-yang.github.io/awesome-compositional-human-motion/) · [All audit cards](notes/papers.md) · [Comparison matrix](notes/comparison.md) · [Data & metrics](notes/protocols.md) · [Benchmarks](notes/benchmarks.md) · [中文阅读指南](notes/reading-guide.zh.md) · [BibTeX](references.bib) · [JSON](papers.json) · [Search & inclusion protocol](SEARCH_PROTOCOL.md) · [Maintenance](CONTRIBUTING.md)','',
+ '> Breadth-first, evidence-labelled curation; not a claim of all-field completeness. Full-text checks include methods, input conditions, split and metrics; earlier targeted method readings are separately labelled. Neither means reproduction. Displayed years use the first preprint where known; venue and cited-version bibliography years are separate.','',
  '## Research map','',
  'The diagram is a visual overview. Every category and paper in the directory below is a normal clickable link; the interactive map also offers search, evidence filters and expandable paper cards.','',
- '```mermaid','mindmap','  root((Compositional Human Motion))']
+ '[![Academic taxonomy drawn as editable PowerPoint shapes](figures/taxonomy-overview.png)](https://yutao-yang.github.io/awesome-compositional-human-motion/)','','[Download editable PowerPoint](figures/compositional-human-motion-taxonomy.pptx) · [Four detailed branch diagrams](figures/README.md)','','<details>','<summary>Text-source taxonomy (Mermaid)</summary>','','```mermaid','mindmap','  root((Compositional Human Motion))']
  branches={'Motion composition':['classics','temporal','spatial','editing','backbones'],'Interaction composition':['objects','scenes','people'],'Data and execution':['datasets','physics','humanoids'],'Related fields':['audio','surveys','video']}
  for label,cats in branches.items():
   lines+=['    '+label]
   for c in cats:lines+=['      '+CATS[c].replace('&','and')]
- lines+=['```','','## Clickable directory','']
+ lines+=['```','','</details>','','## Clickable directory','']
  for c in CATS:
   lines+=[f'- [{CATS[c]}](#{c}) — {counts[c]} papers']
  lines+=['','## How to read the evidence','',
  '- **Abstract**: identity and task-level claims checked against a primary source; detailed protocol remains to be audited.',
- '- **Method**: targeted method/conditions/evaluation reading; see the linked source and locator when available.',
+ '- **Full text checked**: read the primary methods and experiments, including input contract, data/split, named metrics and limitations. See exact source locators.',
+ '- **Earlier targeted method reading**: targeted method/conditions/evaluation reading from the previous release; not yet the same structured audit as the new full-text round.',
  '- **Curator boundary**: limitations distinguish comparison scope from authors’ claims; they do not assert an untested method failure.',
  '- **Official code link**: points to an author-linked repository; availability is not installation, licensing or reproducibility verification.','',
  'A long sequence is not automatically compositional generalization. Report unseen source pairings, unseen semantic skill pairings and state-dependent task chains separately.','']
@@ -143,10 +156,10 @@ def run():
    links=f'[Paper]({p["url"]}) · [Audit](notes/papers.md#{p["id"]})'
    if p.get('code'):links+=f' · [Code]({p["code"]})'
    summary=p['summary'].replace('|','/').replace('\n',' ')
-   lines += [f'| **{p["id"]}** — {p["title"]} | {p["display_year"]}'+ (' / '+p['venue'] if p.get('venue') else '')+f' | {summary} | {p["evidence_level"]} | {links} |']
+   lines += [f'| **{p["id"]}** — {p["title"]} | {p["display_year"]}'+ (' / '+p['venue'] if p.get('venue') else '')+f' | {summary} | {p.get("audit_status",p["evidence_level"])} | {links} |']
    cards += [f'<a id="{p["id"]}"></a>',f'## {p["title"]}','',f'**{p["id"]} · {p["display_year"]} · {label} · {p["evidence_level"]}**','',f'[Primary source]({p["url"]}) · [Evidence]({p["evidence_url"]}) · Citekey: `{p["citekey"]}`','']
    if p.get('authors'):cards+=['**Authors of cited version:** '+ '; '.join(p['authors'])+'.','']
-   for f,l in [('summary','Contribution / composition'),('method','Mechanism'),('conditions','Input contract'),('evaluation','Evaluation checked'),('evidence_locator','Source locator'),('limitations','Scope / curator boundary'),('publication_note','Publication / version note')]:
+   for f,l in [('summary','Contribution / composition'),('method','Mechanism'),('conditions','Input contract'),('data_split','Data and split'),('metrics','Evaluation metrics'),('evaluation','Evaluation checked'),('full_text_source','Full-text source'),('audit_status','Reading status'),('version_note','Full-text version note'),('full_text_version','Inspected version'),('full_text_sha256','Full-text SHA256'),('evidence_locator','Source locator'),('limitations','Scope / curator boundary'),('publication_note','Publication / version note')]:
     if p.get(f):cards+=['**'+l+':** '+str(p[f]),'']
    cards+=['**Composition axes:** '+', '.join(p['composition_axes'])+'.','', '**Metadata:** '+p['bibliography_status']+'; [source]('+p['bibliography_source']+'); checked '+p['checked']+'.','']
   lines+=['']

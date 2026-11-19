@@ -8,3 +8,7 @@ __pycache__/
 *.png
 *.jpg
 node_modules/
+
+# User-authorized native taxonomy and rendered screenshots only.
+!figures/*.png
+!figures/*.pptx

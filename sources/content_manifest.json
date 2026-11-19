@@ -1,32 +1,42 @@
 {
-  "utc": "2026-11-19T07:59:28.752068+00:00",
+  "utc": "2026-11-19T10:14:07.151821+00:00",
   "scope": "Public survey text, bibliography, structured evidence and static viewer only",
   "status": "complete_for_listed_files",
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 83,
-      "sha256": "2f08e374a5aee8f624c9a4c185d9544e6f63f77f50739f528eb2fda761ebcb5f"
+      "bytes": 180,
+      "sha256": "ac9a9993ce9da314f2f76f1a86c7201c2a86f9bd48dc5bd8278ffe700ea24641"
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 2786,
-      "sha256": "cdc3c616602d60ee6eac53bbe5d5f11cc47ea4b550d686a17dc81c7e83e12fee"
+      "bytes": 3166,
+      "sha256": "98b3eb7a47440ce58adce636f9ebb5113e1a420cf77b2ef724e0e2e9d25ee1ab"
     },
     {
       "path": "README.md",
-      "bytes": 50320,
-      "sha256": "3801f0a70ee1a0e74a5de80aeb60cef74c2469522a2f62d6b3132e23ac3183c2"
+      "bytes": 62333,
+      "sha256": "8c8a98881097429d2fe96340ddfdeedb37775078909b2e26e419d298c258089d"
     },
     {
       "path": "SEARCH_PROTOCOL.md",
-      "bytes": 6177,
-      "sha256": "d114d4488b7e2901b38766d15b874f5706684cad4f4308b2c2ac37f87478f86e"
+      "bytes": 7886,
+      "sha256": "c458db400dedbd08c3a23aeed2febd4e114b59dbac1947fbd3751cbc0a097c25"
     },
     {
       "path": "audit.json",
-      "bytes": 3591,
-      "sha256": "2b3bb8adec389a47bbac15f7f13ffab2f50a3e6c07fe133b42d2dcd55b534038"
+      "bytes": 24400,
+      "sha256": "adceeffd01c802bf605cbf624d707b5efeb13b06a8195c496febf777b787de01"
+    },
+    {
+      "path": "audits/quality_review_20261119.json",
+      "bytes": 2370,
+      "sha256": "64e879899454ab4a8a4f8220dd3ceafaca1b05a779cd9a56f839ce73c9f000e6"
+    },
+    {
+      "path": "audits/requested100_coverage.json",
+      "bytes": 1906,
+      "sha256": "49f802ca844905278135ac36f2eb7483230436219659137c9cfe080d7c220773"
     },
     {
       "path": "docs/.nojekyll",
@@ -35,13 +45,48 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 9082,
-      "sha256": "258d7489c047aa711abe02698c57366ccc511b5db5095df02d1db516719a77c8"
+      "bytes": 10191,
+      "sha256": "a6555c1a6c785133d314fc5ac290b7bd88934f055a4de743a17b3e61dcb80aff"
     },
     {
       "path": "docs/papers.js",
-      "bytes": 234609,
-      "sha256": "817cdf6a2e71634e52516385744269199b0bb70fe43b951cef970a5662c076ba"
+      "bytes": 513962,
+      "sha256": "694f620349a9f49e4b248998a6efa627f7a637f1a0461f9f8d56955e139517c7"
+    },
+    {
+      "path": "figures/README.md",
+      "bytes": 1069,
+      "sha256": "34faba8912d6aade6312bbbace070f864bf21750c756957dbc9bd8d469a7ebc1"
+    },
+    {
+      "path": "figures/compositional-human-motion-taxonomy.pptx",
+      "bytes": 78094,
+      "sha256": "911c4985171b8afcc172ce3f62d892f106328e15e598a795e6e3b99674efc503"
+    },
+    {
+      "path": "figures/data-and-execution.png",
+      "bytes": 281343,
+      "sha256": "9fda1a061fbea729cb95f1b4d9f4e9d2065354dfdc68ab91f534171b49db8075"
+    },
+    {
+      "path": "figures/interaction-composition.png",
+      "bytes": 240022,
+      "sha256": "52b5ee933223875f2e680c4c9aef89d5ee26854412b35cf606b77e04f06343fe"
+    },
+    {
+      "path": "figures/motion-composition.png",
+      "bytes": 324446,
+      "sha256": "ffc26e2a9183ecb734a562b1c2e80ecc6704134684c395b47394eb9672246b30"
+    },
+    {
+      "path": "figures/related-fields.png",
+      "bytes": 157347,
+      "sha256": "c0265ac5cf982277244e932b09a6a51ff2ac0f20570382fda293a8309dc27eae"
+    },
+    {
+      "path": "figures/taxonomy-overview.png",
+      "bytes": 434625,
+      "sha256": "dd801d937cc419c1e9d603096f5e0727850464fe5ffd8e6b222ed98d99e708d5"
     },
     {
       "path": "intake/context.json",
@@ -57,6 +102,31 @@
       "path": "intake/data_control.json",
       "bytes": 23569,
       "sha256": "03e7872d1feca34a0123c37318eb91d1d48fd24b54728cb3582341ed5210ba84"
+    },
+    {
+      "path": "intake/deep_batch1_20261119.json",
+      "bytes": 112104,
+      "sha256": "4fb7321b88919ec6c15a858080b91e72452057335f372dbeb7bd56c35c9107c2"
+    },
+    {
+      "path": "intake/deep_batch2_20261119.json",
+      "bytes": 94444,
+      "sha256": "aa14058ef4669eefd59a88c949987419b82fb8b86a37b77e49d86c65c6e6f574"
+    },
+    {
+      "path": "intake/deep_batch2_original28_20261119.json",
+      "bytes": 79793,
+      "sha256": "135ff9098373d939e6588b4295d5739b6f1b247e562f8f801b465281265b301d"
+    },
+    {
+      "path": "intake/deep_batch3_20261119.json",
+      "bytes": 98239,
+      "sha256": "38565a5b7012881048ad7a4f83734b715e2a4e483cc0215a3c595bafab14cd03"
+    },
+    {
+      "path": "intake/deep_batch_main_gaps_20261119.json",
+      "bytes": 20899,
+      "sha256": "cfb61b2f591b4e5166515f41263b231e720ca38e3487880457ce36bf6b820c4a"
     },
     {
       "path": "intake/evaluation_extra.json",
@@ -95,13 +165,18 @@
     },
     {
       "path": "notes/comparison.md",
-      "bytes": 16132,
-      "sha256": "01c0fbbb987cce446e7c6859598f4cdfd580e49a5e358d24fa0a1ffd1d0d5453"
+      "bytes": 124538,
+      "sha256": "34b94381c89ada032bc1c2d687e6265cf54cd3797ef97172dd6fbaed5de81974"
     },
     {
       "path": "notes/papers.md",
-      "bytes": 134640,
-      "sha256": "671ab83f51c7b97336a6d33d9806d9d239a3a178563a1e083fcced5d8d5739d0"
+      "bytes": 406980,
+      "sha256": "10544646a3ddc9f59af73c88943c5135b296265aa9413fb974967ef62cb2b414"
+    },
+    {
+      "path": "notes/protocols.md",
+      "bytes": 96433,
+      "sha256": "bde241b7b8239fa37a92086ba22a8cacbd8afc2ebaefc8a64e7d27ed7a14d24e"
     },
     {
       "path": "notes/reading-guide.zh.md",
@@ -110,23 +185,28 @@
     },
     {
       "path": "papers.json",
-      "bytes": 257868,
-      "sha256": "c1fd1e4ade265ef574eabc62adca555e9ea4af68e0ab58c4f27e6e97d8816eb7"
+      "bytes": 545251,
+      "sha256": "7d9f9b68de12dcf448cdb10a4391cf43f3e86928ebb84473351de1f5e46b452b"
     },
     {
       "path": "references.bib",
-      "bytes": 53354,
-      "sha256": "dcf28c4e13fa861632e870c9c4672407c9bc0e8946de46ad71326d182a08fa49"
+      "bytes": 52863,
+      "sha256": "9928de4fef85d9c601c8ee5aa40a32d7159d4b76a8bd9f52227080c606753abb"
+    },
+    {
+      "path": "scripts/bibtex_fields.py",
+      "bytes": 740,
+      "sha256": "1383c45d116c9df7596f0e6da5d0ed1053eb4694565d0a1d00b179088766104e"
     },
     {
       "path": "scripts/build.py",
-      "bytes": 14456,
-      "sha256": "20009b313d70bdb85dba13f56613356c2f0ddec2abceda43f0f4b0d3db1c241e"
+      "bytes": 17250,
+      "sha256": "0c3e2ceb8feec43d0237cd4e25ac06c445bd1a9b4579f0af15032448e46e3c2b"
     },
     {
       "path": "scripts/enrich.py",
-      "bytes": 3833,
-      "sha256": "6cf3b7a374e8b21b7dcbabe7c7dc3cee2e9206f8d5ab9a926fb70f34017825f3"
+      "bytes": 3906,
+      "sha256": "3124ca997be20e892bc15540e82d06b167edb3893a4d9cee0d97918a07e5a1d8"
     },
     {
       "path": "scripts/manifest.py",
@@ -135,13 +215,18 @@
     },
     {
       "path": "scripts/publish.py",
-      "bytes": 2560,
-      "sha256": "6eeae16b84a290e222f44a89e633ceda9c24ba6bcbc2010fc8bb50a0396e37a0"
+      "bytes": 2629,
+      "sha256": "97496a4ca10b601505c8abe95103ce2c1d0de0a5480f2845c3fcbfe3b9a7a68d"
     },
     {
       "path": "scripts/validate.py",
-      "bytes": 3345,
-      "sha256": "2922b9dee77cace919be09a62832323b29057d21f7614a86cbc741db0fef8303"
+      "bytes": 4195,
+      "sha256": "d047850e3d4a935ceea04d5b023e48eef46e48d75abc2e47d53071973be9d397"
+    },
+    {
+      "path": "sources/bibliography_discrepancies.json",
+      "bytes": 417,
+      "sha256": "c08c90b5d97be6c472ace62d477a2086cfe3866b61aaa75022f3c1de0240e528"
     },
     {
       "path": "sources/code_links.json",
@@ -149,9 +234,14 @@
       "sha256": "f387f88430b9ae9f8bc6877a927ec0e8e9cadaadd84ec0fb62eda6856637a12d"
     },
     {
+      "path": "sources/full_text_inventory.json",
+      "bytes": 61038,
+      "sha256": "2ca89253ceebe84a3877e249b524fb777b84b6277c18921fed99cc3eed3786a8"
+    },
+    {
       "path": "sources/metadata.json",
-      "bytes": 146600,
-      "sha256": "94422a78fa1897aa115899f4e8df8260796cb8934c1a8611dc2f24d2a21ef148"
+      "bytes": 151190,
+      "sha256": "6ed6d865621034db205af33e132a3ecd4b28daca171ec91021266563b8d8b5db"
     },
     {
       "path": "sources/release_links.json",

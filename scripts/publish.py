@@ -21,7 +21,7 @@ if __name__=='__main__':
   if any(part in ('.git','__pycache__') for part in rel.parts):continue
   if src.is_symlink():sys.exit('Refusing symlink: '+str(rel))
   if not src.is_file():continue
-  if src.suffix not in allowed and src.name not in ('.gitignore','.nojekyll'):sys.exit('Unexpected publication file: '+str(rel))
+  if src.suffix not in allowed and not (rel.parts[0]=='figures' and src.suffix in ('.png','.pptx')) and src.name not in ('.gitignore','.nojekyll'):sys.exit('Unexpected publication file: '+str(rel))
   target=dst/rel;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(src,target);copied.append(rel)
  print('Copied',len(copied),'survey files; no destination files deleted.')
  git(dst,'add','.')

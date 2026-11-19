@@ -53,3 +53,14 @@ A detailed author project page can support `method` when explicitly identified a
 ## Known residual gaps and stopping rule
 
 Breadth is useful only when identities and evidence remain inspectable. This first release prioritizes the above branches and records remaining full-text/protocol work rather than asserting “all papers”. Continue with backward/forward citation chasing from pivotal entries, proceedings sweeps and evaluation-focused reading; preserve the date and reading level of each addition. A future systematic-review release would need frozen search engines/queries, retrieval counts, explicit screening decisions and independent inclusion adjudication.
+
+
+## Full-text round, 2026-11-19
+
+The second round read the methods and experiments of all 100 previously abstract-only papers, and normalized the original 28 targeted readings to the same structured schema. Nine important omissions were added after full-text reading: OmniControl, GMD, FineMoGen, ReMoDiffuse, DNO, PhysDiff, UniHSI, RG-DNO and InteractAgent. The resulting 137 entries each have mechanism, inference inputs, dataset/split, named metrics, evaluation scope, limitations, section/table locators and a primary full-text identity.
+
+Private retrieval receipts retain the PDFs and decoded text. Public `sources/full_text_inventory.json` exposes source URLs, inspected versions, byte counts and SHA256 without mirroring the papers. Version drift is explicit: the PRISM v4 PDF title differs from the official BibTeX endpoint; `sources/bibliography_discrepancies.json` records the resolution. Supplementary material was consulted where specifically identified, not presumed read for every paper.
+
+Independent cross-lane checks sampled 43 distinct entries. Seven mandatory metadata/protocol/scope corrections were resolved, with further clarifying notes retained for ambiguous source definitions. This is a second check of that sample, not independent double review of every entry. Source omissions remain labelled as unreported or not applicable; no split ratios are inferred from dataset conventions alone. Full-text reading is still distinct from running public code or reproducing a table.
+
+The authoring files and high-resolution renders in `figures/` are the user-authorized exception for publishing the survey diagram. They contain no paper figures, datasets, weights or private project results.
