@@ -64,11 +64,31 @@
     "arxiv": "2008.11200"
   },
   "https://arxiv.org/abs/2104.02180": {
-    "url": "https://arxiv.org/abs/2104.02180",
-    "checked_utc": "2026-11-19T07:45:06.466275+00:00",
+    "url": "https://xbpeng.github.io/projects/AMP/",
+    "checked_utc": "2026-11-19T10:20:20.844596+00:00",
     "status": "ok",
-    "metadata_url": "https://arxiv.org/bibtex/2104.02180",
-    "bibtex": "@misc{peng2022ampadversarialmotionpriors,\n      title={AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control}, \n      author={Xue Bin Peng and Ze Ma and Pieter Abbeel and Sergey Levine and Angjoo Kanazawa},\n      year={2022},\n      eprint={2104.02180},\n      archivePrefix={arXiv},\n      primaryClass={cs.GR},\n      doi={https://doi.org/10.1145/3450626.3459670},\n      url={https://arxiv.org/abs/2104.02180}, \n}",
+    "metadata_url": "https://xbpeng.github.io/projects/AMP/",
+    "meta": {
+      "citation_title": [
+        "AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control"
+      ],
+      "citation_author": [
+        "Xue Bin Peng",
+        "Ze Ma",
+        "Pieter Abbeel",
+        "Sergey Levine",
+        "Angjoo Kanazawa"
+      ],
+      "citation_publication_date": [
+        "2021"
+      ],
+      "citation_journal_title": [
+        "ACM Transactions on Graphics (Proc. SIGGRAPH 2021)"
+      ],
+      "citation_pdf_url": [
+        "https://xbpeng.github.io/projects/AMP/AMP_2021.pdf"
+      ]
+    },
     "title": "AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control",
     "authors": [
       "Xue Bin Peng",
@@ -77,8 +97,10 @@
       "Sergey Levine",
       "Angjoo Kanazawa"
     ],
-    "year": 2022,
-    "arxiv": "2104.02180"
+    "year": 2021,
+    "bibtex": "@article{\n\t2021-TOG-AMP,\n\tauthor = {Peng, Xue Bin and Ma, Ze and Abbeel, Pieter and Levine, Sergey and Kanazawa, Angjoo},\n\ttitle = {AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control},\n\tjournal = {ACM Trans. Graph.},\n\tissue_date = {August 2021},\n\tvolume = {40},\n\tnumber = {4},\n\tmonth = jul,\n\tyear = {2021},\n\tarticleno = {144},\n\tnumpages = {20},\n\turl = {http://doi.acm.org/10.1145/3450626.3459670},\n\tdoi = {10.1145/3450626.3459670},\n\tpublisher = {ACM},\n\taddress = {New York, NY, USA},\n\tkeywords = {motion control, physics-based character animation, reinforcement learning},\n}",
+    "arxiv": "2104.02180",
+    "origin": "official_author_project_citation"
   },
   "https://arxiv.org/abs/2106.09696": {
     "url": "https://arxiv.org/abs/2106.09696",
@@ -2967,5 +2989,23 @@
     ],
     "year": 2026,
     "arxiv": "2610.25649"
+  },
+  "https://arxiv.org/abs/2502.20390": {
+    "url": "https://sirui-xu.github.io/InterMimic/",
+    "checked_utc": "2026-11-19T10:20:21.320991+00:00",
+    "status": "ok",
+    "metadata_url": "https://sirui-xu.github.io/InterMimic/",
+    "meta": {},
+    "bibtex": "@inproceedings{xu2025intermimic,\n      title={InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions},\n      author={Xu, Sirui and Ling, Hung Yu and Wang, Yu-Xiong and Gui, Liangyan},\n      booktitle={CVPR},\n      year={2025}\n}",
+    "title": "InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions",
+    "authors": [
+      "Xu, Sirui",
+      "Ling, Hung Yu",
+      "Wang, Yu-Xiong",
+      "Gui, Liangyan"
+    ],
+    "year": 2025,
+    "arxiv": "2502.20390",
+    "origin": "official_author_project_citation"
   }
 }

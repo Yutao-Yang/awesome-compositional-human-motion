@@ -1,9 +1,9 @@
 {
-  "full_text_checked": 137,
+  "full_text_checked": 138,
   "date": "2026-11-19",
-  "papers": 137,
+  "papers": 138,
   "evidence": {
-    "method": 137
+    "method": 138
   },
   "categories": {
     "classics": 4,
@@ -15,7 +15,7 @@
     "scenes": 11,
     "people": 7,
     "datasets": 17,
-    "physics": 12,
+    "physics": 13,
     "humanoids": 6,
     "audio": 6,
     "surveys": 4,
@@ -1197,6 +1197,14 @@
         "text-motion-overview"
       ],
       "intake": "deep_batch3_20261119.json"
+    },
+    {
+      "identity": "2104.02180",
+      "ids": [
+        "amp",
+        "amp"
+      ],
+      "intake": "deep_batch_user_requested_20261119.json"
     }
   ],
   "title_differences_to_review": [],

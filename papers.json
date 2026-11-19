@@ -5629,6 +5629,60 @@
     "bibtex": "@misc{maskadapt2026,\n      title={MaskAdapt: Learning Flexible Motion Adaptation via Mask-Invariant Prior for Physics-Based Characters},\n      author={Soomin Park and Eunseong Lee and Kwang Bin Lee and Sung-Hee Lee},\n      year={2026},\n      eprint={2603.29272},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2603.29272},\n}\n"
   },
   {
+    "id": "intermimic",
+    "title": "InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions",
+    "year": 2025,
+    "category": "physics-based interaction imitation",
+    "url": "https://arxiv.org/abs/2502.20390",
+    "original_paper_url": "https://arxiv.org/abs/2502.20390",
+    "authors": [
+      "Xu, Sirui",
+      "Ling, Hung Yu",
+      "Wang, Yu-Xiong",
+      "Gui, Liangyan"
+    ],
+    "venue": "CVPR 2025",
+    "project_url": "https://sirui-xu.github.io/InterMimic/",
+    "code": "https://github.com/Sirui-Xu/InterMimic",
+    "code_evidence_url": "https://sirui-xu.github.io/InterMimic/",
+    "publication_note": "Author project page identifies CVPR 2025; this method audit specifically reads arXiv v2 dated 1 February 2026, including its supplementary material. Distinct from InterMimicGen.",
+    "method": "Subject-specific RL teachers correct and retarget imperfect HOI to one canonical body using contact-aware rewards, physical-state initialization, and interaction early termination. Teacher rollouts supply refined state references and teacher actions supervise a student. A staged DAgger-to-PPO curriculum combines reference/action distillation with RL; a Transformer integrates reference keyframes.",
+    "conditions": "Human/object states, joint-to-object geometry, simulated contact markers, and future reference human/object poses at specified offsets. Teachers use offsets {1,16}, students {1,2,4,16}. References come from MoCap, teacher rollouts, or a separate kinematic generator; text alone does not condition this tracker.",
+    "data_split": "OMOMO has 17 subjects and 15 objects; teachers are subject-specific and subject 14 is held out from student training, with remaining subjects used to train the student. Irrecoverable references are filtered. No universal percentage or new semantic-combination holdout is declared; extra datasets primarily test teachers/qualitative transfer.",
+    "metrics": "Success is the fraction of references imitated at least once; Duration measures time before termination. Human joint/object-point errors in centimeters use the best trial and tracked duration, excluding inaccurate hand joints on BEHAVE/OMOMO. These are reference-tracking metrics, not generated-motion text retrieval or task-success rates.",
+    "evaluation": "Tables 1–2 compare PhysHOI/SkillMimic and distillation/PPO variants; test cases include subject 14, tenfold object masses, 24 ten-second HOI-Diff references and 60 InterDiff predictions (10 past/25 future frames). Unseen-object and multi-object transfer is also illustrated. Robot embodiment adaptation is simulated; hardware transfer is not established.",
+    "limitations": "Reference lookahead remains required; generator composition is not autonomous semantic task discovery. Severe MoCap errors fail; unnatural penetration-based support and limited fine-finger dexterity remain. Robot experiments disable self-collision and model hand actuators differently from hardware. Best-trial tracking and held-out-student-subject results need separate interpretation.",
+    "evidence_locator": "§3.1/Equation 1 (observations and GT reference goals); §§3.2–3.4/Algorithm 1 (teachers, reference/action distillation and schedule); §4 datasets/metrics and Tables 1–2 (subject 14, best-trial errors, external generators); §4.2/Figure 7 (object transfer) and supplementary F (multi-object extension); supplementary F (robot assumptions) and H (limitations).",
+    "summary": "Subject-specific HOI teachers refine MoCap references, distill a shared reference-conditioned student, and improve it through RL fine-tuning.",
+    "audit_status": "full_text_checked",
+    "evidence_level": "method",
+    "checked": "2026-11-19",
+    "full_text_source": "https://arxiv.org/pdf/2502.20390v2",
+    "full_text_version": "arXiv:2502.20390v2 [cs.CV] 1 Feb 2026",
+    "evidence_url": "https://arxiv.org/pdf/2502.20390v2",
+    "full_text_sha256": "01f47e846d7cc3575a01741e889853b9e34945ad57da8305da2aeacf97286324",
+    "full_text_bytes": 12634680,
+    "intake_sources": [
+      "deep_batch_user_requested_20261119.json"
+    ],
+    "tags": [
+      "physics-based interaction imitation"
+    ],
+    "category_id": "physics",
+    "submitted_title": "InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions",
+    "submitted_year": 2025,
+    "bibliography_source": "https://sirui-xu.github.io/InterMimic/",
+    "bibliography_status": "official",
+    "arxiv": "2502.20390",
+    "first_preprint_year": 2025,
+    "display_year": 2025,
+    "citekey": "intermimic2025",
+    "composition_axes": [
+      "physical-skill"
+    ],
+    "bibtex": "@inproceedings{intermimic2025,\n      title={InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions},\n      author={Xu, Sirui and Ling, Hung Yu and Wang, Yu-Xiong and Gui, Liangyan},\n      booktitle={CVPR},\n      year={2025}\n}\n"
+  },
+  {
     "id": "simdiff",
     "title": "SimDiff: Simulator-constrained Diffusion Model for Physically Plausible Motion Generation",
     "year": 2025,
@@ -6091,33 +6145,40 @@
   {
     "id": "amp",
     "title": "AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control",
-    "year": 2022,
+    "year": 2021,
     "category": "adjacent_physics_control",
     "url": "https://arxiv.org/abs/2104.02180",
-    "summary": "Learns motion-style rewards from unstructured clips alongside task rewards; reports emergent skill composition.",
-    "limitations": "Task-specific policy/discriminator data induce dependencies that complicate transferring priors to new tasks. Discussion focuses mainly on temporal composition and identifies spatial composition as future work. Emergent behavior is simulation/task-reward evidence, not held-out free-text skill-pair generation or measured human interaction data.",
+    "summary": "Adversarial motion rewards learn stylized task control and temporal skill selection from unstructured motion clips.",
+    "limitations": "Mode collapse can discard useful styles. Priors are retrained per policy and acquire task dependencies through policy-generated data, limiting modular transfer. The study primarily tests temporal composition; spatial composition is future work. These simulator results do not establish held-out free-text combinations, detailed manipulation, or hardware transfer.",
     "evidence_level": "method",
     "evidence_url": "https://arxiv.org/pdf/2104.02180v2",
     "checked": "2026-11-19",
     "intake_sources": [
       "data_control.json",
-      "deep_batch3_20261119.json"
+      "deep_batch3_20261119.json",
+      "deep_batch_user_requested_20261119.json"
     ],
     "tags": [
       "adjacent_physics_control"
     ],
     "category_id": "physics",
-    "method": "Learns a discriminator-based motion-style reward from transitions in an unstructured reference-motion collection and combines it with a task reward in goal-conditioned reinforcement learning. Least-squares adversarial training, gradient penalty and a replay buffer stabilize imitation. Policies output joint PD targets; they need not synchronize to or select a specific reference clip. Task-directed temporal skill selection emerges from optimizing task and style together.",
-    "conditions": "Character state, a task goal and an example motion dataset defining style. The high-level task reward is engineered; language is not the input condition.",
-    "evaluation": "Demonstrates humanoid, dog and T-Rex control. Importantly, the strike prior contains walking-only and punching-only clips: the policy learns walk-then-punch without a combined demonstration. Compares tracking-based imitation and ablates discriminator gradient penalty/velocity features.",
-    "evidence_locator": "Sections 5–8.5 and 9; Tables 1–3; Figure 9; Appendix task rewards.",
-    "data_split": "Uses task-specific motion collections and per-task policy learning, not a recording-level held-out train/test composition split. Single-clip imitation compares three independent training seeds, 32 episodes per model and maximum 20-second episodes.",
-    "metrics": "Normalized task returns measure task fulfillment; DTW-aligned root-relative pose error in meters measures single-clip imitation. Learning curves and sample counts evaluate efficiency/stability; qualitative sequences illustrate style and transitions.",
+    "method": "A discriminator learns motion-style rewards from state transitions in unstructured reference clips; PPO optimizes style plus engineered task rewards. Least-squares adversarial training, gradient penalty, and replay stabilize learning. Policies output PD joint targets without synchronizing to a selected reference clip; temporal skill selection emerges from the reward combination.",
+    "conditions": "Character proprioception and task goals; style is specified by training motion examples. Unlike reference trackers, execution need not receive a time-indexed future reference. This is task-reward-conditioned control, without free-form language or an object-mesh-conditioned sequence generator.",
+    "evaluation": "Demonstrates humanoid, dog, and T-Rex control. Crucially, the strike corpus contains only walking-only or punching-only clips: walk-then-punch emerges without a combined demonstration. Compares tracking-based imitation and ablates velocity features and gradient penalties; terrain and recovery examples extend task coverage.",
+    "evidence_locator": "§§5–7 (discriminator/style rewards, PPO and tasks); §§8.1–8.2 and Tables 1–2 (three-seed task returns/corpora and walking-only/punching-only strike); §8.4 and Table 3 (DTW, 32 episodes, 20-second limit); §8.5/Figure 8 (ablations); §9 (mode collapse, transfer, spatial composition).",
+    "data_split": "Task-specific motion collections and per-task learning; no recording-disjoint composition train/test split. Single-clip imitation averages three training seeds and 32 episodes per model, each at most 20 seconds. The locomotion style collection has 56 clips from eight actors, not 56 independent skills.",
+    "metrics": "Normalized task return measures objective fulfillment; DTW-aligned root-relative pose error measures single-clip resemblance. Learning curves assess efficiency and ablations. Task returns average three seeds/32 episodes; qualitative sequences demonstrate gait changes and skill transitions without a separate unseen-combination success metric.",
     "full_text_source": "https://arxiv.org/pdf/2104.02180v2",
     "audit_status": "full_text_checked",
-    "full_text_version": "arXiv:2104.02180v2",
+    "full_text_version": "arXiv:2104.02180v2 [cs.GR] 12 May 2022",
     "full_text_sha256": "93d9e8e40b3908d65e8b88ae3dcbe8d4cd69071d13f3234ad927462477472a29",
     "full_text_bytes": 8715012,
+    "publication_note": "Published ACM TOG 40(4), 2021; inspected arXiv revision v2 is dated 12 May 2022. Publication year is 2021, not revision year 2022.",
+    "venue": "ACM TOG / SIGGRAPH 2021",
+    "code": "https://github.com/xbpeng/MimicKit",
+    "code_note": "Current author project page links MimicKit as implementation; its README lists AMP. This current maintained implementation is not asserted byte-identical to the 2021 experiments.",
+    "code_evidence_url": "https://xbpeng.github.io/projects/AMP/",
+    "project_url": "https://xbpeng.github.io/projects/AMP/",
     "submitted_title": "AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control",
     "submitted_year": 2021,
     "authors": [
@@ -6127,7 +6188,7 @@
       "Sergey Levine",
       "Angjoo Kanazawa"
     ],
-    "bibliography_source": "https://arxiv.org/bibtex/2104.02180",
+    "bibliography_source": "https://xbpeng.github.io/projects/AMP/",
     "bibliography_status": "official",
     "arxiv": "2104.02180",
     "first_preprint_year": 2021,
@@ -6136,7 +6197,7 @@
     "composition_axes": [
       "physical-skill"
     ],
-    "bibtex": "@misc{amp2022,\n      title={AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control},\n      author={Xue Bin Peng and Ze Ma and Pieter Abbeel and Sergey Levine and Angjoo Kanazawa},\n      year={2022},\n      eprint={2104.02180},\n      archivePrefix={arXiv},\n      primaryClass={cs.GR},\n      doi={https://doi.org/10.1145/3450626.3459670},\n      url={https://arxiv.org/abs/2104.02180},\n}\n"
+    "bibtex": "@article{amp2022,\n\tauthor = {Peng, Xue Bin and Ma, Ze and Abbeel, Pieter and Levine, Sergey and Kanazawa, Angjoo},\n\ttitle = {AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control},\n\tjournal = {ACM Trans. Graph.},\n\tissue_date = {August 2021},\n\tvolume = {40},\n\tnumber = {4},\n\tmonth = jul,\n\tyear = {2021},\n\tarticleno = {144},\n\tnumpages = {20},\n\turl = {http://doi.acm.org/10.1145/3450626.3459670},\n\tdoi = {10.1145/3450626.3459670},\n\tpublisher = {ACM},\n\taddress = {New York, NY, USA},\n\tkeywords = {motion control, physics-based character animation, reinforcement learning},\n}\n"
   },
   {
     "id": "deepmimic",

@@ -981,6 +981,15 @@
     "checked": "2026-11-19"
   },
   {
+    "id": "intermimic",
+    "full_text_source": "https://arxiv.org/pdf/2502.20390v2",
+    "full_text_version": "arXiv:2502.20390v2 [cs.CV] 1 Feb 2026",
+    "full_text_sha256": "01f47e846d7cc3575a01741e889853b9e34945ad57da8305da2aeacf97286324",
+    "full_text_bytes": 12634680,
+    "evidence_locator": "§3.1/Equation 1 (observations and GT reference goals); §§3.2–3.4/Algorithm 1 (teachers, reference/action distillation and schedule); §4 datasets/metrics and Tables 1–2 (subject 14, best-trial errors, external generators); §4.2/Figure 7 (object transfer) and supplementary F (multi-object extension); supplementary F (robot assumptions) and H (limitations).",
+    "checked": "2026-11-19"
+  },
+  {
     "id": "simdiff",
     "full_text_source": "https://arxiv.org/pdf/2509.20927v1",
     "full_text_version": "2509.20927v1",
@@ -1064,10 +1073,10 @@
   {
     "id": "amp",
     "full_text_source": "https://arxiv.org/pdf/2104.02180v2",
-    "full_text_version": "arXiv:2104.02180v2",
+    "full_text_version": "arXiv:2104.02180v2 [cs.GR] 12 May 2022",
     "full_text_sha256": "93d9e8e40b3908d65e8b88ae3dcbe8d4cd69071d13f3234ad927462477472a29",
     "full_text_bytes": 8715012,
-    "evidence_locator": "Sections 5–8.5 and 9; Tables 1–3; Figure 9; Appendix task rewards.",
+    "evidence_locator": "§§5–7 (discriminator/style rewards, PPO and tasks); §§8.1–8.2 and Tables 1–2 (three-seed task returns/corpora and walking-only/punching-only strike); §8.4 and Table 3 (DTW, 32 episodes, 20-second limit); §8.5/Figure 8 (ablations); §9 (mode collapse, transfer, spatial composition).",
     "checked": "2026-11-19"
   },
   {

@@ -4,7 +4,7 @@
 
 The deck uses native PowerPoint text, shapes and connecting lines. Paper labels link to their primary sources. The PNGs below are high-resolution slide renders; use the [interactive map](https://yutao-yang.github.io/awesome-compositional-human-motion/) for searchable, expandable audit cards.
 
-Typography: Georgia headings and Arial diagram labels. The taxonomy groups research questions; branch membership is a navigation aid, not a claim that methods use identical conditions or evaluation protocols. Full titles, versions and source URLs are retained in slide notes and the paper catalog.
+Typography: Lato headings and diagram labels. The revised layout uses a dark central node, flowing native connectors and distinct indigo, teal, orange and violet branches. The taxonomy groups research questions; branch membership is a navigation aid, not a claim that methods use identical conditions or evaluation protocols. Full titles, versions and source URLs are retained in slide notes and the paper catalog.
 
 ## Overview
 

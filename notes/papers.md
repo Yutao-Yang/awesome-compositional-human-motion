@@ -631,6 +631,8 @@ Checked: 2026-11-19. Evidence levels describe reading, not reproduction. Curator
 
 **Full-text SHA256:** bfdfb838ecd7f112454e720a87cbec38cbbeef156563cbbf8f3f3bebb01d1f32
 
+**Repository scope:** Former author username athnnik is stale; current author repository verified 2026-11-19.
+
 **Source locator:** §3 (hierarchical variational architecture), §§4.1–4.6, Tables 1–3; appendix D.1 explicitly states original splits and validation reporting.
 
 **Scope / curator boundary:** Pairwise BABEL supervision and validation-set reporting limit claims about unseen independent recordings and new action combinations. Autoregressive rollout can accumulate errors, while interpolation does not establish scene feasibility or contact-rich manipulation. Position-based comparison to one reference underestimates valid alternative realizations.
@@ -4055,6 +4057,45 @@ Checked: 2026-11-19. Evidence levels describe reading, not reproduction. Curator
 
 **Metadata:** official; [source](https://arxiv.org/bibtex/2603.29272); checked 2026-11-19.
 
+<a id="intermimic"></a>
+## InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions
+
+**intermimic · 2025 · Physics-based character control · method**
+
+[Primary source](https://arxiv.org/abs/2502.20390) · [Evidence](https://arxiv.org/pdf/2502.20390v2) · Citekey: `intermimic2025`
+
+**Authors of cited version:** Xu, Sirui; Ling, Hung Yu; Wang, Yu-Xiong; Gui, Liangyan.
+
+**Contribution / composition:** Subject-specific HOI teachers refine MoCap references, distill a shared reference-conditioned student, and improve it through RL fine-tuning.
+
+**Mechanism:** Subject-specific RL teachers correct and retarget imperfect HOI to one canonical body using contact-aware rewards, physical-state initialization, and interaction early termination. Teacher rollouts supply refined state references and teacher actions supervise a student. A staged DAgger-to-PPO curriculum combines reference/action distillation with RL; a Transformer integrates reference keyframes.
+
+**Input contract:** Human/object states, joint-to-object geometry, simulated contact markers, and future reference human/object poses at specified offsets. Teachers use offsets {1,16}, students {1,2,4,16}. References come from MoCap, teacher rollouts, or a separate kinematic generator; text alone does not condition this tracker.
+
+**Data and split:** OMOMO has 17 subjects and 15 objects; teachers are subject-specific and subject 14 is held out from student training, with remaining subjects used to train the student. Irrecoverable references are filtered. No universal percentage or new semantic-combination holdout is declared; extra datasets primarily test teachers/qualitative transfer.
+
+**Evaluation metrics:** Success is the fraction of references imitated at least once; Duration measures time before termination. Human joint/object-point errors in centimeters use the best trial and tracked duration, excluding inaccurate hand joints on BEHAVE/OMOMO. These are reference-tracking metrics, not generated-motion text retrieval or task-success rates.
+
+**Evaluation checked:** Tables 1–2 compare PhysHOI/SkillMimic and distillation/PPO variants; test cases include subject 14, tenfold object masses, 24 ten-second HOI-Diff references and 60 InterDiff predictions (10 past/25 future frames). Unseen-object and multi-object transfer is also illustrated. Robot embodiment adaptation is simulated; hardware transfer is not established.
+
+**Full-text source:** https://arxiv.org/pdf/2502.20390v2
+
+**Reading status:** full_text_checked
+
+**Inspected version:** arXiv:2502.20390v2 [cs.CV] 1 Feb 2026
+
+**Full-text SHA256:** 01f47e846d7cc3575a01741e889853b9e34945ad57da8305da2aeacf97286324
+
+**Source locator:** §3.1/Equation 1 (observations and GT reference goals); §§3.2–3.4/Algorithm 1 (teachers, reference/action distillation and schedule); §4 datasets/metrics and Tables 1–2 (subject 14, best-trial errors, external generators); §4.2/Figure 7 (object transfer) and supplementary F (multi-object extension); supplementary F (robot assumptions) and H (limitations).
+
+**Scope / curator boundary:** Reference lookahead remains required; generator composition is not autonomous semantic task discovery. Severe MoCap errors fail; unnatural penetration-based support and limited fine-finger dexterity remain. Robot experiments disable self-collision and model hand actuators differently from hardware. Best-trial tracking and held-out-student-subject results need separate interpretation.
+
+**Publication / version note:** Author project page identifies CVPR 2025; this method audit specifically reads arXiv v2 dated 1 February 2026, including its supplementary material. Distinct from InterMimicGen.
+
+**Composition axes:** physical-skill.
+
+**Metadata:** official; [source](https://sirui-xu.github.io/InterMimic/); checked 2026-11-19.
+
 <a id="simdiff"></a>
 ## SimDiff: Simulator-constrained Diffusion Model for Physically Plausible Motion Generation
 
@@ -4397,33 +4438,37 @@ Checked: 2026-11-19. Evidence levels describe reading, not reproduction. Curator
 
 **Authors of cited version:** Xue Bin Peng; Ze Ma; Pieter Abbeel; Sergey Levine; Angjoo Kanazawa.
 
-**Contribution / composition:** Learns motion-style rewards from unstructured clips alongside task rewards; reports emergent skill composition.
+**Contribution / composition:** Adversarial motion rewards learn stylized task control and temporal skill selection from unstructured motion clips.
 
-**Mechanism:** Learns a discriminator-based motion-style reward from transitions in an unstructured reference-motion collection and combines it with a task reward in goal-conditioned reinforcement learning. Least-squares adversarial training, gradient penalty and a replay buffer stabilize imitation. Policies output joint PD targets; they need not synchronize to or select a specific reference clip. Task-directed temporal skill selection emerges from optimizing task and style together.
+**Mechanism:** A discriminator learns motion-style rewards from state transitions in unstructured reference clips; PPO optimizes style plus engineered task rewards. Least-squares adversarial training, gradient penalty, and replay stabilize learning. Policies output PD joint targets without synchronizing to a selected reference clip; temporal skill selection emerges from the reward combination.
 
-**Input contract:** Character state, a task goal and an example motion dataset defining style. The high-level task reward is engineered; language is not the input condition.
+**Input contract:** Character proprioception and task goals; style is specified by training motion examples. Unlike reference trackers, execution need not receive a time-indexed future reference. This is task-reward-conditioned control, without free-form language or an object-mesh-conditioned sequence generator.
 
-**Data and split:** Uses task-specific motion collections and per-task policy learning, not a recording-level held-out train/test composition split. Single-clip imitation compares three independent training seeds, 32 episodes per model and maximum 20-second episodes.
+**Data and split:** Task-specific motion collections and per-task learning; no recording-disjoint composition train/test split. Single-clip imitation averages three training seeds and 32 episodes per model, each at most 20 seconds. The locomotion style collection has 56 clips from eight actors, not 56 independent skills.
 
-**Evaluation metrics:** Normalized task returns measure task fulfillment; DTW-aligned root-relative pose error in meters measures single-clip imitation. Learning curves and sample counts evaluate efficiency/stability; qualitative sequences illustrate style and transitions.
+**Evaluation metrics:** Normalized task return measures objective fulfillment; DTW-aligned root-relative pose error measures single-clip resemblance. Learning curves assess efficiency and ablations. Task returns average three seeds/32 episodes; qualitative sequences demonstrate gait changes and skill transitions without a separate unseen-combination success metric.
 
-**Evaluation checked:** Demonstrates humanoid, dog and T-Rex control. Importantly, the strike prior contains walking-only and punching-only clips: the policy learns walk-then-punch without a combined demonstration. Compares tracking-based imitation and ablates discriminator gradient penalty/velocity features.
+**Evaluation checked:** Demonstrates humanoid, dog, and T-Rex control. Crucially, the strike corpus contains only walking-only or punching-only clips: walk-then-punch emerges without a combined demonstration. Compares tracking-based imitation and ablates velocity features and gradient penalties; terrain and recovery examples extend task coverage.
 
 **Full-text source:** https://arxiv.org/pdf/2104.02180v2
 
 **Reading status:** full_text_checked
 
-**Inspected version:** arXiv:2104.02180v2
+**Inspected version:** arXiv:2104.02180v2 [cs.GR] 12 May 2022
 
 **Full-text SHA256:** 93d9e8e40b3908d65e8b88ae3dcbe8d4cd69071d13f3234ad927462477472a29
 
-**Source locator:** Sections 5–8.5 and 9; Tables 1–3; Figure 9; Appendix task rewards.
+**Repository scope:** Current author project page links MimicKit as implementation; its README lists AMP. This current maintained implementation is not asserted byte-identical to the 2021 experiments.
 
-**Scope / curator boundary:** Task-specific policy/discriminator data induce dependencies that complicate transferring priors to new tasks. Discussion focuses mainly on temporal composition and identifies spatial composition as future work. Emergent behavior is simulation/task-reward evidence, not held-out free-text skill-pair generation or measured human interaction data.
+**Source locator:** §§5–7 (discriminator/style rewards, PPO and tasks); §§8.1–8.2 and Tables 1–2 (three-seed task returns/corpora and walking-only/punching-only strike); §8.4 and Table 3 (DTW, 32 episodes, 20-second limit); §8.5/Figure 8 (ablations); §9 (mode collapse, transfer, spatial composition).
+
+**Scope / curator boundary:** Mode collapse can discard useful styles. Priors are retrained per policy and acquire task dependencies through policy-generated data, limiting modular transfer. The study primarily tests temporal composition; spatial composition is future work. These simulator results do not establish held-out free-text combinations, detailed manipulation, or hardware transfer.
+
+**Publication / version note:** Published ACM TOG 40(4), 2021; inspected arXiv revision v2 is dated 12 May 2022. Publication year is 2021, not revision year 2022.
 
 **Composition axes:** physical-skill.
 
-**Metadata:** official; [source](https://arxiv.org/bibtex/2104.02180); checked 2026-11-19.
+**Metadata:** official; [source](https://xbpeng.github.io/projects/AMP/); checked 2026-11-19.
 
 <a id="deepmimic"></a>
 ## DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills

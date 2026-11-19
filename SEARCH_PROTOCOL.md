@@ -64,3 +64,7 @@ Private retrieval receipts retain the PDFs and decoded text. Public `sources/ful
 Independent cross-lane checks sampled 43 distinct entries. Seven mandatory metadata/protocol/scope corrections were resolved, with further clarifying notes retained for ambiguous source definitions. This is a second check of that sample, not independent double review of every entry. Source omissions remain labelled as unreported or not applicable; no split ratios are inferred from dataset conventions alone. Full-text reading is still distinct from running public code or reproducing a table.
 
 The authoring files and high-resolution renders in `figures/` are the user-authorized exception for publishing the survey diagram. They contain no paper figures, datasets, weights or private project results.
+
+## Named-reference update
+
+AMP was rechecked against its full text and official 2021 publication citation, without adding a duplicate entry. InterMimic (CVPR 2025, inspected arXiv v2 from February 2026) was added as a distinct work from InterMimicGen. The catalog now contains 138 full-text audit records. Its future-reference tracking contract, teacher/student curriculum and simulation-only robot adaptation are stated explicitly.

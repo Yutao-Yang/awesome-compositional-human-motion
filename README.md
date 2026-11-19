@@ -4,7 +4,7 @@
 
 从经典动作拼接到生成模型、交互与具身执行，按“组合了什么、依赖哪些条件、验证了什么”组织。
 
-Last audit: **2026-11-19** · **137 unique papers** · **137 full-text checks / 0 earlier targeted method readings / 0 abstract-only records** · No external method reproduced.
+Last audit: **2026-11-19** · **138 unique papers** · **138 full-text checks / 0 earlier targeted method readings / 0 abstract-only records** · No external method reproduced.
 
 [Interactive clickable map](https://yutao-yang.github.io/awesome-compositional-human-motion/) · [All audit cards](notes/papers.md) · [Comparison matrix](notes/comparison.md) · [Data & metrics](notes/protocols.md) · [Benchmarks](notes/benchmarks.md) · [中文阅读指南](notes/reading-guide.zh.md) · [BibTeX](references.bib) · [JSON](papers.json) · [Search & inclusion protocol](SEARCH_PROTOCOL.md) · [Maintenance](CONTRIBUTING.md)
 
@@ -57,7 +57,7 @@ mindmap
 - [Human-scene interaction & planning](#scenes) — 11 papers
 - [Multi-person & collaborative interaction](#people) — 7 papers
 - [Datasets & compositional evaluation](#datasets) — 17 papers
-- [Physics-based character control](#physics) — 12 papers
+- [Physics-based character control](#physics) — 13 papers
 - [Humanoid transfer & loco-manipulation](#humanoids) — 6 papers
 - [Audio, dance & gesture composition](#audio) — 6 papers
 - [Surveys & field maps](#surveys) — 4 papers
@@ -241,6 +241,7 @@ A long sequence is not automatically compositional generalization. Report unseen
 | Paper | First public / venue | Why it belongs | Evidence | Links |
 |---|---|---|---|---|
 | **maskadapt** — MaskAdapt: Learning Flexible Motion Adaptation via Mask-Invariant Prior for Physics-Based Characters | 2026 | MaskAdapt learns an adversarial base policy with observation masks and a mask-invariant regularizer, then trains a residual adaptation policy controlling selected parts. The base preserves non-adapted behavior while residual rewards teach new local motions or tracking, allowing dynamic changes of the controlled body region. | full_text_checked | [Paper](https://arxiv.org/abs/2603.29272) · [Audit](notes/papers.md#maskadapt) |
+| **intermimic** — InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions | 2025 / CVPR 2025 | Subject-specific HOI teachers refine MoCap references, distill a shared reference-conditioned student, and improve it through RL fine-tuning. | full_text_checked | [Paper](https://arxiv.org/abs/2502.20390) · [Audit](notes/papers.md#intermimic) · [Code](https://github.com/Sirui-Xu/InterMimic) |
 | **simdiff** — SimDiff: Simulator-constrained Diffusion Model for Physically Plausible Motion Generation | 2025 | Conditions diffusion on environment coefficients and reports unseen combinations of environmental parameters. | full_text_checked | [Paper](https://arxiv.org/abs/2509.20927) · [Audit](notes/papers.md#simdiff) |
 | **closd** — CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control | 2024 | Closes a feedback loop between an autoregressive text/target-conditioned diffusion planner and an RL tracker for task sequences. | full_text_checked | [Paper](https://arxiv.org/abs/2410.03441) · [Audit](notes/papers.md#closd) |
 | **mhc** — Learning Multi-Modal Whole-Body Control for Real-World Humanoid Robots | 2024 | Masked Humanoid Controller learns one policy to track selectively masked motion directives while obeying locomotion commands. A staged curriculum, offset-aware future directives, motion/style rewards, perturbations, and dynamics randomization teach compatibility between whole-body mimicry, upper-body motion, standing, and joystick walking. | full_text_checked | [Paper](https://arxiv.org/abs/2408.07295) · [Audit](notes/papers.md#mhc) |
@@ -250,7 +251,7 @@ A long sequence is not automatically compositional generalization. Report unseen
 | **pulse** — Universal Humanoid Motion Representations for Physics-Based Control | 2023 | PULSE first trains a stronger PHC+ motion imitator, then distills its motor knowledge into a variational bottleneck with a proprioception-conditioned latent prior. A frozen decoder maps latent actions into motor controls, while new high-level RL policies learn downstream tasks in that reusable action space. | full_text_checked | [Paper](https://arxiv.org/abs/2310.04582) · [Audit](notes/papers.md#pulse) |
 | **ase** — ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters | 2022 | Learns reusable latent motor skills from unsegmented motion using adversarial imitation and unsupervised RL. | full_text_checked | [Paper](https://arxiv.org/abs/2205.01906) · [Audit](notes/papers.md#ase) |
 | **physdiff** — PhysDiff: Physics-Guided Human Motion Diffusion Model | 2022 / ICCV 2023 | Interleaves motion diffusion with a simulator-based imitation projection instead of applying physics only after generation. | full_text_checked | [Paper](https://arxiv.org/abs/2212.02500) · [Audit](notes/papers.md#physdiff) |
-| **amp** — AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control | 2021 | Learns motion-style rewards from unstructured clips alongside task rewards; reports emergent skill composition. | full_text_checked | [Paper](https://arxiv.org/abs/2104.02180) · [Audit](notes/papers.md#amp) |
+| **amp** — AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control | 2021 / ACM TOG / SIGGRAPH 2021 | Adversarial motion rewards learn stylized task control and temporal skill selection from unstructured motion clips. | full_text_checked | [Paper](https://arxiv.org/abs/2104.02180) · [Audit](notes/papers.md#amp) · [Code](https://github.com/xbpeng/MimicKit) |
 | **deepmimic** — DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills | 2018 | DeepMimic trains physics-based policies with PPO to maximize imitation and task rewards. Pose, joint velocity, end-effector, and center-of-mass terms reproduce reference clips; reference-state initialization and early termination improve difficult-skill learning. Multi-clip objectives and policy composition enable broader behavioral repertoires. | full_text_checked | [Paper](https://arxiv.org/abs/1804.02717) · [Audit](notes/papers.md#deepmimic) |
 
 <a id="humanoids"></a>

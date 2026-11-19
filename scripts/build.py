@@ -22,7 +22,7 @@ for cat,ids in {
  'scenes':'unihsi interactagent coins samp dimos scenediffuser circle trumans occupancy pigraphs world2hosi',
  'people':'intermask intergen remos freemotion inter-x core4d hhoi-text',
  'datasets':'finemotion vimogen-mbench motionmillion best-automated-metric parahome amass babel kitml humanml3d grab behave intercap motionx instructmotion robomocap hiphi mocapact',
- 'physics':'physdiff simdiff deepmimic amp ase diffmimic phc pulse maskedmimic closd mhc maskadapt',
+ 'physics':'intermimic physdiff simdiff deepmimic amp ase diffmimic phc pulse maskedmimic closd mhc maskadapt',
  'humanoids':'exbody beyondmimic gmr weave intermimicgen grail',
  'audio':'cfgcomposer edge lodge emage finedance moco',
  'surveys':'interaction-survey generative-survey text-motion-overview video-motion-survey',
@@ -43,6 +43,7 @@ def identity(p):
 def clean_title(s):return s.replace('{','').replace('}','').replace('\\&','&').strip()
 def dump(path,obj):path.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
 def run():
+ previous_keys={p['id']:p['citekey'] for p in json.loads((ROOT/'papers.json').read_text())} if (ROOT/'papers.json').exists() else {}
  records={};duplicates=[]
  for file in sorted((ROOT/'intake').glob('*.json'),key=lambda f:(f.name.startswith('deep_batch'),f.name)):
   for raw in json.loads(file.read_text()):
@@ -53,7 +54,7 @@ def run():
     if 'arxiv.org/abs/' in p['url'] and 'arxiv.org/abs/' not in old['url']:old['url']=p['url']
     duplicates.append({'identity':key,'ids':[old['id'],p['id']],'intake':file.name})
     old['intake_sources']+=p['intake_sources'];old['tags']=sorted(set(old['tags']+p['tags']))
-    for f in ['method','conditions','evaluation','evidence_locator','publication_note','year_basis','venue','code','data_split','metrics','full_text_source','audit_status','version_note','source_receipt','full_text_version','full_text_sha256','full_text_bytes','title_note']:
+    for f in ['method','conditions','evaluation','evidence_locator','publication_note','year_basis','venue','code','data_split','metrics','full_text_source','audit_status','version_note','source_receipt','full_text_version','full_text_sha256','full_text_bytes','title_note','code_note','code_evidence_url','project_url']:
      if p.get(f):old[f]=p[f]
     if p.get('evidence_level')=='method':old['evidence_level']='method';old['evidence_url']=p['evidence_url']
     if p.get('audit_status')=='full_text_checked':
@@ -89,7 +90,7 @@ def run():
    if first:p.setdefault('first_preprint_year',int(first[1]))
   p['display_year']=p.get('first_preprint_year',p['year'])
   # Stable, documented citekeys rather than changing author-derived endpoint keys.
-  p['citekey']=p['id'].replace('-','')+str(p['year'])
+  p['citekey']=previous_keys.get(p['id'],p['id'].replace('-','')+str(p['year']))
   base_axes={'classics':['temporal'],'temporal':['temporal'],'spatial':['spatial','semantic'],'editing':['editing'],'backbones':['representation'],'objects':['object-contact'],'scenes':['scene-state'],'people':['multi-person'],'datasets':['data'],'physics':['physical-skill'],'humanoids':['embodiment','physical-skill'],'audio':['cross-modal'],'surveys':['taxonomy'],'video':['cross-modal','appearance-motion']}
   p['composition_axes']=base_axes[p['category_id']].copy()
   if p['id'] in ('sinc','cosmi'):p['composition_axes']+=['data','spatial']
@@ -159,7 +160,7 @@ def run():
    lines += [f'| **{p["id"]}** — {p["title"]} | {p["display_year"]}'+ (' / '+p['venue'] if p.get('venue') else '')+f' | {summary} | {p.get("audit_status",p["evidence_level"])} | {links} |']
    cards += [f'<a id="{p["id"]}"></a>',f'## {p["title"]}','',f'**{p["id"]} · {p["display_year"]} · {label} · {p["evidence_level"]}**','',f'[Primary source]({p["url"]}) · [Evidence]({p["evidence_url"]}) · Citekey: `{p["citekey"]}`','']
    if p.get('authors'):cards+=['**Authors of cited version:** '+ '; '.join(p['authors'])+'.','']
-   for f,l in [('summary','Contribution / composition'),('method','Mechanism'),('conditions','Input contract'),('data_split','Data and split'),('metrics','Evaluation metrics'),('evaluation','Evaluation checked'),('full_text_source','Full-text source'),('audit_status','Reading status'),('version_note','Full-text version note'),('full_text_version','Inspected version'),('full_text_sha256','Full-text SHA256'),('evidence_locator','Source locator'),('limitations','Scope / curator boundary'),('publication_note','Publication / version note')]:
+   for f,l in [('summary','Contribution / composition'),('method','Mechanism'),('conditions','Input contract'),('data_split','Data and split'),('metrics','Evaluation metrics'),('evaluation','Evaluation checked'),('full_text_source','Full-text source'),('audit_status','Reading status'),('version_note','Full-text version note'),('full_text_version','Inspected version'),('full_text_sha256','Full-text SHA256'),('code_note','Repository scope'),('evidence_locator','Source locator'),('limitations','Scope / curator boundary'),('publication_note','Publication / version note')]:
     if p.get(f):cards+=['**'+l+':** '+str(p[f]),'']
    cards+=['**Composition axes:** '+', '.join(p['composition_axes'])+'.','', '**Metadata:** '+p['bibliography_status']+'; [source]('+p['bibliography_source']+'); checked '+p['checked']+'.','']
   lines+=['']
