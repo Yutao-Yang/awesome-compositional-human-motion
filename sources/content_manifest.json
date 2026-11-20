@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-20T05:00:55.890643+00:00",
+  "utc": "2026-11-20T05:01:54.399787+00:00",
   "scope": "Public survey text, bibliography, structured evidence, static viewer and authorized editable diagram with renders",
   "status": "complete_for_listed_files",
   "files": [
@@ -60,33 +60,33 @@
     },
     {
       "path": "figures/compositional-human-motion-taxonomy.pptx",
-      "bytes": 116696,
-      "sha256": "b32ddcb32b1a2360539d532caeed902c1446287dcf080a05695df7a40701ed5f"
+      "bytes": 116991,
+      "sha256": "fe8f4539ddf725f94236a953be4fa48cad2f6b759587e573b96197ccf9660575"
     },
     {
       "path": "figures/data-and-execution.png",
-      "bytes": 256622,
-      "sha256": "08e9ba926dc23e37a5ffa85a1e335fe4866a60135f340d1bee52022b18599f5c"
+      "bytes": 256426,
+      "sha256": "2c059a749677af80e61e23f4bd1b30050e4ce7961947ce40377cb502a7354bc1"
     },
     {
       "path": "figures/interaction-composition.png",
-      "bytes": 250992,
-      "sha256": "9e63cb6a358ed522d893ffecd074d4676851d309ef537109b2eccfd19a5704d1"
+      "bytes": 251021,
+      "sha256": "307e2943c48ff8157278a99391a3c502b729ea6ded5d4ef4e53fb763da942301"
     },
     {
       "path": "figures/motion-composition.png",
-      "bytes": 233644,
-      "sha256": "48b5260acb3484fc8be82a0970d8c37332a0bd9bfee43148b466dc318c382e95"
+      "bytes": 233619,
+      "sha256": "f0599d050dfca43fed923a9ad54bb5cebb2581ab326f1636935398edc56d57d1"
     },
     {
       "path": "figures/motion-representations.png",
-      "bytes": 222151,
-      "sha256": "9c2664e2eb103649d5de3f5a52f3aa3133482827c75de76efd5a032e05697f8f"
+      "bytes": 222019,
+      "sha256": "aaafd23b16a7853aa9171f889fbbf87e923e96af9666c792fdb7c9aee04a0ac1"
     },
     {
       "path": "figures/related-fields.png",
-      "bytes": 149577,
-      "sha256": "b38ca9294c7e848147566238e24187ca64aaafa971c7865bdf92076e25499be1"
+      "bytes": 149580,
+      "sha256": "3742f786bda251c345930e8cdd10a4f0ebd17e689d679622d12a8e8014713d1b"
     },
     {
       "path": "figures/taxonomy-overview.png",
