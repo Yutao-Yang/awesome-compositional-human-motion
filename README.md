@@ -16,7 +16,7 @@ The diagram is a visual overview. Every category and paper in the directory belo
 
 [![Academic taxonomy drawn as editable PowerPoint shapes](figures/taxonomy-overview.png)](https://yutao-yang.github.io/awesome-compositional-human-motion/)
 
-[Download editable PowerPoint](figures/compositional-human-motion-taxonomy.pptx) · [Four detailed branch diagrams](figures/README.md)
+[Download editable PowerPoint](figures/compositional-human-motion-taxonomy.pptx) · [Five detailed branch diagrams](figures/README.md)
 
 <details>
 <summary>Text-source taxonomy (Mermaid)</summary>

@@ -135,7 +135,7 @@ def run():
  '> Breadth-first, evidence-labelled curation; not a claim of all-field completeness. Full-text checks include methods, input conditions, split and metrics; earlier targeted method readings are separately labelled. Neither means reproduction. Displayed years use the first preprint where known; venue and cited-version bibliography years are separate.','',
  '## Research map','',
  'The diagram is a visual overview. Every category and paper in the directory below is a normal clickable link; the interactive map also offers search, evidence filters and expandable paper cards.','',
- '[![Academic taxonomy drawn as editable PowerPoint shapes](figures/taxonomy-overview.png)](https://yutao-yang.github.io/awesome-compositional-human-motion/)','','[Download editable PowerPoint](figures/compositional-human-motion-taxonomy.pptx) · [Four detailed branch diagrams](figures/README.md)','','<details>','<summary>Text-source taxonomy (Mermaid)</summary>','','```mermaid','mindmap','  root((Compositional Human Motion))']
+ '[![Academic taxonomy drawn as editable PowerPoint shapes](figures/taxonomy-overview.png)](https://yutao-yang.github.io/awesome-compositional-human-motion/)','','[Download editable PowerPoint](figures/compositional-human-motion-taxonomy.pptx) · [Five detailed branch diagrams](figures/README.md)','','<details>','<summary>Text-source taxonomy (Mermaid)</summary>','','```mermaid','mindmap','  root((Compositional Human Motion))']
  branches={'Motion composition':['classics','temporal','spatial','editing','backbones'],'Interaction composition':['objects','scenes','people'],'Data and execution':['datasets','physics','humanoids'],'Related fields':['audio','surveys','video']}
  for label,cats in branches.items():
   lines+=['    '+label]

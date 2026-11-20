@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-19T10:24:36.788778+00:00",
+  "utc": "2026-11-20T05:00:55.890643+00:00",
   "scope": "Public survey text, bibliography, structured evidence, static viewer and authorized editable diagram with renders",
   "status": "complete_for_listed_files",
   "files": [
@@ -16,7 +16,7 @@
     {
       "path": "README.md",
       "bytes": 62841,
-      "sha256": "176321b9b49094ab71a90dba6ca7394f56629c7017839c25227f997982c6c07e"
+      "sha256": "f7bf6dd7d4dc1e8861e3eb131a47cafbe0ae619aa0af1a5a6014ca893a3ba644"
     },
     {
       "path": "SEARCH_PROTOCOL.md",
@@ -45,8 +45,8 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 10246,
-      "sha256": "f3d2e1f5ab9288345b68dd050391baca7fcd249f332bd7eb280a0063da68cbcc"
+      "bytes": 10247,
+      "sha256": "22378ad1f666fc61509ee8d01f45c7b989c565ade810a8e35c8f3f6aeaeb96c8"
     },
     {
       "path": "docs/papers.js",
@@ -55,38 +55,43 @@
     },
     {
       "path": "figures/README.md",
-      "bytes": 1186,
-      "sha256": "78f176533a941a4e7c7bcbd19d29546e8bfffe97b2fcbf3f2bd0092b4c4e1e3d"
+      "bytes": 1811,
+      "sha256": "bb08d8c1a348c0a1be8987992a20b7ad8a02d0b56b6202e62de43c03e49d46e9"
     },
     {
       "path": "figures/compositional-human-motion-taxonomy.pptx",
-      "bytes": 90941,
-      "sha256": "f2615c3099eadcfc7b7d7a40e00f410987ee3fea008452da3efac61ca647c94f"
+      "bytes": 116696,
+      "sha256": "b32ddcb32b1a2360539d532caeed902c1446287dcf080a05695df7a40701ed5f"
     },
     {
       "path": "figures/data-and-execution.png",
-      "bytes": 340116,
-      "sha256": "72743e4ba326f44c40e74bef37363a3f4ccef1db948b7f1bd7ba44916c2cfd2c"
+      "bytes": 256622,
+      "sha256": "08e9ba926dc23e37a5ffa85a1e335fe4866a60135f340d1bee52022b18599f5c"
     },
     {
       "path": "figures/interaction-composition.png",
-      "bytes": 288189,
-      "sha256": "6740ec6bb20a360d10e200a2ef84b95666b894ff8d4148bac4ea49070e09c4d0"
+      "bytes": 250992,
+      "sha256": "9e63cb6a358ed522d893ffecd074d4676851d309ef537109b2eccfd19a5704d1"
     },
     {
       "path": "figures/motion-composition.png",
-      "bytes": 366477,
-      "sha256": "2e4c617ed6b26e812822bdd014b69fd4ca5a09370c60b8cfcacce9cfc2410c91"
+      "bytes": 233644,
+      "sha256": "48b5260acb3484fc8be82a0970d8c37332a0bd9bfee43148b466dc318c382e95"
+    },
+    {
+      "path": "figures/motion-representations.png",
+      "bytes": 222151,
+      "sha256": "9c2664e2eb103649d5de3f5a52f3aa3133482827c75de76efd5a032e05697f8f"
     },
     {
       "path": "figures/related-fields.png",
-      "bytes": 195623,
-      "sha256": "a10015f2f5b05d1acc8ed392351dd6e3b53796cb2eb2d7a888331923748e47f5"
+      "bytes": 149577,
+      "sha256": "b38ca9294c7e848147566238e24187ca64aaafa971c7865bdf92076e25499be1"
     },
     {
       "path": "figures/taxonomy-overview.png",
-      "bytes": 396361,
-      "sha256": "42328d3c8b394102632e72d39ba7109f8477c12bee492d933097e727df7393e9"
+      "bytes": 303827,
+      "sha256": "a0aa339915b6fa830d29fb6f1107d5b9bfe49277cbb6a4546bb6399c575f9572"
     },
     {
       "path": "intake/context.json",
@@ -206,7 +211,7 @@
     {
       "path": "scripts/build.py",
       "bytes": 17500,
-      "sha256": "b153d6bc2530f5d7fd6aa1c8c626e8d8fbdb90740c077e7e83dbe9438ec6d2db"
+      "sha256": "8c55267e83463ebc00ba72960c2459c49dfd1cd6ef0f886f7ff6755f650401d5"
     },
     {
       "path": "scripts/enrich.py",
